@@ -1,0 +1,3 @@
+# Additional functionality provided by Interop Nodes
+
+This section describes additional functionality that *Interop Nodes* may provide to *Confederate Organizations* in the *Cross-Border Federation* to help cross-border interoperability between them. The experience with the PDND in Italy has already demonstrated its usefulness to Organizations.

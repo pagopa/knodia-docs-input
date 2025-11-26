@@ -1,0 +1,50 @@
+# Bearer authorization
+
+The *Consumer* requests an *access token* for a *Cross-Border E-Services* by making a request to the token endpoint of the *Producer Interop Node* with an attached client assertion as defined in § [Consumer Keychains – Context of use](./05-06-01_keychains-context.md). The assertion must contain at least the following attributes:
+
+- sub and iss: identifiers of the *Consumer* Keychain containing the public cryptographic material corresponding to the seal applied to the client assertion;
+- aud: the audience defined when the *Cross-Border E-Services* was created;
+- purposeId: the identifier of a *Purpose Statement* associated with the *Cross-Border E-Service* and the *Consumer Keychain*;
+- jti: a random unique identifier assigned by the *Consumer*;
+- iat: the timestamp reporting the date and time the token is created;
+- exp: the timestamp reporting the date and time of token expiration.
+
+The *Producer Interop Node* follows these steps to issue the token:
+
+1. Retrieve the needed information using the *Federated API* of the *Consumer Interop Node*:
+  - data of the *Consumer Keychain*: public cryptographic material and associated *Purpose Statements*;
+  - data of the *Consumer* and its *Federated Attributes*.
+2. Authenticate the *Consumer*, that is, verify the seal of the client assertion against the public cryptographic material in the keychain.
+3. Authorize, that is, verify:
+  - that the *Purpose Statement* referred to in the client assertion is active and associated to the Keychain;
+  - that there exists an active *Agreement Request* for the *Consumer* for that E-Service;
+  - that the *Cross-Border E-Service* is in a state in which it can be consumed (see § [Lifecycle of Cross-Border E-Services](./05-09-01_lifecycle-eservice.md));
+  - that the *Consumer*'s *Federated Attributes* satisfy the consumption requirements of the *Cross-Border E-Service*.
+
+If the verification succeeds, the *Producer Interop Node* creates and seals the *access token* and returns it to the *Consumer*. The *Consumer* can then call the *Cross-Border E-Service* using the token as HTTP Authentication in Bearer mode.
+
+The *Producer* is responsible to implement verification of the *access token* in the *Cross-Border E-Service*. That is must check that it is a valid JWT, as concerns expiration and audience, and that it is electronically sealed by the *Producer Interop Node* (which guarantees authenticity and integrity). To allow this, the *Producer Interop Node* must make its own public cryptographic material, with which it seals the *access tokens* it issues, publicly available as a well-known JSON web keyset (JWKS).
+
+The implementation details of the token endpoint, which the *Producer Interop Nodes* must implement, shall be part of the specification of the *Cross-Border Federation* produced by the Federated Consortium, as described in § [Considerations on the governance of the Cross-Border Federation](./05-11-00_federation-governance.md).
+
+I *Consumer* devono rispettare i seguenti requisiti:
+
+ richiedere l’emissione di un *access token* al *Producer Interop Node* relativo all’E-Service Transfrontaliero di interesse in relazione ad una specifica Dichiarazione di Finalità attiva;  
+ utilizzare l’accesso token emesso dal *Producer Interop Node* specifico per richiedere al *Producer* l’accesso all’E-Service Transfrontaliero di interesse.
+
+I *Producer Interop Nodes* devono rispettare i seguenti requisiti:
+
+ implementa il token endpoint per l’emissione degli *access token*, nel rispetto delle specifiche della Federazione Transfrontaliero, e lo rende disponibile ai *Consumer*.
+
+I *Producer* devono rispettare i seguenti requisiti:
+
+ validare l’*access token* inoltrato dai *Consumer* prima di dare accesso ai propri E-Service Transfrontalieri.
+
+![](../resources/blueprint-token-creation.svg)
+
+- sub and iss: identifiers of the *Consumer* Keychain containing the public cryptographic material corresponding to the seal applied to the client assertion;
+- aud: the audience defined when the *Cross-Border E-Services* was created;
+- purposeId: the identifier of a *Purpose Statement* associated with the *Cross-Border E-Service* and the *Consumer Keychain*;
+- jti: a random unique identifier assigned by the *Consumer*;
+- iat: the timestamp reporting the date and time the token is created;
+- exp: the timestamp reporting the date and time of token expiration.

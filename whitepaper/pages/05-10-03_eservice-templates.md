@@ -1,0 +1,9 @@
+# E-Service Templates
+
+An E-Service Template standardizes creation of E-Services for recurring use cases. If many *Producers* need to provide E-Services following the same specification, one *Producer* may create an E-Service Template and publish it on its *Interop Node*. The template is then available for use by other Organizations that need to produce a similar E-Service.
+
+Every *Producer* can view the E-Service Templates available on both its own and other *Interop Nodes*. It can create a *Cross-Border E-Service* by instantiating one such template. The E-Service so created inherits all predefined fields from its template, including the specification of the application programming interface (API). However, the creator of the template can specify fields that the *Producer* can override when instantiating the template.
+
+E-Service Templates, like E-Services, can have multiple versions. When a new version is created, the previous versions are automatically deprecated. New instances can only be created from the latest version. However, E-Services can still exist which have been instantiated from an older version. The *Interop Node* must notify (possibly via other *Interop Nodes*) the *Producers* that have instantiated an E-Service Template when a new version of the template is published and, if so, that the version currently in use will no longer be available after a given date.
+
+The Federation Consortium referred to in § [Considerations on the governance of the Cross-Border Federation](./05-11-00_federation-governance.md), capitalizing on the effects of the proposed experimentation, defines in detail how to implement this functionality.
