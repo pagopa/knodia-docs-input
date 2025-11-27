@@ -15,13 +15,13 @@ The consolidation of the European regulatory framework regarding interoperabilit
 
 reinforced lastly by the **Regulation (EU) 2024/903 of the European Parliament and of the Council of 13 March 2024 laying down measures for a high level of public sector interoperability across the Union** [4[^4]], urged Italy to re-evaluate the *SPCoop*.
 
-[^1]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM%3A2017%3A134%3AFIN
+[^1]: [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM%3A2017%3A134%3AFIN](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM%3A2017%3A134%3AFIN)
 
-[^2]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L1024
+[^2]: [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L1024](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L1024)
 
-[^3]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679
+[^3]: [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679)
 
-[^4]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R0903
+[^4]: [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R0903](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R0903)
 
 The technological evolution that occurred since the launch of the *SPCoop* highlighted the opportunity to re-evaluate the technologies used to ensure data sharing and service integration between Italian administrations. The increased use of HTTP APIs, even in complex contexts – and the availability of tools for their implementation and management – is particularly relevant. It is also worth noting that the evidence of increased use of HTTP APIs is supported by the interest shown by international organizations and initiatives, such as:
 
@@ -29,11 +29,11 @@ The technological evolution that occurred since the launch of the *SPCoop* highl
 - Internet Engineering Task Force [6[^6]];
 - Linux Foundation [7[^7]].
 
-[^5]: https://www.w3.org/
+[^5]: [https://www.w3.org/](https://www.w3.org/)
 
-[^6]: https://www.ietf.org/
+[^6]: [https://www.ietf.org/](https://www.ietf.org/)
 
-[^7]: https://www.linuxfoundation.org/
+[^7]: [https://www.linuxfoundation.org/](https://www.linuxfoundation.org/)
 
 Over the years, these have increased *de iure* and *de facto* standardization actions. This leading to an increase in the market offer of technological solutions and an increased availability of the professionals necessary for their maintenance. This circumstance can create the prerequisites for a reduction in costs for the management of technological infrastructures of public administrations.
 
