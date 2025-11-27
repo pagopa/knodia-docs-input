@@ -1,5 +1,3 @@
-# Management of Operators
-
 The *Cross-Border Federation* does not constrain how Interoperability Domains manage users that act on behalf of a *Confederate Organization*, referred to as *Operators*. The only requirement is that, for each Confederate Organzation, at least one *Operator* must exist with the required authorization to perform the tasks for that *Confederate Organization* within the *Cross-Border Federation* (publishing E-Services, managing *Agreement Requests* and *Purpose Statements*, etc.).
 
 The *Cross-Border Federation* favours interactions between *Operators* and the *Interop Node* to which their *Confederate Organization* is onboarded. It minimizes direct interaction between *Operators* and the user interface of other *Interop Nodes*.

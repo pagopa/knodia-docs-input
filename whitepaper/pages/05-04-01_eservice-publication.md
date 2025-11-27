@@ -1,5 +1,3 @@
-# E-Service Publication
-
 An *Interop Node* must allow its *Confederate Organizations* that are *Producers* of E-Services to publish their E-Services on the Node Catalogue.
 
 A *Producer* must define the required characteristics to publish a *Cross-Border E-Service*, as described in § [E-Services](./05-03-00_eservices.md), and manage its lifecycle as described in § [Lifecycle of E-Services](./05-09-01_lifecycle-eservice.md).

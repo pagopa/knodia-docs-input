@@ -1,5 +1,3 @@
-# E-Service Discovery
-
 A potential *Consumer* can search for published E-Services through the user interface of their *Consumer Interop Node*. The user interface of every *Interop Node* must allow *Operators* of potential *Consumers* to:
 
 - view the *Cross-Border E-Services* provided by a specific *Producer Interop Node* of interest to the *Consumer*, different from the *Consumer Interop Node*;

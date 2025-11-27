@@ -1,5 +1,3 @@
-# Lifecycle of Cross-Border E-Services
-
 An E-Service can have one or more versions. E-Service versioning allows the *Producer* to update the description of the provided functionality (for example, by uploading an updated OpenAPI specification).
 
 This concept was not mentioned up to now, to keep a simpler presentation.

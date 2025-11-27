@@ -1,5 +1,3 @@
-# Evolution from the the public cooperation system to the interoperability model
-
 This section reports the rationale that led Italy to transition from the *SPCoop* to the *ModI*.
 
 The *SPCoop* it launched the Italian experience in data sharing and service integration between Italian public administrations via digital tools. However, experience with it highlighted that:

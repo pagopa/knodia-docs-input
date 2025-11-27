@@ -1,5 +1,3 @@
-# Governance and compliance
-
 | **Criterion** | ***Porte di Dominio*** | ***PDND*** |
 | - | - | - |
 | **Regulatory compliance** | ⚠️ conforms to outdated regulatory framework | ✅ conforms to current Italian regulatory framework |

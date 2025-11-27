@@ -1,5 +1,3 @@
-# Agreement Request
-
 An *Agreement Request* is a digital agreement between *Consumer* and *Producer* related to a *Cross-Border E-Service* produced by the *Producer*. The *Agreement Request* is needed for the *Consumer* to consum the *Cross-Border E-Service*.
 
 For *Provide-Data* E-Services, the *Agreement Request* is not sufficient to allow usage of the *Cross-Border E-Service*, since the *Consumer* must also submit the *Purpose Statement* (see § [Purpose Statement](./05-05-02_purpose.md) for more details).

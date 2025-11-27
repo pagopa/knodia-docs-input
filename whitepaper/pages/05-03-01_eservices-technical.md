@@ -1,5 +1,3 @@
-# Technical characteristics
-
 E-Services within the *Cross-Border Federation* are characterized by:
 
 *Interop Nodes* must allow *Producers* to associate E-Services to categories that are shared within the *Cross-Border Federation*. This is intended to simplify searching for services, using categories that are standardized across all Interoperability Domains.

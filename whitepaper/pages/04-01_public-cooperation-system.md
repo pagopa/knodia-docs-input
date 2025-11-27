@@ -1,5 +1,3 @@
-# The Italian public cooperation system
-
 The *SPCoop* constituted the conceptual and architectural model of application cooperation between Italian public entities. It aspired to:
 
 1. Define the method of delivering application services to realize interactions between cooperating entities.

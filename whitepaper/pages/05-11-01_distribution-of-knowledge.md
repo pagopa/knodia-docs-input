@@ -1,5 +1,3 @@
-# Distribution of knowledge between Interop Nodes
-
 To implement the functionality described in this proposal, *Interop Nodes* need to communicate. Two modes of communication are envisioned:
 
 1. queries and commands that an *Interop Node* sends to another synchronously while processing a request from an *Operator* or, in general, to carry out the described flows;

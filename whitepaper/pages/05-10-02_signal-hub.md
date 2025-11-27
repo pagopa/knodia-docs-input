@@ -1,5 +1,3 @@
-# Distribution of data change signals (Signal Hub)
-
 Beyond the usual model of consumption (i.e., a *Consumer* calls the *Cross-Border E-Services* offered by *Producers*), the *Interop Node* may also provide a signal distribution system that lets *Consumers* detect when change occur in the data provided by a *Cross-Border E-Service* (which the *Consumer* is authorized to consume) referring to entities the *Consumer* is interested in.
 
 This functionality is intended to allow *Consumers* to react promptly to update information on subjects for whom the *Consumer* has outstanding processing operations, while avoiding excessive load on *Producers* (which would be imposed by *Consumers* repeatedly fetching the data to monitor it for changes). Moreover, this standardizes throughout the *Cross-Border Federation* a single model to distribute data changes.

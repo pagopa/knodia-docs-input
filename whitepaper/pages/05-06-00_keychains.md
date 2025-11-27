@@ -1,3 +1,1 @@
-# Consumer Keychains
-
 This section described the functionality that every Interop Node must provide to *Confederate Organization* regarding *Consumer* Keychains. These are needed for *Consumers* to use the *Interop Node*'s API to request *access tokens* to consume a *Cross-Border E-Service*.

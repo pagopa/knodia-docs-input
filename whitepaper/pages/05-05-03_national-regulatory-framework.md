@@ -1,5 +1,3 @@
-# Actions requested by the national regulatory framework
-
 #### Additional actions for Agreement Requests
 
 As mentioned in § [Agreement Request](./05-05-01_agreement.md), additional actions may be needed to activate an *Agreement Request*. This is at the discretion of the *Producer Interop Node*. It makes it possible for *Interop Nodes* to implement any additional steps demanded by the national regulatory framework they are subject too: for example, request additional information from the *Consumer* to complete the proceedings.

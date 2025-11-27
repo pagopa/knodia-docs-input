@@ -1,5 +1,3 @@
-# Operative aspects
-
 | **Criterion** | ***Porte di Dominio*** | ***PDND*** |
 | - | - | - |
 | **Initial setup** | ⚠️ installation and qualification for each *Porta di Dominio* instance of the interested party | ✅ one-off for interested parties |

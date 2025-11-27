@@ -1,5 +1,3 @@
-# E-Service Federated Categories
-
 *Interop Nodes* must allow *Producers* to associate E-Services to categories that are shared within the *Cross-Border Federation*. This is intended to simplify searching for services, using categories that are standardized across all Interoperability Domains.
 
 By way of example, consider the need to identify the *Cross-Border E-Services* that provide data ona citizen's main address of residence. Several *Interop Nodes* will include E-Services that provide this data, and *Interop Nodes* can translate this concept as relevant in each Interoperability Domain: "residenza" for Italy, "Wohnsitz" for Germany, etc.

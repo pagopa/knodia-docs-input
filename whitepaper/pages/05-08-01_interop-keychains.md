@@ -1,5 +1,3 @@
-# Interop Keychains for the Interop Node API
-
 Interop Keychains are used by *Confederate Organizations* to request *access tokens* for the machine-to-machine API of an *Interop Node*, hereinafter referred to as the target *Interop Node*. They are like the *Consumer Keychains* described in § [Consumer Keychains](./05-06-00_keychains.md), except for these differences:
 
 - They are not be associated with *Purpose Statement*.

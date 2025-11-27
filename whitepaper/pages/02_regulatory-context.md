@@ -1,5 +1,3 @@
-# Regulatory context
-
 **Regulation (EU) 2024/903 of the European Parliament and of the Council of 13 March 2024 laying down measures for a high level of public sector interoperability across the Union**[^1] (in brief, *Interoperable Europe Act*) entered into force on 18 July 2024. It aims to foster and simplify interactions between the European Union and Member States, and equally among Member States themselves, to facilitate the sharing of data, information, and knowledge through digital processes (*cross-border interoperability*).
 
 IMAGE MISSING

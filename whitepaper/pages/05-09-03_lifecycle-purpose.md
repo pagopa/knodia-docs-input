@@ -1,5 +1,3 @@
-# Lifecycle of Purpose Statements
-
 The following diagram illustrates the lifecycle of a *Purpose Statement* created by a *Consumer* to access a *Provide-Data* E-Service. In the diagram, choice nodes represent optional steps, and a composite state represents the possible sub-states for an active *Purpose Statement*.
 
 The states are:

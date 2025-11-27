@@ -1,5 +1,3 @@
-# Technological aspects
-
 | **Criterion** | ***Porte di Dominio*** | ***PDND*** |
 | - | - | - |
 | **Interaction technologies** | ⚠️ *busta e-gov* | ✅ HTTP APIs<br>⚠️ SOAP over HTTP |

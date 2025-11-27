@@ -1,5 +1,3 @@
-# Configuration of the federation of Interop Nodes
-
 In this proposal we assume that, for each *Interop Node*, other *Interop Nodes* are trusted subjects for which a secure communication channel exists. We suppose that this channel would be implemented via mutual TLS.
 
 The interactions between *Interop Nodes* describes in this proposal assume implicitly that this secure channel exists. Therefore, they do not include explicitly the transmission of any additional cryptographic material between them.

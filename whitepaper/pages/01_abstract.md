@@ -1,5 +1,3 @@
-# Abstract
-
 This document describes the Italian proposal to the *Interoperable Europe Board*, established by the *Interoperable Europe Act*, concerning an experimentation – within the *interoperability regulatory sandboxes* of the *Interoperable Europe Act* – of a *Cross-Border Federation* managing authentication and authorization of interested organizations to enable data exchange on digital channels and integration of cross-border digital services.
 
 This *cross-border authentication and authorization framework* is intended as a technical and administrative solution to enable digital interaction between organizations of different Member States, and between these and the agencies of the *European Commission* and the *European Union* in general. The solution implements the API-first approach and is intended to ease the implementation of the once-only principle.

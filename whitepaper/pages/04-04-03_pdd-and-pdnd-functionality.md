@@ -1,5 +1,3 @@
-# Functionality
-
 | **Criterion** | ***Porte di Dominio*** | ***PDND*** |
 | - | - | - |
 | **E-service versioning** | ⚠️ distributed for each *Porta di Dominio* instance of the subject | ✅ centralized tools |

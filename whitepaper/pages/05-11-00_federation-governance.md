@@ -1,5 +1,3 @@
-# Considerations on the governance of the Cross-Border Federation
-
 As mentioned at the beginning, a Federation Consortium – including the Managers of the *Interop Nodes* – will need to exist. This Consortium will define and update the technical elements needed for the *Cross-Border Federation*, capitalizing on the effects of the proposed experimentation.
 
 The main task of this Consortium is to define the *Federated API* to be implemented by *Interop Nodes* and to manage the semantic objects used by *Interop Nodes*.

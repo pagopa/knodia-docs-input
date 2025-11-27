@@ -1,5 +1,3 @@
-# Bearer authorization
-
 The *Consumer* requests an *access token* for a *Cross-Border E-Services* by making a request to the token endpoint of the *Producer Interop Node* with an attached client assertion as defined in § [Consumer Keychains – Context of use](./05-06-01_keychains-context.md). The assertion must contain at least the following attributes:
 
 - sub and iss: identifiers of the *Consumer* Keychain containing the public cryptographic material corresponding to the seal applied to the client assertion;

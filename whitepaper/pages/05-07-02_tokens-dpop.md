@@ -1,5 +1,3 @@
-# Authorization with proof of possession
-
 *Interop Nodes* must support Demonstrating Proof of Possession (hereinafter, *DPoP*) to strengthen security of access to E-Services. *DPoP* requires *Consumers* to demonstrate to *Producers* that they possess their own private cryptographic material. This makes stolen *access tokens* unusable by unauthorized subjects.
 
 The *Producer* can request *DPoP* to apply for a *Cross-Border E-Service* when it creates the *Cross-Border E-Service*. In this case, *Consumers* must request *DPoP*-bound *access tokens* from the *Producer Interop Node*.

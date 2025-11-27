@@ -1,5 +1,3 @@
-# Interop Node API for Confederate Organizations
-
 Every *Interop Node* must allow the *Confederate Organizations* of other *Interop Nodes* to access the functionality offered in its user interface also through a machine-to-machine API. This allows *Confederate Organizations* to manage entities (e.g., E-Services, *Agreement Requests*, *Purpose Statements*) programmatically.
 
 This API can be considered analogous to a *Cross-Border E-Service* produced by the manager of the *Interop Node* and which *Confederate Organizations* within the *Cross-Border Federation* can consume. Access is regulated similarly to E-Services, except that *Agreement Requests* and *Purpose Statements* are not needed: the agreement between the parties has implicitly occurred during the onboarding of the *Confederate Organization* to the *Cross-Border Federation*. However, *Confederate Organizations* must still create Keychains to request *access tokens* for these APIs.

@@ -1,5 +1,3 @@
-# E-Service Templates
-
 An E-Service Template standardizes creation of E-Services for recurring use cases. If many *Producers* need to provide E-Services following the same specification, one *Producer* may create an E-Service Template and publish it on its *Interop Node*. The template is then available for use by other Organizations that need to produce a similar E-Service.
 
 Every *Producer* can view the E-Service Templates available on both its own and other *Interop Nodes*. It can create a *Cross-Border E-Service* by instantiating one such template. The E-Service so created inherits all predefined fields from its template, including the specification of the application programming interface (API). However, the creator of the template can specify fields that the *Producer* can override when instantiating the template.

@@ -1,5 +1,3 @@
-# Purpose Statement Templates
-
 *Interop Nodes* may also provides *Purpose Statement* Templates that Organization can use to have a pre-filled version of the *Purpose Statement*, including any additional information that is requested to *Consumers* in accordance with the national regulatory framework.
 
 A *Consumer* with an active *Agreement Request* for a *Cross-Border E-Service* can view the E-Service's *Purpose Statement* Templates, if there are any, and choose whether to use them when creating a *Purpose Statement*.

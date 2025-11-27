@@ -1,5 +1,3 @@
-# Comparing *Porte di Dominio* and *PDND*
-
 What follows is a comparative analysis of the *ModI* and the *SPCoop*. This focuses on the technological components necessary for subject interested in applying either model, respectively the *PDND* and the *Porte di Dominio* (though these play different roles in the two architectures, see Figures 3 and 4 above).
 
 The following criteria are examined considering the burdens and possibilities for subjects interested in participating in interactions in the two models. Burdens and possibilities are evaluated as either:

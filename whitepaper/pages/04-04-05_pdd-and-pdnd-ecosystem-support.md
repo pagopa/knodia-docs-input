@@ -1,5 +1,3 @@
-# Ecosystem and support
-
 | **Criterion** | ***Porte di Dominio*** | ***PDND*** |
 | - | - | - |
 | **Community** | ❌ realized by interested parties | ✅ growing, current support from the Italian Regulator |
