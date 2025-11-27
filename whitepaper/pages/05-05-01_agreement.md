@@ -13,7 +13,7 @@ By default, the *Cross-Border Federation* assumes that the *Producer Interop Nod
 
 ![](../resources/blueprint-agreement-request.svg)
 
-Activating an *Agreement Request* can require additional actions depending on the regulatory framework that then *Producer Interop Node* operates in: see "$[]()".
+Activating an *Agreement Request* can require additional actions depending on the regulatory framework that then *Producer Interop Node* operates in: see § [Actions requested by the national regulatory framework](./05-05-03_national-regulatory-framework.md).
 
 The *Agreement Request* must be filled in at least in the common language accepted by the *Cross-Border Federation*.
 
