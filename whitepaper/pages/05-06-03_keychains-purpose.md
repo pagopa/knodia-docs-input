@@ -2,7 +2,7 @@
 
 A *Consumer Keychain* can be used to consume multiple E-Services. To this end, the *Consumer Keychain* is associated with a set of active *Purpose Statements*.
 
-The user interface of the *Consumer Interop Node* must allow Consumer *Operators* to associate the Consuemr Keychain to one or more active *Purpose Statements*. For *Receive Data* E-Services, the *Purpose Statement* associated to the *Consumer Keychain* is one that the *Producer* has created when publishing the *Cross-Border E-Service* itself.
+The user interface of the *Consumer Interop Node* must allow Consumer *Operators* to associate the Consuemr Keychain to one or more active *Purpose Statements*. For *Receive-Data* E-Services, the *Purpose Statement* associated to the *Consumer Keychain* is one that the *Producer* has created when publishing the *Cross-Border E-Service* itself.
 
 The association occurs via the identifiers of the *Purpose Statements* stored when they are created.
 

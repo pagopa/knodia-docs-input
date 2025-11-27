@@ -2,7 +2,7 @@
 
 An *Agreement Request* is a digital agreement between *Consumer* and *Producer* related to a *Cross-Border E-Service* produced by the *Producer*. The *Agreement Request* is needed for the *Consumer* to consum the *Cross-Border E-Service*.
 
-For *Provide Data* E-Services, the *Agreement Request* is not sufficient to allow usage of the *Cross-Border E-Service*, since the *Consumer* must also submit the *Purpose Statement* (see § [Purpose Statement](./05-05-02_purpose.md) for more details).
+For *Provide-Data* E-Services, the *Agreement Request* is not sufficient to allow usage of the *Cross-Border E-Service*, since the *Consumer* must also submit the *Purpose Statement* (see § [Purpose Statement](./05-05-02_purpose.md) for more details).
 
 The *Consumer*, after identifying the *Cross-Border E-Service* it intends to consume, can submit an *Agreement Request* for it via the user interface of the *Consumer Interop Node*. Using the *Federated API*, the *Consumer Interop Node* forwards to the *Producer Interop Node*:
 
@@ -11,7 +11,7 @@ The *Consumer*, after identifying the *Cross-Border E-Service* it intends to con
 
 The *Producer Interop Node* can thus verify whether the *Consumer* satisfies the consumption requirements of the *Cross-Border E-Service*. If so, it creates and *Agreement Request*, Stores it, and sends its identifier to the *Producer Interop Node*.
 
-By default, the *Cross-Border Federation* assumes that the *Producer Interop Node* will activate the *Agreement Request* when it creates it. The following service blueprint illustrates the flow of activities carried out by the subject in this case.
+By default, the *Cross-Border Federation* assumes that the *Producer Interop Node* will activate the *Agreement Request* when it creates it. The following service blueprint illustrates the flow of activities carried out by the subjects in this case.
 
 ![](../resources/blueprint-agreement-request.svg)
 

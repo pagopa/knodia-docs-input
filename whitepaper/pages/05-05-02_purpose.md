@@ -1,112 +1,116 @@
 # Purpose Statement
 
-A *Purpose Statement* is the declaration a *Confederate Organization* makes to assert the lawfulness of processing of personal data received through a *Cross-Border E-Service*, pursuant to Article 6 of the GDPR.
+A *Purpose Statement* is the declaration a *Confederate Organization* makes to assert the lawfulness of processing of personal data received through a *Cross-Border E-Service*, pursuant to Article 6 of the *GDPR*.
 
 A *Purpose Statement* is necessary to enable the *Consumer* to access a *Cross-Border E-Service*, even if the *Producer* has declared that the *Cross-Border E-Service* does not provide or process personal data of natural persons.
 
-This declaration is provided:
+This declaration is made:
 
-- for a *Provide Data* E-Service, by the *Consumers*, for each E-Service they have an active *Agreement Request*;
-- for a *Receive Data* E-Service, by the *Producer* when publishing the *Cross-Border E-Service*.
+- for *Provide-Data* *Cross-Border E-Services*, by the *Consumers*, for each *E-Service* they have an active *Agreement Request* for and each processing that will use that *E-Service*;
+- for *Receive-Data* *Cross-Border E-Services*, by the *Producer* when publishing the *E-Service*.
 
 Within the *Cross-Border Federation*, *Purpose Statements* are characterized by:
 
-- an identifier which is unique within the Interoperability Domain;
+- an identifier which is unique within the *Interoperability Domain*;
 - name and description;
 - indication of the lawfulness of processing, as a value chosen from the options admitted by Article 6 of Regulation (EU) 2016/679;
-- any additional information required by the national regulatory framework regarding the protection of personal data of natural persons to which the *Producer Interop Node* is subject (see § [Actions requested by the national regulatory framework](./05-05-03_national-regulatory-framework.md)).
+- any additional information required by the national regulatory framework to which the *Producer Interop Node* is subject regarding the protection of personal data of natural persons (see § [Actions requested by the national regulatory framework](./05-05-03_national-regulatory-framework.md)).
 
 The *Purpose Statements* must be filled in at least in the common language accepted by the *Cross-Border Federation*.
 
-For both *Provide Data* and *Receive Data* E-Services, the *Consumer* declares the load it expects to put on the *Cross-Border E-Service* in terms of a maximum number of requests per given unit of time. This parameter is useful to the *Producer* to evaluate dimensioning of its technological infrastructure. Specifically:
+The *Consumer* must declare the load it expects to put on the *Cross-Border E-Service* in terms of a maximum number of requests per given unit of time. This parameter is useful to the *Producer* to evaluate dimensioning of its technological infrastructure. Specifically:
 
-- for *Provide Data* E-Services, the *Consumer* declares it in each *Purpose Statement* it creates;
-- for *Receive Data* E-Services, the *Consumer* declares it by selecting the *Purpose Statement* created by the *Producer*.
+- for *Provide-Data* *E-Services*, the *Consumer* declares it in each *Purpose Statement* it creates;
+- for *Receive-Data* *E-Services*, the *Consumer* declares it by selecting the *Purpose Statement* created by the *Producer*.
 
-Each *Interop Node* may choose to define and carry out checks regarding the load declared by the *Consumer* versus the quotas defined by the *Cross-Border E-Service* *Producer*. For example, an *Interop Node* may choose:
+Each *Producer Interop Node* may choose to define and carry out checks regarding the load declared by the *Consumer* versus the quotas defined by the *Producer* of the *Cross-Border E-Service*. For example, an *Interop Node* may choose:
 
-- not to perform any check (the load declaration is only used to inform the *Producer* who can dimension its infrastructure accordingly and possibly defer or reject requests in excess of the declared load);
-- prevent creating new *Purpose Statements* if the quotas declared by the *Producer* for that E-Service is saturated by existing *Purpose Statements*.
+- not to perform any check (the load declaration is only used to inform the *Producer*, who can dimension infrastructure accordingly and possibly defer or reject requests in excess of the declared load);
+- to prevent creating new *Purpose Statements* if the quotas declared by the *Producer* for that *E-Service* is saturated by existing *Purpose Statements*.
 
 See § [Lifecycle of Purpose Statements](./05-09-03_lifecycle-purpose.md) for more details on the lifecycle of *Purpose Statements*.
 
-For what concerns *Consumers*, *Interop Nodes* must ensure the following requirements are met:
+***Consumer Interop Nodes* must ensure the following requirements are met:**
 
-- *Confederate Organizations* can create or select (respectively, for *Provide Data* or *Receive Data* E-Services) the *Purpose Statements* for *Agreement Requests* and receive notifications related to them.
-- The *Consumer Interop Node* must forward the request to create a *Purpose Statement* using the *Federated API* of the *Producer Interop Node*.
-- The *Consumer Interop Node* must receive from the *Producer Interop Node*, using the *Federated API*, evidence on the state of *Purpose Statements* it has created.
+- ***Confederate Organizations* can create or select (respectively, for *Provide-Data* or *Receive-Data* *E-Services*) the *Purpose Statements* for *Agreement Requests* and receive notifications related to them.**
+- **The *Consumer Interop Node* must forward the request to create a *Purpose Statement* to the *Producer Interop Node* using the *Federated API*.**
+- **The *Consumer Interop Node* must receive from the *Producer Interop Node*, using the *Federated API*, evidence on the state of *Purpose Statements* it has created.**
 
-For what concerns *Producers*, *Interop Nodes* must ensure the following requirements are met:
+***Producer Interop Nodes* must ensure the following requirements are met:**
 
-- The *Producer Interop Node* must allow other *Interop Node* to create *Purpose Statements* using the *Federated API*, for *Provide Data* E-Services, or to retrieve existing *Purpose Statements* created by the *Producer*, for *Receive Data* E-Services.
-- The *Producer Interop Node* must forward to the *Consumer Interop Node*, using the *Federated API*, the state changes of *Purpose Statements* the *Consumer Interop Node* has created.
+- **The *Producer Interop Node* must allow other *Interop Node* to create *Purpose Statements* using the *Federated API* (for *Provide-Data* *E-Services*) or to retrieve existing *Purpose Statements* created by the *Producer* (for *Receive-Data* *E-Services*).**
+- **The *Producer Interop Node* must forward to the *Consumer Interop Node*, using the *Federated API*, the state changes of *Purpose Statements* the *Consumer Interop Node* has created.**
 
-#### Finalità per E-Service in modalità Fornitura Dati
+#### Purpose Statements for Provide-Data E-Services
 
-Un *Operator*e di un *Consumer*, relativamente ad una Richiesta di Fruizione attiva per un E-Service, può effettuare una o più Dichiarazioni di Finalità tramite l’interfaccia utente del *Consumer Interop Node*. Il *Consumer Interop Node* assicura di:
+A *Consumer* *Operator* may, through the user interface of the *Consumer Interop Node*, make one or more *Purpose Statements* related to an *E-Service* for which it has an active *Agreement Request*.
 
-1. richiedere all’*Operator*e del *Consumer* di popolare quanto di propria competenza secondo i requisiti indicati in precedenza nel § “[Dichiarazione di Finalità](#dichiarazione-di-finalità)”;  
-2. recuperare dal *Producer Interop Node*, tramite l’API Federata, il form per eventuali informazioni aggiuntive richieste dal quadro normativo nazionale del *Producer*, si rimanda al § “[Azioni richieste dal quadro normativo nazionale](#azioni-richieste-dal-quadro-normativo-nazionale)” per i relativi dettagli;  
-3. rendere disponibile all’*Operator*e del *Consumer* il form per permettergli la compilazione dei dati richiesti dal *Producer Interop Node*;  
-4. inoltrare i dati popolati dall’*Operator*e del *Consumer* al *Producer Interop Node* tramite l’API Federata.
+The *Consumer Interop Node*:
 
-Il *Producer Interop Node* crea la Dichiarazione di Finalità restituendo i riferimenti della stessa al *Consumer Interop Node*.
+1. requests to the *Consumer* *Operator* to fill in the required information according to the requirements defined in § [Purpose Statement](./05-05-02_purpose.md) above;
+2. retrieves from the *Producer Interop Node*, using the *Federated API*, the form for any additional information requested by the national regulatory framework (see § [Actions requested by the national regulatory framework](./05-05-03_national-regulatory-framework.md) for details);
+3. provide the form to the *Consumer* *Operator* to fill in;
+4. forward the filled-in data to the *Producer Interop Node* using the *Federated API*.
 
-Il *Consumer Interop Node* deve Memorizzare i riferimenti:
+The *Producer Interop Node* creates the *Purpose Statement* and returns its reference to the *Consumer Interop Node*.
 
- della Dichiarazione di Finalità, come restituito dal *Producer Interop Node*, per poterne in seguito recuperare i dettagli tramite API Federata;   
- dell’E-Service Transfrontaliero oggetto della dichiarazione;   
- del *Producer Interop Node*;
+The *Consumer Interop Nodes* must *Store* the references:
 
-e Archiviare Elettronicamente le informazioni:
+- of the *Purpose Statement*, as returned by the *Producer Interop Node*, to be able to retrieve its data later using the *Federated API*;
+- of the *Cross-Border E-Service* subject of the declaration;
+- of the *Producer Interop Node*.
 
- del *Consumer* compresi gli Attributi transfrontalieri.
+The *Consumer Interop Node* must *Electronically Archive* the information:
 
-Il *Producer Interop Node* deve Archiviare Elettronicamente le informazioni:
+- on the *Consumer*, including its *Federated Attributes*.
 
- della Dichiarazione di Finalità;  
- dell’E-Service Transfrontaliero oggetto della dichiarazione; 
+The *Producer Interop Node* must *Electronically Archive* the information:
 
-e Memorizzare i riferimenti:
+- of the *Purpose Declaration*;
+- of the *Cross-Border E-Service* subject of the declaration.
 
- del *Consumer*;  
- del *Consumer Interop Node*.
+The *Producer Interop Node* must *Store* the references:
 
-Il comportamento di default previsto nella Federazione Transfrontaliera contempla che il *Producer Interop Node* contestualmente alla creazione della Dichiarazione di Finalità attiverà la stessa.
+- of the *Consumer*;
+- of the *Consumer Interop Node*.
 
-La Dichiarazione di Finalità può inoltre richiedere un’ulteriore azione di conferma esplicita da parte di un *Operator*e del *Consumer*, in caso il *Producer* lo abbia richiesto alla creazione dell’E-Service Transfrontaliero. In questo caso, la procedura è equivalente a quella descritta per la conferma di una Richiesta di Fruizione nel § “[Conferma del Consumer *Operator*](#conferma-del-consumer-operator)”. 
+The default behaviour in the *Cross-Border Federation* is for the *Producer Interop Node* to activate the *Purpose Declaration* simultaneously when it is created.
 
-Il seguente service blueprint definisce il flusso delle attività realizzate dai soggetti, *Operator*i e Interop Node, interessati nella precedente ipotesi.
+The *Purpose Statement* can instead need a further confirmation by a *Consumer* *Operator*, if the *Producer* requested it when creating the *Cross-Border E-Service*. In this case, the procedure is equivalent to that described for confirmation of *Agreement Requests* (see § [Agreement Request – Confirmation by the Consumer Operator](./05-05-01_agreement.md#confirmation-by-the-consumer-operator)).
 
-In ogni caso è responsabilità del *Consumer Interop Node* ascoltare gli eventi di cambio di stato della Dichiarazione di Finalità, tramite API Federata, e notificare gli stessi al *Consumer* interessato, si rimanda al § “[Distribuzione della conoscenza tra Nodi](#distribuzione-della-conoscenza-tra-nodi)” per maggiori dettagli. 
+The following service blueprint illustrates the flow of activities carried out by the subject, *Operators* and *Interop Nodes*, in the latter case.
 
 ![](../resources/blueprint-purpose-creation-provide-data.svg)
 
-I *Producer Interop Nodes* devono rispettare i seguenti requisiti:
+In any case, the *Consumer Interop Node* must monitor state change events of the *Purpose Statement*, using the *Federated API*, and notify them to the corresponding *Consumer*. See § [Distribution of knowledge between Interop Nodes](./05-11-01_distribution-of-knowledge.md) for more details.
 
- permettere ai *Producer* di richiedere la conferma esplicata dei potenziali *Consumers* prima di attivare le Dichiarazioni di Finalità;  
- nel caso in cui un *Producer* richieda la conferma esplicita dei potenziali *Consumers* restituire ai *Consumer Interop Nodes* interessati, tramite API Federata, gli elementi necessari per dare seguito alla stessa;  
- nel caso in cui siano necessarie informazioni aggiuntive in relazione alla protezione dei dati personali delle persone fisiche, rendere disponibile ai *Consumer Interop Nodes* interessati, tramite API Federata, il form per la raccolta delle necessarie informazioni e le operazioni per la ricezione dello stesso.
+*Producer Interop Nodes* must ensure the following requirements are met:
 
-I *Consumer Interop Nodes* devono rispettare i seguenti requisiti:
+- *Producers* can request explicit confirmation from potential *Consumers* before activating their *Agreement Requests*.
+- If a *Producer* requests explicit confirmation, the *Producer Interop Node* returns to interested *Consumer Interop Nodes*, via the *Federated API*, the information needed for *Operators* to fulfil this.
+- If any additional information is requested from the *Consumer* in relation to regulation for protection of personal data of natural persons, the *Producer Interop Node* must provide to interested *Customer Interop Nodes*, through the *Federated API*, the form to collect this information and operations to receive the latter form.
 
- ascoltare, tramite l’API Federata dei *Producer Interop Nodes*, le variazioni di stato delle Richieste di Fruizione, per dare seguito alla conferma esplicita avvenuta;  
- nel caso in cui siano necessarie informazioni aggiuntive in relazione alla protezione dei dati personali delle persone fisiche per il *Producer Interop Nodes*, recuperare tramite API Federata il form per la raccolta delle necessarie informazioni e inoltrare le stesse ai *Producer Interop Nodes*.
+*Consumer Interop Nodes* must ensure the following requirements are met:
 
-#### Finalità per E-Service in modalità Ricezione Dati
+- *Consumer Interop Nodes* must monitor, using the *Federated API* of the *Producer Interop Nodes*, state changes of *Purpose Statements*, to react when the confirmation is given.
+- If any additional information is requested from the *Consumer* in relation to regulation for protection of personal data of natural persons, the *Customer Interop Node* must retrieve the form to collect this information and forward it to the *Producer Interop Node*.
 
-Un E-Service Transfrontaliero in modalità Ricezione Dati permette al *Producer* di collezionare dati dai *Consumer*. La Dichiarazione delle finalità in questo caso spetta al *Producer*, il soggetto che tratta i dati. 
+#### Purpose Statements for Receive-Data E-Services
 
-Il *Producer Interop Node* deve mettere a disposizione quanto necessario per permettere al *Producer* di popolare quanto di propria competenza secondo i requisiti indicati nel § “[Dichiarazione di Finalità](#dichiarazione-di-finalità)”.
+A *Cross-Border E-Service* in the *Receive-Data* mode allows its *Producer* to collect data from *Consumers*. In this case, the *Purpose Statement* must be made by the *Producer*, who is the subject who processes the data.
 
-Il *Consumer Interop Node*, per un E-Service Transfrontaliero in modalità Ricezione Dati per cui un Consumer ha una Richiesta di Fruizione attiva, deve recuperare tramite API Federata le Dichiarazioni di Finalità dal *Producer Interop Node* e renderle disponibili al Consumer.
+The *Producer Interop Node* must provide the functionality for *Producers* to fill in the required information according to the requirements defined in § [Purpose Statement](./05-05-02_purpose.md) above.
 
-I *Consumer Interop Nodes* devono rispettare i seguenti requisiti:
+The *Consumer Interop Node*, when a *Consumer* has an active *Agreement Request* for a *Receive-Data* *Cross-Border E-Service*, must retrieve from the *Producer Interop Node*, using the *Federated API*, the *Purpose Statements* and make them available to the *Consumer*.
 
- recuperare la Dichiarazione di Finalità compilata dal *Producer*, tramite API Federata, e renderla disponibile al Consumer sulla propria interfaccia utente.
-
-I *Producer Interop Nodes* devono rispettare i seguenti requisiti:
-
- rendere disponibile la Dichiarazione di Finalità compilata dal *Producer*, tramite API Federata, ai *Consumer Interop Nodes*.
+The following service blueprint illustrates the flow of activities for purpose creation in the *Receive-Data* case:
 
 ![](../resources/blueprint-purpose-creation-receive-data.svg)
+
+***Consumer Interop Nodes* must ensure the following requirements are met:**
+
+- **They must retrieve the *Purpose Statement* made by the *Producer*, using the *Federated API*, and make it available to the *Consumer* on their user interface.**
+
+***Producer Interop Nodes* must ensure the following requirements are met:**
+
+- **They must make the *Purpose Statement* made by the *Producer* available through the *Federated API* to *Consumer Interop Nodes*.**

@@ -60,7 +60,7 @@ The following table provides a synoptic comparison between the *SPCoop* and the 
 | - | - | - |
 | **Period of adoption** | <ul><li>2008–2021</li></ul> | <ul><li>2022–present</li></ul> |
 | **Interested subjects** | <ul><li>public administrations</li></ul> | <ul><li>public administrations</li><li>providers of public services</li><li>enterprises</li></ul> |
-| **Technologies and standards** | <ul><li>SOAP</li><li>WSDL</li><li>UDDI</li><li>busta e-gov</li></ul> | <ul><li>HTTP APIs<ul><li>RFC3230, RFC3744, RFC5246, RFC5789, RFC7231, RFC7233, RFC7389, RFC7396, RFC7515, RFC7519, RFC8725, RFC9110</li></li><li>OpenAPI Specification</li></ul><li>SOAP<ul><li>SOAP</li><li>WSDL</li></ul></li></ul> |
+| **Technologies and standards** | <ul><li>SOAP</li><li>WSDL</li><li>UDDI</li><li>*busta e-gov*</li></ul> | <ul><li>HTTP APIs<ul><li>RFC3230, RFC3744, RFC5246, RFC5789, RFC7231, RFC7233, RFC7389, RFC7396, RFC7515, RFC7519, RFC8725, RFC9110</li></li><li>OpenAPI Specification</li></ul><li>SOAP<ul><li>SOAP</li><li>WSDL</li></ul></li></ul> |
 | **Onboarding** | <ul><li>Qualification of the *Porta di Dominio*</li></ul> | <ul><li>Onboarding of the organization to the *PDND*</li></ul> |
 | **Enabling interactions** | <ul><li>Autonomous stipulation of Service Agreements between interested parties</li></ul> | <ul><li>Centralized normalized process managed by the *PDND*:<ul><li>agreement request</li><li>purpose statement</li><li>API client registration</li></ul></li></ul> |
 | **Key components** | <ul><li>*Porta di Dominio* (for service delivery)</li><li>*SICA* (interoperability, cooperation and access services)</li></ul> | <ul><li>*PDND* (technological infrastructure and centralized authentication and authorization server; centralized API Catalogue).</li></ul> |

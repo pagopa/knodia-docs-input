@@ -14,8 +14,8 @@ By way of example, consider the need to identify the *Cross-Border E-Services* t
   - total maximum cross-border requests from a single *Interop Node*;
   - total maximum cross-border requests from a single *Consumer*;
 - mode of data transmission:
-  - from the *Producer* to the *Consumer* (hereinafter *Provide Data*);
-  - from the *Consumer* to the *Producer* (hereinafter *Receive Data*);
+  - from the *Producer* to the *Consumer* (hereinafter *Provide-Data*);
+  - from the *Consumer* to the *Producer* (hereinafter *Receive-Data*);
 - whether, to submit *Agreement Requests* and *Purpose Statements* for the *Cross-Border E-Service*, the *Consumer* *Operator* must confirm the submission via eIDAS login to the **Producer* *Interop Node**;
 - whether *Consumers* can access to the *Producer Interop Node*'s Signal Hub functionality (for details, see § [Distribution of data change signals (Signal Hub)](./05-10-02_signal-hub.md)).
 

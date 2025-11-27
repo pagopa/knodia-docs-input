@@ -6,5 +6,5 @@ As a whole, the actions described below and in the information that is Electroni
 
 The section also describes the difference between the two modes of data transmission for E-Services:
 
-- *Provide Data*, in the case where the *Producer* sends data to the *Consumer*;
-- *Receive Data*, in the case where the *Producer* receives data from the *Consumer*.
+- *Provide-Data*, in the case where the *Producer* sends data to the *Consumer*;
+- *Receive-Data*, in the case where the *Producer* receives data from the *Consumer*.
