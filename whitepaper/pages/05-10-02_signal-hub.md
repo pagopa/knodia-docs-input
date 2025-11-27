@@ -8,7 +8,7 @@ The Federation Consortium referred to in § [Considerations on the governance of
 
 The remainder of this section reports considerations on this functionality based on the experience with the PDND in Italy.
 
-#### Signals and pseudonymization
+# Signals and pseudonymization
 
 A signal is an object that serves as a notification of data change. It identifies the entity whose data changed. Entities are identified pseudonymously, using a hashing algorithm. This allows the *Consumer* to reconcile them by comparing the entity identifiers the *Consumer* already know with their pseudonymous representation included in the signals.
 
