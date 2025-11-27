@@ -14,6 +14,8 @@ A signal is an object that serves as a notification of data change. It identifie
 
 To make pseudonymization more secure, hashing with a seed[^1] is used. The *Producer* must expose in its E-Service the reference to the hashing algorithm and the seed it currently uses.
 
+[^1]: The Italian implementation of the Signal Hub for the PDND has followed the report “Pseudonymisation techniques and best practices” of the ENISA, available at the URL [https://www.enisa.europa.eu/publications/pseudonymisation-techniques-and-best-practices](https://www.enisa.europa.eu/publications/pseudonymisation-techniques-and-best-practices).
+
 In addition to signals related to entity lifecycle changes, the *Producer* must also deposit signals meant to ease the signal processing itself: specifically, signals that notify changes in the hashing algorithm or the seed.
 
 # Signal deposit, retrieval, and processing flow

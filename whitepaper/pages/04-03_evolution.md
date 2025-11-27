@@ -9,11 +9,11 @@ The *SPCoop* it launched the Italian experience in data sharing and service inte
 
 The consolidation of the European regulatory framework regarding interoperability, the opening of public data, and the protection of personal data of natural persons, primarily through
 
-- **Communication from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of the Regions (COM/2017/0134 final) regarding the European Interoperability Framework – Implementation Strategy**;
-- **Directive (EU) 2019/1024 of the European Parliament and of the Council of 20 June 2019 on open data and the re-use of public sector information**;
-- **Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC**;
+- **Communication from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of the Regions (COM/2017/0134 final) regarding the European Interoperability Framework – Implementation Strategy[^1]**;
+- **Directive (EU) 2019/1024 of the European Parliament and of the Council of 20 June 2019 on open data and the re-use of public sector information[^2]**;
+- **Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC[^3]**;
 
-reinforced lastly by the **Regulation (EU) 2024/903 of the European Parliament and of the Council of 13 March 2024laying down measures for a high level of public sector interoperability across the Union**, urged Italy to re-evaluate the *SPCoop*.
+reinforced lastly by the **Regulation (EU) 2024/903 of the European Parliament and of the Council of 13 March 2024 laying down measures for a high level of public sector interoperability across the Union[^4]**, urged Italy to re-evaluate the *SPCoop*.
 
 [^1]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM%3A2017%3A134%3AFIN
 
