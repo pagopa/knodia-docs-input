@@ -1,6 +1,6 @@
 # Objective of the proposal
 
-The *EIF* provides guidance to European public administrations through a set of recommendations on how to improve the governance of their interoperability activities to:
+The *EIF* provides guidance to European public administrations through recommendations on how to improve the governance of their interoperability activities to:
 
 - foster and simplify interactions between the European Union and Member States, and among Member States themselves, to promote the sharing of data, information, and knowledge through digital processes;
 - avoid the creation of fragmented ICT islands whose interoperability is difficult to guarantee.
