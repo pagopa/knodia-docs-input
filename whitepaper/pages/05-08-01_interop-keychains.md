@@ -22,8 +22,8 @@ The target *Interop Node* that receives the declaration must store the reference
 
 After the declaration, the Keychain is enabled for write, edit, and delete operations towards the Target *Interop Node*.
 
-Gli *Interop Nodes* devono rispettare i seguenti requisiti:
+***Interop Nodes* must ensure the following requirements are met:**
 
- rendere disponibili ai propri Aderenti la gestione dei Keychain Interop;  
- permettere agli *Operator*i dei propri Aderenti di effettuare la dichiarazione di responsabilità per il Keychain interop verso gli altri *Interop Nodes*;  
- permettere di effettuare la conferma della dichiarazione di responsabilità per il Keychain interop da parte degli *Operator*i di altri *Interop Nodes*.
+- **They must make *Interop Keychain* management available to their *Confederate Organizations*.**
+- **They must allow *Operators* of their *Confederate Organizations* to issue responsibility declarations for an *Interop Keychain* towards other *Interop Nodes*.**
+- **They must allow *Operators* of *Confederate Organizations* of other *Interop Nodes* to confirm the responsibility declaration for their *Interop Keychain*.**

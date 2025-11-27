@@ -6,6 +6,6 @@ This API can be considered analogous to a *Cross-Border E-Service* produced by t
 
 The implementation details of the machine-to-machine API for *Confederate Organizations*, which the *Producer Interop Nodes* must implement, shall be part of the specification of the *Cross-Border Federation* produced by the Federated Consortium, as described in § [Considerations on the governance of the Cross-Border Federation](./05-11-00_federation-governance.md).
 
-Gli *Interop Nodes* devono rispettare i seguenti requisiti:
+***Interop Nodes* must ensure the following requirements are met:**
 
- esporre le API m2m agli Aderenti della Federazione Transfrontaliera.
+- **They must provide machine-to-machine APIs to the *Confederate Organizations* of the *Cross-Border Federation*.**

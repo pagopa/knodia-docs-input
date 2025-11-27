@@ -6,8 +6,8 @@ Using an Interop Keychain, a *Confederate Organization* can request an interop *
 - No *Purpose Statement* identifier is included.
 - It must include the identifier of the *Interop Node* of the requester *Confederate Organization*, on which the Interop Keychain is stored. This allows the target *Interop Node* to retrieve the Keychain data using the *Federated API*, to verify the client assertion.
 
-Gli *Interop Nodes* devono rispettare i seguenti requisiti:
+***Interop Nodes* must ensure the following requirements are met:**
 
- rendere disponibile, tramite API Federata, ad altri *Interop Nodes*, il materiale crittografico pubblico depositato nei Keychain Interop;  
- recuperare, tramite API Federata, da altri *Interop Nodes*, il materiale crittografico pubblico dei Keychain Interop per verificare le client assertion;  
- emettere *access token* interop agli Aderenti della Federazione Transfrontaliera, con grant di scrittura, modifica e cancellazione solo in presenza di dichiarazione di responsabilità da parte di un *Operator*e degli stessi.
+- **They must make the public cryptographic material deposited in *Interop Keychains* available to other *Interop Nodes* through the *Federated API*.**
+- **They must retrieve the public cryptographic material of *Interop Keychains* from other *Interop Nodes* to verify *client assertions*.**
+- **They must issue interop *access tokens* to *Confederate Organizations* of the *Cross-Border Federation*, with write, edit, or delete operations only if the declaration responsibility was made by an *Operator* of the *Organization*.**

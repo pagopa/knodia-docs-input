@@ -27,24 +27,17 @@ The *Producer* is responsible to implement verification of the *access token* in
 
 The implementation details of the token endpoint, which the *Producer Interop Nodes* must implement, shall be part of the specification of the *Cross-Border Federation* produced by the Federated Consortium, as described in § [Considerations on the governance of the Cross-Border Federation](./05-11-00_federation-governance.md).
 
-I *Consumer* devono rispettare i seguenti requisiti:
+***Consumers* must ensure the following requirements are met:**
 
- richiedere l’emissione di un *access token* al *Producer Interop Node* relativo all’E-Service Transfrontaliero di interesse in relazione ad una specifica Dichiarazione di Finalità attiva;  
- utilizzare l’accesso token emesso dal *Producer Interop Node* specifico per richiedere al *Producer* l’accesso all’E-Service Transfrontaliero di interesse.
+- **They must request an *access token* to be issued to the *Producer Interop Node* corresponding to the *Cross-Border E-Service* of interest and in relation to a specific active *Purpose Statement*.**
+- **They must use the *access token* issued by the *Producer Interop Node* to request access to the *Producer* for the *Cross-Border E-Service* of interest.**
 
-I *Producer Interop Nodes* devono rispettare i seguenti requisiti:
+***Producer Interop Nodes* must ensure the following requirements are met:**
 
- implementa il token endpoint per l’emissione degli *access token*, nel rispetto delle specifiche della Federazione Transfrontaliero, e lo rende disponibile ai *Consumer*.
+- **They must implement the token endpoint that issues *access tokens*, following the specifications of the *Cross-Border Federation*, and make it available to *Consumers*.**
 
-I *Producer* devono rispettare i seguenti requisiti:
+***Producers* must ensure the following requirements are met:**
 
- validare l’*access token* inoltrato dai *Consumer* prima di dare accesso ai propri E-Service Transfrontalieri.
+- **They must validate the *access token* sent by the *Consumer* before granting access to their *Cross-Border E-Service*.**
 
 ![](../resources/blueprint-token-creation.svg)
-
-- sub and iss: identifiers of the *Consumer* Keychain containing the public cryptographic material corresponding to the seal applied to the client assertion;
-- aud: the audience defined when the *Cross-Border E-Services* was created;
-- purposeId: the identifier of a *Purpose Statement* associated with the *Cross-Border E-Service* and the *Consumer Keychain*;
-- jti: a random unique identifier assigned by the *Consumer*;
-- iat: the timestamp reporting the date and time the token is created;
-- exp: the timestamp reporting the date and time of token expiration.

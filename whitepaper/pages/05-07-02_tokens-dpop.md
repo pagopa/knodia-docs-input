@@ -12,15 +12,15 @@ To call the *Cross-Border E-Service* with a *DPoP*-bound *access token*, the *Co
 
 The implementation details of the token endpoint to issue *DPoP*-bound *access token*, which the *Producer Interop Nodes* must implement, shall be part of the specification of the *Cross-Border Federation* produced by the Federated Consortium, as described in § [Considerations on the governance of the Cross-Border Federation](./05-11-00_federation-governance.md).
 
-I *Consumer* devono rispettare i seguenti requisiti:
+***Consumers* must ensure the following requirements are met:**
 
- richiedere l’emissione di un *access token* *DPoP*, includendo una *DPoP* proof, al *Producer Interop Node* relativo all’E-Service Transfrontaliero di interesse in relazione ad una specifica Dichiarazione di Finalità attiva;  
- utilizzare l’accesso token *DPoP* emesso dal *Producer Interop Node* specifico e una *DPoP* proof per richiedere al *Producer* l’accesso all’E-Service Transfrontaliero di interesse.
+- **They must request an *DPoP*-bound *access token* to be issued to the *Producer Interop Node* corresponding to the *Cross-Border E-Service* of interest and in relation to a specific active *Purpose Statement*.**
+- **They must use the *DPoP*-bound *access token* issued by the *Producer Interop Node* and a *DPoP* proof to request access to the *Producer* for the *Cross-Border E-Service* of interest.**
 
-I *Producer Interop Nodes* devono rispettare i seguenti requisiti:
+***Producer Interop Nodes* must ensure the following requirements are met:**
 
- implementa il token endpoint per l’emissione degli *access token* *DPoP*, nel rispetto delle specifiche della Federazione Transfrontaliero, e lo rende disponibile ai *Consumer*.
+- **They must implement the token endpoint that issues *DPoP*-bound *access tokens*, following the specifications of the *Cross-Border Federation*, and make it available to *Consumers*.**
 
-I *Producer* devono rispettare i seguenti requisiti:
+***Producers* must ensure the following requirements are met:**
 
- validare l’*access token* *DPoP* e la *DPoP* proof inoltrati dai *Consumer* prima di dare accesso ai propri E-Service Transfrontalieri.
+- **They must validate the *DPoP*-bound *access token* and the *DPoP* proof sent by the *Consumer* before granting access to their *Cross-Border E-Service*.**

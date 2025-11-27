@@ -8,9 +8,9 @@ The association occurs via the identifiers of the *Purpose Statements* stored wh
 
 The *Consumer Keychain* can afterwards be used to request *access tokens* for the related E-Services.
 
-I *Consumer Interop Nodes* devono rispettare i seguenti requisiti:
+***Consumer Interop Nodes* must ensure the following requirements are met:**
 
- rendere disponibile ai *Consumer* di associare i Keychain alle Dichiarazioni di Finalità.
+- **They must let *Consumers* associate *Keychains* to *Purpose Statements*.**
 
 The following service blueprint illustrates the flow in an example case in which the *Consumer Interop Node* has defined two distinct roles for its *Operators*. See § [Management of Operators](./05-02-02_management-of-operators.md) for more details. This example considers two roles:
 

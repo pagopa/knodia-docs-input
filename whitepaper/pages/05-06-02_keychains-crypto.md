@@ -17,11 +17,11 @@ The user interface of each *Consumer Interop Node* must enable *Consumer* *Opera
 
 The *Consumer Interop Node* must manage the lifecycle of the cryptographic material if the *Operator* that has deposited it loses authorization rights within the *Confederate Organization* (for example, removing all keys deposited by an *Operator* who no longer has access to the *Confederate Organization*).
 
-I *Consumer Interop Nodes* devono rispettare i seguenti requisiti:
+***Consumer Interop Nodes* must ensure the following requirements are met:**
 
- rendere disponibili ai propri Aderenti la gestione dei Keychain;  
- rendere disponibile, tramite API Federata, ai *Producer Interop Nodes* il materiale crittografico pubblico depositato dai *Consumer*.
+- **They must allow their *Confederate Organizations* to manage *Keychains*.**
+- **They must make the public cryptographic material deposited by *Consumers* available to *Producer Interop Nodes* through the *Federated API*.**
 
-I *Producer Interop Nodes* devono rispettare i seguenti requisiti:
+***Producer Interop Nodes* must ensure the following requirements are met:**
 
- recuperare, tramite API Federata, dai *Consumer Interop Nodes* il materiale crittografico pubblico dei *Consumer* per verificare le client assertion degli stessi.
+- **They must retrieve the *Consumers*' public cryptographic material from *Consumer Interop Nodes* to verify the *Consumers*' *client assertions*.**
