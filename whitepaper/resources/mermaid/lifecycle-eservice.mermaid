@@ -1,0 +1,17 @@
+stateDiagram
+  direction TB
+  [*] --> Active:👷🏼<br>publish version
+  Active --> Deprecated:🌐<br>deprecate when a new version is published
+  Active --> Deprecated:👷🏼<br>deprecate
+  Active --> SuspendedA:👷🏼<br>suspend
+  Deprecated --> SuspendedD:👷🏼<br>suspend
+  SuspendedA --> Active:👷🏼<br>resume
+  SuspendedD --> Deprecated:👷🏼<br>resume
+  Deprecated --> Archived:🌐<br>archive when last Consumer archives their Purpose Statements
+  Deprecated --> Archived:👷🏼<br>force-archive
+  SuspendedA:Suspended
+  SuspendedD:Suspended
+  note left of root_start 
+    🌐 = Producer Interop Node<br>
+    👷🏼 = Producer Operator
+  end note

@@ -1,0 +1,54 @@
+---
+config:
+  layout: dagre
+---
+stateDiagram-v2
+
+state IF_USER_CONFIRMATION <<choice>>
+state IF_APPROVAL_REQUIRED <<choice>>
+state IF_CHANGES_APPROVAL_REQUIRED <<choice>>
+state "Pending Operator confirmation" as PENDING_USER_CONFIRMATION
+state "Submitted" as PENDING_APPROVAL
+state Active
+state Archived
+
+[*] --> IF_USER_CONFIRMATION: 🧑🏻‍💻<br>submit Purpose Statement
+IF_USER_CONFIRMATION --> PENDING_USER_CONFIRMATION: if Operator confirmation is required
+IF_USER_CONFIRMATION --> IF_APPROVAL_REQUIRED: if Operator confirmation is not required
+
+PENDING_APPROVAL --> Active: 👷🏼<br>approve
+PENDING_APPROVAL --> Archived: 👷🏼<br>reject
+
+IF_APPROVAL_REQUIRED --> PENDING_APPROVAL: if Producer approval is required
+IF_APPROVAL_REQUIRED --> Active: if Producer approval is not required
+
+PENDING_USER_CONFIRMATION --> IF_APPROVAL_REQUIRED: 🧑🏻‍💻<br>confirm on Producer Interop Node
+
+Active --> Archived: 🧑🏻‍💻<br>archive
+
+Active --> Suspended: 👷🏼 or 🧑🏻‍💻<br>suspend
+Suspended --> Active: 👷🏼 or 🧑🏻‍💻<br>resume
+
+note right of Suspended
+  A Purpose can be suspended by either actor. It can only be resumed by the same actor.
+  Multiple suspensions associated with different actors may exist at the same time.
+end note
+
+state Active {
+  state "Active" as ACTIVE_NO_CHANGES
+  [*] --> ACTIVE_NO_CHANGES
+  state "Active<br>with requested changes" as ACTIVE_CHANGES_REQUESTED
+  state "Active<br>with rejected changes" as ACTIVE_CHANGES_REJECTED
+  ACTIVE_NO_CHANGES --> IF_CHANGES_APPROVAL_REQUIRED: 🧑🏻‍💻<br>request changes
+  IF_CHANGES_APPROVAL_REQUIRED --> ACTIVE_CHANGES_REQUESTED: if Producer approval is required
+  IF_CHANGES_APPROVAL_REQUIRED --> ACTIVE_NO_CHANGES: if Producer approval is not required
+  ACTIVE_CHANGES_REQUESTED --> ACTIVE_NO_CHANGES: 👷🏼<br>approve
+  ACTIVE_CHANGES_REQUESTED --> ACTIVE_CHANGES_REJECTED: 👷🏼<br>reject
+  ACTIVE_CHANGES_REJECTED --> IF_CHANGES_APPROVAL_REQUIRED: 🧑🏻‍💻<br>request changes
+}
+
+note left of [*]
+  🌐 = Producer Interop Node<br>
+  👷🏼 = Producer Operator<br>
+  🧑🏻‍💻 = Consumer Operator
+end note

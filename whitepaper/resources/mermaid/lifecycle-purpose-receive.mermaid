@@ -1,0 +1,19 @@
+stateDiagram-v2
+
+state Active
+state Archived
+
+[*] --> Active: 👷🏼<br>create Purpose Statement
+
+Active --> Archived: 👷🏼<br>archive
+
+Active --> Suspended: 👷🏼<br>suspend
+Suspended --> Active: 👷🏼<br>resume
+
+
+Active --> Active: 👷🏼<br>update
+
+note left of [*]
+  🌐 = Producer Interop Node<br>
+  👷🏼 = Producer Operator
+end note
