@@ -9,7 +9,7 @@ The objectives of the *EIF* are met through the realization of a shared infrastr
 
 In this scenario (regardless of the specific application domain that the interaction between interested parties involves), there is the need to authenticate and authorize access to APIs and their usage in compliance with the regulatory framework regarding the protection of personal data of natural persons – primarily, **Regulation (EU) 2016/679 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC**[^1] (in short *GDPR*). This need finds convergence with the *interoperability agreements* between organizations in the provision of a European public service, mentioned in Recommendation 26 of the *EIF*.
 
-The present proposal – within the framework of the *Interoperable Europe Act* and specifically the instrument of *regulatory sandboxes* – intends to propose establishing a technical-administrative framework that, at a cross-border level, allows managing authentication and authorization for access to APIs by the organizations involved (in short *Cross-border Federation*).
+The present proposal – within the framework of the *Interoperable Europe Act* and specifically the instrument of *regulatory sandboxes* – proposes to establish a technical-administrative framework that, at a cross-border level, allows managing authentication and authorization for access to APIs by the organizations involved (in short *Cross-border Federation*).
 
 The definition of the *Cross-border Federation*, which capitalizes on the Italian experience of the *Piattaforma Digitale Nazionale Dati* (in short *PDND*), pursues the following objectives:
 
