@@ -39,7 +39,7 @@ See § [Lifecycle of Purpose Statements](./05-09-03_lifecycle-purpose.md) for mo
 - **The *Producer Interop Node* must allow other *Interop Node* to create *Purpose Statements* using the *Federated API* (for *Provide-Data* *E-Services*) or to retrieve existing *Purpose Statements* created by the *Producer* (for *Receive-Data* *E-Services*).**
 - **The *Producer Interop Node* must forward to the *Consumer Interop Node*, using the *Federated API*, the state changes of *Purpose Statements* the *Consumer Interop Node* has created.**
 
-#### Purpose Statements for Provide-Data E-Services
+# Purpose Statements for Provide-Data E-Services
 
 A *Consumer* *Operator* may, through the user interface of the *Consumer Interop Node*, make one or more *Purpose Statements* related to an *E-Service* for which it has an active *Agreement Request*.
 
@@ -93,7 +93,7 @@ In any case, the *Consumer Interop Node* must monitor state change events of the
 - *Consumer Interop Nodes* must monitor, using the *Federated API* of the *Producer Interop Nodes*, state changes of *Purpose Statements*, to react when the confirmation is given.
 - If any additional information is requested from the *Consumer* in relation to regulation for protection of personal data of natural persons, the *Customer Interop Node* must retrieve the form to collect this information and forward it to the *Producer Interop Node*.
 
-#### Purpose Statements for Receive-Data E-Services
+# Purpose Statements for Receive-Data E-Services
 
 A *Cross-Border E-Service* in the *Receive-Data* mode allows its *Producer* to collect data from *Consumers*. In this case, the *Purpose Statement* must be made by the *Producer*, who is the subject who processes the data.
 

@@ -63,7 +63,7 @@ For what concerns *Producers*, *Interop Nodes* must ensure the following require
 - The state of the *Agreement Request* is kept up to date.
 - Changes in the state of *Agreement Requests* are made available to the *Consumer Interop Nodes* that created them via the *Federated API*.
 
-#### Confirmation by the *Consumer* *Operator*
+# Confirmation by the *Consumer* *Operator*
 
 The *Producer* can optionally configure the *Cross-Border E-Service* to request an *Operator* of the *Consumer* to confirm the submission of an *Agreement Request* on the *Producer Interop Node*.
 

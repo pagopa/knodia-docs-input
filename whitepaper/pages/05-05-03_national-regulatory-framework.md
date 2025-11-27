@@ -1,4 +1,4 @@
-#### Additional actions for Agreement Requests
+# Additional actions for Agreement Requests
 
 As mentioned in § [Agreement Request](./05-05-01_agreement.md), additional actions may be needed to activate an *Agreement Request*. This is at the discretion of the *Producer Interop Node*. It makes it possible for *Interop Nodes* to implement any additional steps demanded by the national regulatory framework they are subject too: for example, request additional information from the *Consumer* to complete the proceedings.
 
@@ -30,7 +30,7 @@ The following service blueprint defines the flow of activities carried out by th
 - **They must retrieve from the *Producer Interop Node*, using the *Federated API*, the link and any additional elements needed to carry out the requested actions.**
 - **They must forward the link and any additional elements received from the *Producer Interop Node* to the *Consumer*.**
 
-#### Additional information for Purpose Statements
+# Additional information for Purpose Statements
 
 As mentioned in § [Purpose Statement](./05-05-02_purpose.md), additional information beyond the default can be needed for the *Purpose Statement*. This is at the discretion of the *Producer Interop Node*, to comply with the national regulatory framework they are subject too.
 

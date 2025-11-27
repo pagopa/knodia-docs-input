@@ -16,7 +16,7 @@ To make pseudonymization more secure, hashing with a seed[^1] is used. The *Prod
 
 In addition to signals related to entity lifecycle changes, the *Producer* must also deposit signals meant to ease the signal processing itself: specifically, signals that notify changes in the hashing algorithm or the seed.
 
-#### Signal deposit, retrieval, and processing flow
+# Signal deposit, retrieval, and processing flow
 
 A *Producer* that intends to make signals available for data changes for a *Cross-Border E-Service* it producers must enable the Signal Hub for this E-Service. The *Producer* must also create an Interop Keychain to request *access tokens* to access the Signal Hub (see § [Interop Keychains for the Interop Node API](./05-08-01_interop-keychains.md)).
 
