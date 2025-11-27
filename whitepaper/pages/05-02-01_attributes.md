@@ -1,7 +1,5 @@
 # Attributes of Confederate Organizations
 
-FIXME uniform "attributes" and "federated attributes"?
-
 Attributes are characteristics that a *Confederate Organization* may have which determine which E-Services it can submit *Agreement Requests* for. This implements the ABAC (attribute-based access control) model where:
 
 - E-Services are the resources subject to access control, access meaning the right to submit an *Agreement Request*;
