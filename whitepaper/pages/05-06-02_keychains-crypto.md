@@ -1,7 +1,3 @@
-# Management of cryptographic material
-
-### Management of cryptographic material
-
 The *Consumer Keychain* is the digital container in which the *Consumer* deposits the public cryptographic material corresponding to the Electronic Seals it uses to seal *access token* requests to consume E-Services.
 
 Each *Consumer* creates and manages its *Consumer Keychains* on its own *Consumer Interop Node*, using the latter's user interface. The *Consumer Interop Node* must make *Consumer Keychains* available through the *Federated API* so a *Producer Interop Node* can retrieve the cryptographic material needed for verification. See § [Issuance of E-Service access tokens](./05-07-00_tokens.md) for more details.
