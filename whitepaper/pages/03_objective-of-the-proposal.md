@@ -13,9 +13,9 @@ The present proposal – within the framework of the *Interoperable Europe Act* 
 
 The definition of the *Cross-border Federation*, which capitalizes on the Italian experience of the *Piattaforma Digitale Nazionale Dati* (in short *PDND*), pursues the following objectives:
 
-- Ensure the identification of organizations participating in the ecosystem (*Confederate Organizations*) and guarantee the assignment of *certified attributes* to them.
+- Ensure the identification of organizations participating in the ecosystem (*Confederate Organizations*) and guarantee the assignment of *attributes* to them.
 - Allow *Confederate Organizations* to make APIs available for access to data and services for which the organization itself is the authoritative source (*Producers*).
-- Allow *Producers* to limit *Confederate Organizations* who can request access to their APIs based on the *certified attributes* the latter possess.
+- Allow *Producers* to limit *Confederate Organizations* who can request access to their APIs based on the *attributes* the latter possess.
 - Identify a process by which potential *Consumers* request access to APIs to *Producers*, adaptable to the regulatory frameworks of Member States where needed.
 - Allow *Consumers* to declare, in compliance with the *GDPR* and any provisions of Member States, the lawfulness of the processing of data they access via API.
 
