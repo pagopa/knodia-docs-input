@@ -10,7 +10,7 @@ The *Cross-Border Federation* proposal is intended to comply with the current Eu
 
 This document is organized in four distinct chapters. Specifically:
 
-- [**Regulatory context**](./02_regulatory-context.md) considers this proposal in the context of Regulation (EU) 2024/093.
+- [**Regulatory context**](./02_regulatory-context.md) considers this proposal in the context of Regulation (EU) 2024/903.
 - [**Objective of the proposal**](./03_objective-of-the-proposal.md) presents the objectives which this proposal intends to fulfil.
 - [**The Cross-Border Federation as an evolution of the Italian interoperability experience**](./04-00_italian-interop-intro.md) summarizes the Italian experience on interoperability from which this proposal originates.
 - [**Cross-border federated interoperability**](./05-00_crossborder-federated-interop.md) describes the proposal in terms of the elements that compose the *Cross-Border Federation* and the methods used by its participants to implement it.
