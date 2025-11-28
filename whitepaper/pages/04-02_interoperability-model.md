@@ -13,7 +13,7 @@ The *ModI* is based on the following principles:
 
 - **Interactions:** Interactions assume that the involved entities, public and private, can perform the function of *Producer* of *e-services*, when they make digital services available to other entities, and the function of *Consumer* of *e-services*, when they use the *e-services* made available by another entity.
 - **Application programming interface:** The *e-services* made available by *Producers* are implemented by application programming interfaces (APIs) using either of these technologies and standards for remote invocation:
-    - SOAP and the so-called WS-* stack;
+    - SOAP over HTTP and the so-called WS-* stack;
     - REST APIs classifiable at Level 1 of the Richardson Maturity Model, hereinafter HTTP APIs.
 - **Interoperability patterns and profiles:** Patterns and profiles of interoperability are progressively identified, with the involvement of interested parties. These define solutions to secure data exchange needs, which *Producers* use to implement their *e-services*.
 - **Division of responsibilities:** *Producers* are responsible for the *e-services* they provide, while *Consumers* are responsible for the management of data received through them.
