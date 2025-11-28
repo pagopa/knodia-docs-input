@@ -9,7 +9,7 @@ In this scenario, regardless of the specific application domain that the interac
 
 [^1]: [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679)
 
-The present proposal – within the framework of the *Interoperable Europe Act* and specifically the instrument of *regulatory sandboxes* – proposes to establish a technical-administrative framework that, at a cross-border level, allows managing authentication and authorization for access to APIs by the organizations involved (in short *Cross-border Federation*).
+The present proposal – within the framework of the *Interoperable Europe Act* and specifically the instrument of *interoperability regulatory sandboxes* – proposes to establish a technical-administrative framework that, at a cross-border level, allows managing authentication and authorization for access to APIs by the organizations involved (in short *Cross-border Federation*).
 
 The definition of the *Cross-border Federation*, which capitalizes on the Italian experience of the *Piattaforma Digitale Nazionale Dati* (in short *PDND*), pursues the following objectives:
 
