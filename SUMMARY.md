@@ -10,12 +10,7 @@
 - [The Italian public cooperation system](pages/04-01_public-cooperation-system.md)
 - [The Italian interoperability model](pages/04-02_interoperability-model.md)
 - [Evolution from the the public cooperation system to the interoperability model](pages/04-03_evolution.md)
-- [Comparing *Porte di Dominio* and *PDND*](pages/04-04-00_pdd-and-pdnd.md)
-  - [Technological aspects](pages/04-04-01_pdd-and-pdnd-technological.md)
-  - [Operative aspects](pages/04-04-02_pdd-and-pdnd-operative.md)
-  - [Functionality](pages/04-04-03_pdd-and-pdnd-functionality.md)
-  - [Governance and compliance](pages/04-04-04_pdd-and-pdnd-governance-compliance.md)
-  - [Ecosystem and support](pages/04-04-05_pdd-and-pdnd-ecosystem-support.md)
+- [Comparing *Porte di Dominio* and *PDND*](pages/04-04_pdd-and-pdnd.md)
 
 ## Cross-border federated interoperability
 
