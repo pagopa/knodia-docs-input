@@ -4,8 +4,8 @@ The *ModI* critically evolved the *SPCoop* based on the experience gained from t
 
 The adoption of the *ModI* by Italian public administrations is provided for by the **Decreto Legislativo del 7 marzo 2005, n. 82** and, specifically, by:
 
-- Article 73, paragraph 3-ter, letter b), regarding the adoption of guidelines and rules for cooperation and interoperability;
-- Article 50-ter, paragraph 2, regarding the *Piattaforma Digitale Nazionale Dati* (briefly *PDND*) as the technological infrastructure that enables the interoperability of IT systems and databases between public entities and between these and private entities.
+- section 73, paragraph 3-ter, letter b), regarding the adoption of guidelines and rules for cooperation and interoperability;
+- section 50-ter, paragraph 2, regarding the *Piattaforma Digitale Nazionale Dati* (briefly *PDND*) as the technological infrastructure that enables the interoperability of IT systems and databases between public entities and between these and private entities.
 
 Operationally, the *ModI* is regulated by guidelines adopted by the *Agenzia per l'Italia Digitale*, in agreement with the *Dipartimento per la trasformazione digitale*, and constantly updated, also by incorporating requests from interested parties.
 
