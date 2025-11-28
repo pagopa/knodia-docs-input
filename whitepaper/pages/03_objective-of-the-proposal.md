@@ -36,7 +36,7 @@ The proposed *Cross-Border Federation* ensures that:
 
 - Attribution of responsibilities to the subjects involved for the functioning of the ecosystem is certain.
 - APIs made available by *Producers* are published on the *E-Service Catalogue* of the *Interoperability Node* on which the *Producer* is identified.
-- Access to APIs upon completion of actions and declarations made by *Consumers*, and implicit or explicit acceptance by *Producers*, is secure.
+- Security access to APIs upon completion of actions and declarations made by *Consumers* and, implicit or explicit, acceptance by *Producers*.
 - Interaction occurs directly between *Producers* and *Consumers*, in synchronous or asynchronous modes, without intermediation components that can be potential single points of failue.
 - A technical architecture is defined for the components necessary to implement the ecosystem.
 - Open standards are used to define the communication protocols implemented by the ecosystem components.
