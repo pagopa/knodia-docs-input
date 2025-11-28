@@ -42,7 +42,7 @@ The proposed *Cross-Border Federation* ensures that:
 - Open standards are used to define the communication protocols implemented by the ecosystem components.
 - Templates for APIs and declarations of lawfulness of personal data processing are available to facilitate *Confederate Organizations*.
 - Both human-oriented and machine-to-machine interfaces are available to let *Confederate Organizations* use the functionality provided by *Interoperability Nodes*.
-- Functionality is available for *Confederate Organizations* to deposit on the *Interoperability Nodes*, in public key and X.509 certificate formats, the cryptographic material necessary to secure interactions.
+- Necessary tools for *Confederate Organizations* to deposit on the *Interoperability Nodes*, in public key and X.509 certificate formats, the cryptographic material necessary to secure interactions.
 - *Producers* can request *Consumers* of their APIs proof of possession of the cryptographic material deposited by the latter on the *Interoperability Nodes*.
 - The *Interoperability Nodes* provide functionality useful to notify interested *Consumers* of changes of data held by the Producers.
 
