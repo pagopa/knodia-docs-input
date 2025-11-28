@@ -60,3 +60,8 @@
 - [Considerations on the governance of the Cross-Border Federation](pages/05-11-00_federation-governance.md)
   - [Distribution of knowledge between Interop Nodes](pages/05-11-01_distribution-of-knowledge.md)
   - [Configuration of the federation of Interop Nodes](pages/05-11-02_federation-configuration.md)
+
+## Annex
+
+- [Glossary](pages/06-01_glossary.md)
+- [Reading service blueprints](pages/06-02_reading-service-blueprints.md)
