@@ -1,14 +1,14 @@
-Attributes are characteristics that a *Confederate Organization* may have which determine which *E-Services* it can submit *Agreement Requests* for. This implements the ABAC (attribute-based access control) model where:
+*Attributes* are characteristics that a *Confederate Organization* may have which determine which *E-Services* it can submit *Agreement Requests* for. This implements the ABAC (attribute-based access control) model where:
 
 - *E-Services* are the resources subject to access control, access meaning the right to submit an *Agreement Request*;
-- the *Producer* specifies in the *consumption requirements* of its *E-Service* which Attributes are required;
-- to submit an *Agreement Request* for the *Cross-Border E-Service*, a *Consumer* must possess the Attributes indicated by the *Producer* in the *consumption requirements*.
+- the *Producer* specifies in the *consumption requirements* of its *E-Service* which *Attributes* are required;
+- to submit an *Agreement Request* for the *Cross-Border E-Service*, a *Consumer* must possess the *Attributes* indicated by the *Producer* in the *consumption requirements*.
 
-*Knodia* requires *Knodes* to manage Attributes for their *Confederate Organizations*.
+*Knodia* requires *Knodes* to manage *Attributes* for their *Confederate Organizations*.
 
-Each *Interoperability Domain* which joins *Knodia* must ensure that its *Knode* assigns and maintains Attributes which are shared among *Knodia*, hereinafter referred to as *Federated Attributes*.
+Each *Interoperability Domain* which joins *Knodia* must ensure that its *Knode* assigns and maintains *Attributes* which are shared among *Knodia*, hereinafter referred to as *Federated Attributes*.
 
-For example, consider that attributes are needed to identify the administrative divisions of Member State (NUTS). Each *Knode* should translate these attributes as befits its *Interoperability Domain*: e.g., NUTS 1 should translated as “Land” for Germany, NUTS 2 as “Regione” for Italy, etc.
+For example, consider that attributes are needed to identify the administrative divisions of Member States (NUTS). Each *Knode* should translate these attributes as befits its *Interoperability Domain*: e.g., NUTS 1 should translated as “Land” for Germany, NUTS 2 as “Regione” for Italy, etc.
 
 *Knodia* must therefore define and share a controlled vocabulary for *Federated Attributes*. In this example, this controlled vocabulary will contain the attributes “NUTS 1” and “NUTS 2” to identify the first- and second-level administrative divisions. Each *Knode* can render the *Federated Attributes* translated into the languages of its *Interoperability Domain*.
 
