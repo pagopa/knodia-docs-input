@@ -1,6 +1,6 @@
-The *Consumer Keychain* is the digital container in which the *Consumer* deposits the public cryptographic material corresponding to the Electronic Seals it uses to seal *access token* requests to consume *E-Services*.
+The *Consumer Keychain* is the digital container in which the *Consumer* deposits the public cryptographic material corresponding to the Electronic Seals it uses to seal *access token* requests to consume *Cross-Border E-Services*.
 
-Each *Consumer* creates and manages its *Consumer Keychains* on its own *Consumer Knode*, using the latter’s user interface. The *Consumer Knode* must make *Consumer Keychains* available through the *Federated API* so a *Producer Knode* can retrieve the cryptographic material needed for verification. See § [Issuance of E-Service access tokens](./05-07-00_tokens.md) for more details.
+Each *Consumer* creates and manages its *Consumer Keychains* on its own *Consumer Knode*, using the latter’s user interface. The *Consumer Knode* must make *Consumer Keychains* available through the *Federated API* so a *Producer Knode* can retrieve the cryptographic material needed for verification. See § [Issuance of access tokens for Cross-Border E-Services](./05-07-00_tokens.md) for more details.
 
 This architectural choice lets each *Knode* be fully autonomous in managing the public cryptographic material of its onboarded *Confederate Organizations*. Therefore, this material need to be distributed and stored on different nodes, which would be more complex and could increase the risk of misalignment.
 

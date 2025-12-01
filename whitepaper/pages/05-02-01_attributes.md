@@ -1,7 +1,7 @@
-*Attributes* are characteristics that a *Confederate Organization* may have which determine which *E-Services* it can submit *Agreement Requests* for. This implements the ABAC (attribute-based access control) model where:
+*Attributes* are characteristics that a *Confederate Organization* may have which determine which *Cross-Border E-Services* it can submit *Agreement Requests* for. This implements the ABAC (attribute-based access control) model where:
 
-- *E-Services* are the resources subject to access control, access meaning the right to submit an *Agreement Request*;
-- the *Producer* specifies in the *consumption requirements* of its *E-Service* which *Attributes* are required;
+- *Cross-Border E-Services* are the resources subject to access control, access meaning the right to submit an *Agreement Request*;
+- the *Producer* specifies in the *consumption requirements* of its *Cross-Border E-Service* which *Attributes* are required;
 - to submit an *Agreement Request* for the *Cross-Border E-Service*, a *Consumer* must possess the *Attributes* indicated by the *Producer* in the *consumption requirements*.
 
 *Knodia* requires *Knodes* to manage *Attributes* for their *Confederate Organizations*.

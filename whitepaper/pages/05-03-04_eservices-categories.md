@@ -1,4 +1,4 @@
-*Knodes* must allow *Producers* to associate *E-Services* to categories that are shared within *Knodia*. This is intended to simplify searching for services, using categories that are standardized across all *Interoperability Domains*.
+*Knodes* must allow *Producers* to associate *Cross-Border E-Services* to categories that are shared within *Knodia*. This is intended to simplify searching for services, using categories that are standardized across all *Interoperability Domains*.
 
 By way of example, consider the need to identify the *Cross-Border E-Services* that provide data ona citizen’s main address of residence. Several *Knodes* will include *E-Services* that provide this data, and *Knodes* can translate this concept as relevant in each *Interoperability Domain*: “residenza” for Italy, “Wohnsitz” for Germany, etc.
 
@@ -8,4 +8,4 @@ The lifecycle of this controlled vocabulary is a responsibility of the *Knodia C
 
 ***Knodes* must ensure the following requirement is met:**
 
-- ***E-Services* can be associated to *Federated Categories* and are preferably associated to at least one *Federated Category*.**
+- ***Cross-Border E-Services* can be associated to *Federated Categories* and are preferably associated to at least one *Federated Category*.**

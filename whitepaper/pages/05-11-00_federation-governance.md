@@ -4,7 +4,7 @@ The main task of this Consortium is to define the *Federated API* to be implemen
 
 The *Knodia Consortium* will be responsible to define and evolve the shared artifacts necessary to enable *cross-border interactions*. Specifically, these include:
 
-- the controlled vocabularies of *Federated Attributes* and *E-Service* Federated Categories (as defined in the corresponding sections);
+- the controlled vocabularies of *Federated Attributes* and *Cross-Border E-Service* Federated Categories (as defined in the corresponding sections);
 - the specification of the *Federated API* which every *Knode* must provide to other *Knodes* to retrieve data and events for the various resources (this should be based on the needs identified in § [Distribution of knowledge between Knodes](./05-11-01_distribution-of-knowledge.md));
 - the set of events that *Knodes* need to track for each resource and to publish using dedicated endpoints of the *Federated API*, so other *Knodes* can react to them;
 - the specification of the *Knode* API that every *Knode* must provide to Organizations to retrieve and manage resources programmatically;

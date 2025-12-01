@@ -6,7 +6,7 @@ Organizations make *Cross-Border E-Services* available – hereinafter *produce*
 
 - the *Interoperability Nodes* (hereinafter *Knodes*), which are the managers responsible for identifying and managing each a distinct set of *Confederate Organizations*, offering them the functionality needed to enable interaction with *Confederate Organizations* of other *Knodes*;
 - the *Confederate Organizations*, which are the organizations that assume either or both roles of:
-  - *Producer*, when they provide *E-Services* to other *Confederate Organizations*;
+  - *Producer*, when they provide *Cross-Border E-Services* to other *Confederate Organizations*;
   - *Consumers*, when they consume the *Cross-Border E-Services* of the *Producers*.
 
 Taken together, the *Knodes*, *Producers*, and *Consumers* constitute *Knodia*, which is based on trust established between the participating *Knodes*. *Producers* and *Consumers* are recognized as participants in *Knodia* and carry out *cross-border interactions* between them, based on the information exchanged by the *Knodes* that have recognized them.

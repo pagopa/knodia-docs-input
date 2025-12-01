@@ -35,7 +35,7 @@ In the digital ecosystem constituted by *Knodia*:
 The proposed cross-border federation realized by *Knodia* ensures that:
 
 - The attribution of responsibilities to the subjects involved in the functioning of the ecosystem is certain.
-- APIs made available by *Producers* are published on the *E-Service Catalogue* of the *Knode* on which the *Producer* is identified.
+- APIs made available by *Producers* are published on the *Cross-Border E-Service Catalogue* of the *Knode* on which the *Producer* is identified.
 - Access to APIs occurs securely upon completion of actions and declarations made by *Consumers*, and upon (implicit or explicit) acceptance by *Producers*.
 - Interaction occurs directly between *Producers* and *Consumers*, in synchronous or asynchronous modes, without intermediation components that can be potential single points of failure.
 - A technical architecture is defined for the components necessary to implement the ecosystem.

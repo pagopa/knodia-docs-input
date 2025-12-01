@@ -30,18 +30,18 @@ See § [Lifecycle of Purpose Statements](./05-09-03_lifecycle-purpose.md) for mo
 
 ***Consumer Knodes* must ensure the following requirements are met:**
 
-- ***Confederate Organizations* can create or select (respectively, for *Provide-Data* or *Receive-Data* *E-Services*) the *Purpose Statements* for *Agreement Requests* and receive notifications related to them.**
+- ***Confederate Organizations* can create or select (respectively, for *Provide-Data* or *Receive-Data* *Cross-Border E-Services*) the *Purpose Statements* for *Agreement Requests* and receive notifications related to them.**
 - **The *Consumer Knode* must forward the request to create a *Purpose Statement* to the *Producer Knode* using the *Federated API*.**
 - **The *Consumer Knode* must receive from the *Producer Knode*, using the *Federated API*, evidence on the state of *Purpose Statements* it has created.**
 
 ***Producer Knodes* must ensure the following requirements are met:**
 
-- **The *Producer Knode* must allow other *Knode* to create *Purpose Statements* using the *Federated API* (for *Provide-Data* *E-Services*) or to retrieve existing *Purpose Statements* created by the *Producer* (for *Receive-Data* *E-Services*).**
+- **The *Producer Knode* must allow other *Knode* to create *Purpose Statements* using the *Federated API* (for *Provide-Data* *Cross-Border E-Services*) or to retrieve existing *Purpose Statements* created by the *Producer* (for *Receive-Data* *Cross-Border E-Services*).**
 - **The *Producer Knode* must forward to the *Consumer Knode*, using the *Federated API*, the state changes of *Purpose Statements* the *Consumer Knode* has created.**
 
 # Purpose Statements for Provide-Data E-Services
 
-A *Consumer* *Operator* may, through the user interface of the *Consumer Knode*, make one or more *Purpose Statements* related to an *E-Service* for which it has an active *Agreement Request*.
+A *Consumer* *Operator* may, through the user interface of the *Consumer Knode*, make one or more *Purpose Statements* related to a *Cross-Border E-Service* for which it has an active *Agreement Request*.
 
 The *Consumer Knode*:
 

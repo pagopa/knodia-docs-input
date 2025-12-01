@@ -1,4 +1,4 @@
-Using an Interop Keychain, a *Confederate Organization* can request an interop *access token* to the target *Knode*. To do this, it must send a request with a client assertion, as described in § [Issuance of E-Service access tokens](./05-07-00_tokens.md), with the following differences:
+Using an Interop Keychain, a *Confederate Organization* can request an interop *access token* to the target *Knode*. To do this, it must send a request with a client assertion, as described in § [Issuance of access tokens for Cross-Border E-Services](./05-07-00_tokens.md), with the following differences:
 
 - The audience must be one of those declared in the *Knode*’s API specification.
 - No *Purpose Statement* identifier is included.

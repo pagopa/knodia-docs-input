@@ -2,7 +2,7 @@ The following diagram illustrates the lifecycle of a *Purpose Statement* created
 
 The states are:
 
-- **Pending Operator confirmation:** The *Purpose Statement* is created by the *Producer Knode* in this state if if the *Producer* requested, for that *E-Service*, that a *Consumer* *Operator* confirms the operation via *eIDAS login* on the *Producer Knode*.
+- **Pending Operator confirmation:** The *Purpose Statement* is created by the *Producer Knode* in this state if if the *Producer* requested, for that *Cross-Border E-Service*, that a *Consumer* *Operator* confirms the operation via *eIDAS login* on the *Producer Knode*.
 - **Submitted:** The *Purpose Statement* has been created, but the *Producer* must approve it. The *Producer* can approve it or reject it. *Producer* approval may not be necessary, depending on the policies of the *Producer Knode*.
 - **Active:** The *Purpose Statement* has been approved and is active. The *Consumer* can request *access tokens* for the corresponding *E-Service*. This state includes two distinct sub-states:
   - **Active, with requested changes:** The *Consumer* has requested to update the *Purpose Statement*. The *Purpose Statement* remains in the current state until the changes are applied, following the policy of the *Producer Knode*.
