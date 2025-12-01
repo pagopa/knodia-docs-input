@@ -12,7 +12,7 @@ The remainder of this section reports considerations on this functionality based
 
 A signal is an object that serves as a notification of data change. It identifies the entity whose data changed. Entities are identified pseudonymously, using a hashing algorithm. This allows the *Consumer* to reconcile them by comparing the entity identifiers the *Consumer* already know with their pseudonymous representation included in the signals.
 
-To make pseudonymization more secure, hashing with a seed[^1] is used. The *Producer* must expose in its E-Service the reference to the hashing algorithm and the seed it currently uses.
+To make pseudonymization more secure, hashing with a seed[1[^1]] is used. The *Producer* must expose in its E-Service the reference to the hashing algorithm and the seed it currently uses.
 
 [^1]: The Italian implementation of the Signal Hub for the PDND has followed the report “Pseudonymisation techniques and best practices” of the ENISA, available at the URL [https://www.enisa.europa.eu/publications/pseudonymisation-techniques-and-best-practices](https://www.enisa.europa.eu/publications/pseudonymisation-techniques-and-best-practices).
 
