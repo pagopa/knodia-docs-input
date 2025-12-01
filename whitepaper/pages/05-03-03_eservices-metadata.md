@@ -2,4 +2,4 @@
 
 ***Knodes* must ensure the following requirement is met:**
 
-- **Publised *Cross-Border E-Services* include the metadata required by *Knodia* at least in its accepted common language.**
+- **Published *Cross-Border E-Services* include the metadata required by *Knodia* at least in its accepted common language.**

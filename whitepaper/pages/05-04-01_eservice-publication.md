@@ -1,4 +1,4 @@
-An *Knode* must allow its *Confederate Organizations* that are *Producers* of *Cross-Border E-Services* to publish their *E-Services* on the Node Catalogue.
+An *Knode* must allow its *Confederate Organizations* that are *Producers* of *Cross-Border E-Services* to publish their *E-Services* on the *Knode Catalogue*.
 
 A *Producer* must define the required characteristics to publish a *Cross-Border E-Service*, as described in § [Cross-Border E-Services](./05-03-00_eservices.md), and manage its lifecycle as described in § [Lifecycle of E-Services](./05-09-01_lifecycle-eservice.md).
 
