@@ -27,7 +27,7 @@ The implementation details of the token endpoint, which the *Producer Knodes* mu
 
 ***Consumers* must ensure the following requirements are met:**
 
-- **They must request an *access token* to be issued to the *Producer Knode* corresponding to the *Cross-Border E-Service* of interest and in relation to a specific active *Purpose Statement*.**
+- **They must request an *access token* to the *Producer Knode* corresponding to the *Cross-Border E-Service* of interest and in relation to a specific active *Purpose Statement*.**
 - **They must use the *access token* issued by the *Producer Knode* to request access to the *Producer* for the *Cross-Border E-Service* of interest.**
 
 ***Producer Knodes* must ensure the following requirements are met:**
