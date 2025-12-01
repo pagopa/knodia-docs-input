@@ -35,15 +35,15 @@ In the digital ecosystem constituted by *Knodia*:
 The proposed cross-border federation realized by *Knodia* ensures that:
 
 - Attribution of responsibilities to the subjects involved for the functioning of the ecosystem is certain.
-- APIs made available by *Producers* are published on the *E-Service Catalogue* of the *Interoperability Node* on which the *Producer* is identified.
+- APIs made available by *Producers* are published on the *E-Service Catalogue* of the *Knode* on which the *Producer* is identified.
 - Access to APIs occurs securely, upon completion of actions and declarations made by *Consumers* and (implicit or explicit) acceptance by *Producers*.
 - Interaction occurs directly between *Producers* and *Consumers*, in synchronous or asynchronous modes, without intermediation components that can be potential single points of failure.
 - A technical architecture is defined for the components necessary to implement the ecosystem.
 - Open standards are used to define the communication protocols implemented by the ecosystem components.
 - Templates for APIs and declarations of lawfulness of personal data processing are available to facilitate *Confederate Organizations*.
-- Both human-oriented and machine-to-machine interfaces are available to let *Confederate Organizations* use the functionality provided by *Interoperability Nodes*.
-- The necessary tools are available for *Confederate Organizations* to deposit on the *Interoperability Nodes*, in public key and X.509 certificate formats, the cryptographic material necessary to secure interactions.
-- *Producers* can request *Consumers* of their APIs proof of possession of the cryptographic material deposited by the latter on the *Interoperability Nodes*.
-- The *Interoperability Nodes* provide functionality useful to notify interested *Consumers* of changes of data held by the Producers.
+- Both human-oriented and machine-to-machine interfaces are available to let *Confederate Organizations* use the functionality provided by *Knodes*.
+- The necessary tools are available for *Confederate Organizations* to deposit on the *Knodes*, in public key and X.509 certificate formats, the cryptographic material necessary to secure interactions.
+- *Producers* can request *Consumers* of their APIs proof of possession of the cryptographic material deposited by the latter on the *Knodes*.
+- The *Knodes* provide functionality useful to notify interested *Consumers* of changes of data held by the Producers.
 
 This proposal will be supplemented by the preparation of a prototype of the application components necessary to realize *Knodia*, to be made available to subjects interested in verifying its functioning.
