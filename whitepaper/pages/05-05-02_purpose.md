@@ -21,7 +21,7 @@ The *Consumer* must declare the load it expects to put on the *Cross-Border E-Se
 - for *Provide-Data* *E-Services*, the *Consumer* declares it in each *Purpose Statement* it creates;
 - for *Receive-Data* *E-Services*, the *Consumer* declares it by selecting the *Purpose Statement* created by the *Producer*.
 
-Each *Producer Knode* may choose to define and carry out checks regarding the load declared by the *Consumer* versus the quotas defined by the *Producer* of the *Cross-Border E-Service*. For example, an *Knode* may choose:
+Each *Producer Knode* may choose to define and carry out checks regarding the load declared by the *Consumer* versus the quotas defined by the *Producer* of the *Cross-Border E-Service*. For example, a *Knode* may choose:
 
 - not to perform any check (the load declaration is only used to inform the *Producer*, who can dimension infrastructure accordingly and possibly defer or reject requests in excess of the declared load);
 - to prevent creating new *Purpose Statements* if the quotas declared by the *Producer* for that *E-Service* is saturated by existing *Purpose Statements*.

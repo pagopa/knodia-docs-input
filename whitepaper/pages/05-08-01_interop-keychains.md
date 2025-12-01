@@ -1,4 +1,4 @@
-Interop Keychains are used by *Confederate Organizations* to request *access tokens* for the machine-to-machine API of an *Knode*, hereinafter referred to as the target *Knode*. They are like the *Consumer Keychains* described in § [Consumer Keychains](./05-06-00_keychains.md), except for these differences:
+Interop Keychains are used by *Confederate Organizations* to request *access tokens* for the machine-to-machine API of a *Knode*, hereinafter referred to as the target *Knode*. They are like the *Consumer Keychains* described in § [Consumer Keychains](./05-06-00_keychains.md), except for these differences:
 
 - They are not be associated with *Purpose Statement*.
 - By default, they can only be used to perform read operations.
