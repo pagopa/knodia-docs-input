@@ -25,7 +25,7 @@
   - [Consumption requirements](pages/05-03-02_eservices-requirements.md)
   - [Metadata](pages/05-03-03_eservices-metadata.md)
   - [Federated Categories](pages/05-03-04_eservices-categories.md)
-- [Node Catalogue](pages/05-04-00_catalogue.md)
+- [Knode Catalogue](pages/05-04-00_catalogue.md)
   - [Cross-Border E-Service Publication](pages/05-04-01_eservice-publication.md)
   - [Cross-Border E-Service Discovery](pages/05-04-02_eservice-discovery.md)
 - [Consuming Cross-Border E-Services](pages/05-05-00_consuming.md)
