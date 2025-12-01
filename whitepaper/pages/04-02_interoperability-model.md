@@ -30,11 +30,11 @@ The *ModI* is based on the following principles:
         - RFC3230, RFC3744, RFC5246, RFC5789, RFC7231, RFC7233, RFC7389, RFC7396, RFC7515, RFC7519, RFC8725, RFC9110, for the implementation of application interfaces (API);
         - OpenAPI Specification, as the language for interface description.
 
-[^1]: https://www.w3.org/
+[^1]: [https://www.w3.org/](https://www.w3.org/)
 
-[^2]: https://www.ietf.org/
+[^2]: [https://www.ietf.org/](https://www.ietf.org/)
 
-[^3]: https://www.linuxfoundation.org/
+[^3]: [https://www.linuxfoundation.org/](https://www.linuxfoundation.org/)
 
 The *ModI* preserves the adoption of the Service-Oriented Computing paradigm and the organization as a Service-Oriented Architecture of the *SPCoop*. It includes the *PDND* in its reference architecture as an infrastructural component that provides services to *Producers* and *Consumers* (generally referred to as *Organizations*) to enable their interaction. In particular:
 

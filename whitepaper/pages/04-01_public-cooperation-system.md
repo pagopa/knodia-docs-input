@@ -7,7 +7,7 @@ The *SPCoop* constituted the conceptual and architectural model of application c
 
 The adoption of the *SPCoop* by Italian public administrations derived from the provisions of the **Decreto del Presidente del Consiglio dei Ministri del 1 aprile 2008 - Regole tecniche e di sicurezza per il funzionamento del Sistema pubblico di connettività previste dall’articolo 71, comma 1-bis del decreto legislativo 7 marzo 2005, n. 82** [1[^1]]. It was fully delineated at the technical-implementation level by guidelines that mandated the use of well-established standards at the time of their adoption.
 
-[^1]: https://www.gazzettaufficiale.it/eli/id/2008/06/21/08A04425/sg
+[^1]: [https://www.gazzettaufficiale.it/eli/id/2008/06/21/08A04425/sg](https://www.gazzettaufficiale.it/eli/id/2008/06/21/08A04425/sg)
 
 The *SPCoop* was based on the following principles:
 
@@ -21,9 +21,9 @@ The *SPCoop* was based on the following principles:
 
   These were completed by defining national standards, such as the extension to SOAP called *busta e-gov*, to meet the objectives of the *SPCoop*.
 
-[^2]: https://www.w3.org/
+[^2]: [https://www.w3.org/](https://www.w3.org/)
 
-[^3]: https://www.oasis-open.org/
+[^3]: [https://www.oasis-open.org/](https://www.oasis-open.org/)
 
 In summary, the *SPCoop* was based on the Service-Oriented Computing paradigm and organized as a Service-Oriented Architecture, by adopting international technologies and standards, extended and integrated, to make this architecture suitable for the Italian e-Government context.
 

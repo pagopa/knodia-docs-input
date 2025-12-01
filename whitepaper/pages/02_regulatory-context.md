@@ -12,6 +12,6 @@ The current version of the *EIF* is the one set out in Annex 2 to the **Communic
 
 The *Interoperable Europe Act* allows for the creation of *interoperability regulatory sandboxes*, also for “fostering innovation and facilitating the development and roll-out of innovative digital *interoperability solutions* for public services” (section 11 of the *Interoperable Europe Act*).
 
-[^1]:  https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R0903
+[^1]:  [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R0903](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R0903)
 
-[^2]:  https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM%3A2017%3A134%3AFIN
+[^2]:  [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM%3A2017%3A134%3AFIN](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM%3A2017%3A134%3AFIN)
