@@ -17,7 +17,7 @@ The *ModI* is based on the following principles:
     - REST APIs classifiable at Level 1 of the Richardson Maturity Model, hereinafter HTTP APIs.
 - **Interoperability patterns and profiles:** Patterns and profiles of interoperability are progressively identified, with the involvement of interested parties. These define solutions to secure data exchange needs, which *Producers* use to implement their *e-services*.
 - **Division of responsibilities:** *Producers* are responsible for the *e-services* they provide, while *Consumers* are responsible for the management of data received through them.
-- **Cooperation technologies:** *E-services* are provided and consumed through technologies and standards for remote invocation, standardized (*de iure* and *de facto*) at the international level (W3C[1[^1]], Internet Engineering Task Force[2[^2]], and Linux Foundation[3[^3]]). Specifically:
+- **Cooperation technologies:** *E-services* are provided and consumed through technologies and standards for remote invocation, standardized (*de iure* and *de facto*) at the international level (W3C [1[^1]], Internet Engineering Task Force [2[^2]], and Linux Foundation [3[^3]]). Specifically:
     - *Regarding SOAP over HTTP e-service implementations:*
         - Simple Object Access Protocol (SOAP), as the application protocol for remote service invocation.
         - Web Service Description Language (WSDL), as the language for interface description.

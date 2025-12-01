@@ -5,7 +5,7 @@ The *SPCoop* constituted the conceptual and architectural model of application c
 3. Guarantee the independence of cooperating entities in relation to their organizational structures and the management of their IT systems.
 4. Delegate to individual cooperating entities the responsibility for authorizing access to data and/or services they provide.
 
-The adoption of the *SPCoop* by Italian public administrations derived from the provisions of the **Decreto del Presidente del Consiglio dei Ministri del 1 aprile 2008 - Regole tecniche e di sicurezza per il funzionamento del Sistema pubblico di connettività previste dall’articolo 71, comma 1-bis del decreto legislativo 7 marzo 2005, n. 82 [1[^1]]**. It was fully delineated at the technical-implementation level by guidelines that mandated the use of well-established standards at the time of their adoption.
+The adoption of the *SPCoop* by Italian public administrations derived from the provisions of the **Decreto del Presidente del Consiglio dei Ministri del 1 aprile 2008 - Regole tecniche e di sicurezza per il funzionamento del Sistema pubblico di connettività previste dall’articolo 71, comma 1-bis del decreto legislativo 7 marzo 2005, n. 82** [1[^1]]. It was fully delineated at the technical-implementation level by guidelines that mandated the use of well-established standards at the time of their adoption.
 
 [^1]: https://www.gazzettaufficiale.it/eli/id/2008/06/21/08A04425/sg
 
