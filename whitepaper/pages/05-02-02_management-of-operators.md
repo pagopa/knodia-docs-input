@@ -1,4 +1,4 @@
-*Knodia* does not constrain how *Interoperability Domains* manage users that act on behalf of a *Confederate Organization*, herinafter referred to as *Operators*. The only requirement is that, for each *Confederate Organization*, at least one *Operator* must exist with the required authorization to perform the tasks for that *Confederate Organization* within *Knodia* (publishing *Cross-Border E-Services*, managing *Agreement Requests* and *Purpose Statements*, etc.).
+*Knodia* does not constrain how *Interoperability Domains* manage users that act on behalf of a *Confederate Organization*, hereinafter referred to as *Operators*. The only requirement is that, for each *Confederate Organization*, at least one *Operator* must exist with the required authorization to perform the tasks for that *Confederate Organization* within *Knodia* (publishing *Cross-Border E-Services*, managing *Agreement Requests* and *Purpose Statements*, etc.).
 
 *Knodia* favours interactions between *Operators* and the *Knode* to which their *Confederate Organization* is onboarded. It minimizes direct interaction between *Operators* and the user interface of other *Knodes*.
 
