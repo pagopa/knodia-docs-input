@@ -1,8 +1,8 @@
-As mentioned at the beginning, a *Federation Consortium* – including the Managers of the *Knodes* – will need to exist. This Consortium will define and update the technical elements needed for *Knodia*, capitalizing on the effects of the proposed experimentation.
+As mentioned at the beginning, a *Knodia Consortium* – including the Managers of the *Knodes* – will need to exist. This Consortium will define and update the technical elements needed for *Knodia*, capitalizing on the effects of the proposed experimentation.
 
 The main task of this Consortium is to define the *Federated API* to be implemented by *Knodes* and to manage the semantic objects used by *Knodes*.
 
-The *Federation Consortium* will be responsible to define and evolve the shared artifacts necessary to enable *cross-border interactions*. Specifically, these include:
+The *Knodia Consortium* will be responsible to define and evolve the shared artifacts necessary to enable *cross-border interactions*. Specifically, these include:
 
 - the controlled vocabularies of *Federated Attributes* and *E-Service* Federated Categories (as defined in the corresponding sections);
 - the specification of the *Federated API* which every *Knode* must provide to other *Knodes* to retrieve data and events for the various resources (this should be based on the needs identified in § [Distribution of knowledge between Knodes](./05-11-01_distribution-of-knowledge.md));

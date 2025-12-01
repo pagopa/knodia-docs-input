@@ -42,7 +42,7 @@ This form:
 - must be made available by the *Producer Knode* at least in the common language accepted by *Knodia*;
 - must accept responses in any of the languages it is made available in.
 
-Defining the standard format of this form, which every *Knode* must follow, is a responsibility of the *Federation Consortium* mentioned in § [Configuration of the federation of Knodes](./05-11-02_federation-configuration.md).
+Defining the standard format of this form, which every *Knode* must follow, is a responsibility of the *Knodia Consortium* mentioned in § [Configuration of the federation of Knodes](./05-11-02_federation-configuration.md).
 
 ***Producer Knodes* must ensure the following requirements are met:**
 

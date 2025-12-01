@@ -4,7 +4,7 @@ This functionality is intended to allow *Consumers* to react promptly to update 
 
 To support this, the *Knode* must implement a service – here referred to as the Signal Hub. The Signal Hub allows *Producers* of that *Knode* to deposit signals related to data changes for a *Cross-Border E-Service*, after enabling the Signal Hub for that service. It allows any *Consumer* (throughout *Knodia*) to retrieve the signals it is interested in. To retrieve signals, the *Consumer* needs an active *Agreement Request* and at least one active *Purpose Statement* for the *Cross-Border E-Service*.
 
-The *Federation Consortium* referred to in § [Considerations on the governance of Knodia](./05-11-00_federation-governance.md), capitalizing on the effects of the proposed experimentation, defines in detail how to implement this functionality.
+The *Knodia Consortium* referred to in § [Considerations on the governance of Knodia](./05-11-00_federation-governance.md), capitalizing on the effects of the proposed experimentation, defines in detail how to implement this functionality.
 
 The remainder of this section reports considerations on this functionality based on the experience with the PDND in Italy.
 
