@@ -4,4 +4,4 @@ Within *Knodia*, *Cross-Border E-Services* are assumed to use Hypertext Transfer
 
 ***Knodes* must ensure the following requirement is met:**
 
-- **Whatever specificity their *Interoperability Domain* has must not compromise the possibility to consume *Cross-Border E-Services* with *cross-border interactions*.**
+- **Whatever specificity their *Interoperability Domain* has must not compromise the possibility of consuming *Cross-Border E-Services* with *cross-border interactions*.**
