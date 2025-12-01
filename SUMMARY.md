@@ -43,7 +43,7 @@
   - [Interop Keychains for the Knode APi](pages/05-08-01_interop-keychains.md)
   - [Interop access tokens](pages/05-08-02_interop-access-tokens.md)
 - [Lifecycle of entities](pages/05-09-00_lifecycle.md)
-  - [Lifecycle of Cross-Border E-Service](pages/05-09-01_lifecycle-eservice.md)
+  - [Lifecycle of Cross-Border E-Services](pages/05-09-01_lifecycle-eservice.md)
   - [Lifecycle of Agreement Requests](pages/05-09-02_lifecycle-agreement.md)
   - [Lifecycle of Purpose Statements](pages/05-09-03_lifecycle-purpose.md)
 - [Additional functionality provided by Knodes](pages/05-10-00_additional-functionality.md)
