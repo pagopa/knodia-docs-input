@@ -1,4 +1,4 @@
-What follows is a comparative analysis of the *ModI* and the *SPCoop*. This focuses on the technological components necessary for subject interested in applying either model, respectively the *PDND* and the *Porte di Dominio* (though these play different roles in the two architectures, see Figures 3 and 4 above).
+What follows is a comparative analysis of the *ModI* and the *SPCoop*. This focuses on the technological components necessary for subjects interested in applying either model, respectively the *PDND* and the *Porte di Dominio* (though these play different roles in the two architectures, as described previously).
 
 The following criteria are examined considering the burdens and possibilities for subjects interested in participating in interactions in the two models. Burdens and possibilities are evaluated as either:
 
@@ -11,7 +11,7 @@ The comparative analysis highlights the advantages obtained in transitioning fro
 - the definition of a normalized process, shared among all interested subjects, to enable access to e-services and allow interaction between them;
 - the adoption of technologies that are in wider use and have lower complexity, which can potentially reduce costs;
 - the centralized sharing, via the *PDND*’s API Catalogue, of the offer of digital services, to facilitate meeting demand with supply;
-- the security framework based on the *PDND* which ensures: the authentication and authorization of access to e-services; the protection, integrity, and confidentiality of the data exchanged; the complete traceability of requests and their outcome.
+- the security framework based on the *PDND* which ensures: the authentication and authorization of access to *e-services*; the protection, integrity, and confidentiality of the data exchanged; the complete traceability of requests and their outcome.
 
 # Technological aspects
 
@@ -27,7 +27,7 @@ The comparative analysis highlights the advantages obtained in transitioning fro
 | **Criterion** | ***Porte di Dominio*** | ***PDND*** |
 | - | - | - |
 | **Initial setup** | ⚠️ installation and qualification for each *Porta di Dominio* instance of the interested party | ✅ one-off for interested parties |
-| **Agreement management** | ❌ direct relation between interested parties | ✅ unique, GDPR-compliant process based on agreement requests and purpose statements" |
+| **Agreement management** | ❌ direct relation between interested parties | ✅ unique, *GDPR*-compliant process based on agreement requests and purpose statements" |
 | **Maintenance** | ⚠️ each *Porta di Dominio* instance of the interested party | ✅ single point of interest |
 | **Infrastructure costs** | ⚠️ cost center for each *Porta di Dominio* instance of the interested party | ✅ single cost center |
 | **Monitoring** | ⚠️ distributed for each *Porta di Dominio* instance of the subject | ✅ centralized |

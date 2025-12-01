@@ -5,7 +5,7 @@
 | *Confederate Organization* |  | A public or private organization which has completed the identification process (onboarding) on the *Interop Node* to which it belongs based on territorial, administrative, or organizational competence. |
 | *Consumer Interop Node* |  | The *Consumer*’s *Interop Node*. |
 | *Consumer* |  | A *Confederate Organization* that uses an *E-Service*. |
-| *Cross-Border E-Service* |  | An *E-Service* enabled by the *Producer* for cross-border interactions. |
+| *Cross-Border E-Service* |  | An *E-Service* enabled by the *Producer* for *cross-border interactions*. |
 | *Cross-border interactions* |  | A digital interaction carried out by subjects belonging to distinct *Interoperability Domains*, carried out to ensure the exchange of data or integration of services. |
 | *Electronic Archiving* |  | As defined in the *eIDAS Regulation*. |
 | *Electronic seals* |  | As defined in the *eIDAS Regulation*. |

@@ -9,7 +9,7 @@ An *Operator* who declares to be responsible for an Interop Keychain assumes adm
 1. access the Interop Keychain details in the user interface of its *Interop Node*;
 2. select the target *Interop Node* it intends to issue the declaration of responsibility towards;
 3. be redirected to the user interface of the target *Interop Node*;
-4. authenticate via eIDAS login and confirm the operation.
+4. authenticate via *eIDAS login* and confirm the operation.
 
 The assumption of responsibility towards the target *Interop Node* therefore works similarly to the confirmation process described in § [Agreement Request – Confirmation by the Consumer Operator](./05-05-01_agreement.md#confirmation-by-the-consumer-operator).
 

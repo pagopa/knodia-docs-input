@@ -1,4 +1,4 @@
-This section describes what *Interop Nodes* must ensure regarding management of their own *Confederate Organizations*. Each *Interop Nodes* and its *Confederate Organizations* constitute, in compliance with specific legislation and regulation, an Interoperability Domain based on mutual trust.
+This section describes what *Interop Nodes* must ensure regarding management of their own *Confederate Organizations*. Each *Interop Nodes* and its *Confederate Organizations* constitute, in compliance with specific legislation and regulation, an *Interoperability Domain* based on mutual trust.
 
 *Interop Nodes* ensure certain identification of the *Confederate Organizations*. Each *Interop Node* defines autonomously the onboarding process and the required checks to constantly ensure that the prerequisites needed for enrollment of a *Confederate Organization* hold.
 

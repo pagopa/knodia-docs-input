@@ -1,6 +1,6 @@
 This section reports the rationale that led Italy to transition from the *SPCoop* to the *ModI*.
 
-The *SPCoop* it launched the Italian experience in data sharing and service integration between Italian public administrations via digital tools. However, experience with it highlighted that:
+The *SPCoop* launched the Italian experience in data sharing and service integration between Italian public administrations via digital tools. However, experience with it highlighted that:
 
 - The *Porta di Dominio* component of the technological architecture (which applied the custom SOAP extension named *busta e-gov*) required public administrations to pay the toll of a limited market to equip themselves with this component, risking technological lock-in.
 - The *Porta di Dominio* component was imposed on public administrations, reducing their freedom to make individual choices internal to each organization. This circumstance was most relevant in complex public administrations applying aggressive segmentation policies regarding their server farms or for public administrations that started to adopt cloud computing.
@@ -35,7 +35,7 @@ The technological evolution that occurred since the launch of the *SPCoop* highl
 
 [^7]: [https://www.linuxfoundation.org/](https://www.linuxfoundation.org/)
 
-Over the years, these have increased *de iure* and *de facto* standardization actions. This leading to an increase in the market offer of technological solutions and an increased availability of the professionals necessary for their maintenance. This circumstance can create the prerequisites for a reduction in costs for the management of technological infrastructures of public administrations.
+Over the years, these have increased *de iure* and *de facto* standardization actions. This led to an increase in the market offer of technological solutions and an increased availability of the professionals necessary for their maintenance. This circumstance can create the prerequisites for a reduction in costs for the management of technological infrastructures of public administrations.
 
 Considering the above, Italy defined the *ModI* based, primarily, on the following choices:
 

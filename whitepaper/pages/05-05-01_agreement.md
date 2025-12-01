@@ -7,7 +7,7 @@ The *Consumer*, after identifying the *Cross-Border E-Service* it intends to con
 - the identifier to the *Cross-Border E-Service*;
 - the identifier to the *Consumer* and its *Federated Attributes*.
 
-The *Producer Interop Node* can thus verify whether the *Consumer* satisfies the consumption requirements of the *Cross-Border E-Service*. If so, it creates and *Agreement Request*, Stores it, and sends its identifier to the *Producer Interop Node*.
+The *Producer Interop Node* can thus verify whether the *Consumer* satisfies the *consumption requirements* of the *Cross-Border E-Service*. If so, it creates and *Agreement Request*, Stores it, and sends its identifier to the *Producer Interop Node*.
 
 By default, the *Cross-Border Federation* assumes that the *Producer Interop Node* will activate the *Agreement Request* when it creates it. The following service blueprint illustrates the flow of activities carried out by the subjects in this case.
 
@@ -19,22 +19,22 @@ The *Agreement Request* must be filled in at least in the common language accept
 
 The *Consumer Interop Node* must monitor events concerning state changes of the *Agreement Request* using the *Federated API* and notify them to the corresponding *Consumer*. See § [Distribution of knowledge between Interop Nodes](./05-11-01_distribution-of-knowledge.md) for more details.
 
-The *Consumer Interop Node* must Store the references (identifiers) of:
+The *Consumer Interop Node* must *Store* the references (identifiers) of:
 
 - the *Agreement Request*, as returned by the *Producer Interop Node*, so it can later fetch its details using the *Federated API*;
 - the *Cross-Border E-Service* involved in the *Agreement Request*;
 - the *Producer Interop Node*.
 
-The *Consumer Interop Node* must Electronically Archive the information on:
+The *Consumer Interop Node* must *Electronically Archive* the information on:
 
 - the *Consumer*, including its *Federated Attributes*.
 
-The *Producer Interop Node* must Electronically Archive the information on:
+The *Producer Interop Node* must *Electronically Archive* the information on:
 
 - the *Agreement Request*;
 - the *Cross-Border E-Service* involved in the *Agreement Request*;
 
-The *Producer Interop Node* must Store the references (identifiers) of:
+The *Producer Interop Node* must *Store* the references (identifiers) of:
 
 - the *Consumer*;
 - the *Consumer Interop Node*.
@@ -44,7 +44,7 @@ Each *Producer Interop Node* must update the state of each *Agreement Request* i
 - changes to the *Cross-Border E-Service* originated by the Producer;
 - changes to the *Federated Attributes* of the *Consumer*, obtained by monitoring events using the *Federated API* of the *Consumer Interop Node* (see § [Distribution of knowledge between Interop Nodes](./05-11-01_distribution-of-knowledge.md) for more details).
 
-Specifically, the *Agreement Request* must be suspended if the *Consumer*’s *Federated Attributes* no longer satisfy the consumption requirements of the *Cross-Border E-Service*.
+Specifically, the *Agreement Request* must be suspended if the *Consumer*’s *Federated Attributes* no longer satisfy the *consumption requirements* of the *Cross-Border E-Service*.
 
 Within the *Cross-Border Federation*, for each E-Service and *Consumer*, there can be at most one *Agreement Request*.
 
@@ -52,7 +52,7 @@ See § [Lifecycle of Agreement Requests](./05-09-02_lifecycle-agreement.md) for 
 
 For what concerns *Consumers*, *Interop Nodes* must ensure the following requirements are met:
 
-- *Confederate Organizations* can submit *Agreement Requests* for E-Services and receive notifications concerning these *Agreement Requests*.
+- *Confederate Organizations* can submit *Agreement Requests* for *E-Services* and receive notifications concerning these *Agreement Requests*.
 - The *Interop Node* uses the *Federated API* of the *Producer Interop Node* to forward the request to create an *Agreement Request*.
 - The Interop Node uses the *Federated API* to receive from the *Producer Interop Node* evidence on the state of the created *Agreement Requests*.
 - Changes in the *Federated Attributes* of *Confederate Organizations* are made available to *Producer Interop Nodes* via the *Federated API*.
@@ -67,14 +67,14 @@ For what concerns *Producers*, *Interop Nodes* must ensure the following require
 
 The *Producer* can optionally configure the *Cross-Border E-Service* to request an *Operator* of the *Consumer* to confirm the submission of an *Agreement Request* on the *Producer Interop Node*.
 
-This allows the *Producer Interop Node* to Electronically Archive, for an *Agreement Request*, the explicit confirmation of an *Operator* of the Consuemr, together with the request received from the *Consumer Interop Node*.
+This allows the *Producer Interop Node* to *Electronically Archive*, for an *Agreement Request*, the explicit confirmation of an *Operator* of the Consuemr, together with the request received from the *Consumer Interop Node*.
 
 In this case, when the *Producer Interop Node* creates the *Agreement Request*, it must send to the *Consumer Interop Node* (together with the identifier of the *Agreement Request*):
 
 - a link to its user interface that a *Consumer* *Operator* must use to confirm the operation on the *Producer Interop Node*;
 - an (unforgeable) secret token the the aforementioned *Operator* must provide to the *Producer Interop Node*.
 
-Specifically, to confirm submission of an *Agreement Request*, an *Operator* of the *Consumer* will have to follow the link, authenticate to the user interface of the *Producer Interop Node* via eIDAS login, and provide the secret token.
+Specifically, to confirm submission of an *Agreement Request*, an *Operator* of the *Consumer* will have to follow the link, authenticate to the user interface of the *Producer Interop Node* via *eIDAS login*, and provide the secret token.
 
 The *Consumer Interop Node* is responsible to provide the link and secret token only the *Operators* of the *Consumer* which are authorized in its domain to carry out this confirmation.
 
