@@ -1,11 +1,11 @@
-The *ModI* considers the digital services (hereinafter *e-services*) created by public entities to ensure access to their data and/or services through the interaction of their IT systems with those of other entities that, in compliance with current legislation, require them to carry out their activities.
+The *ModI* considers the digital services (hereinafter *e-services*) created by public entities to ensure access to their data and/or services through the interaction of their IT systems with those of other entities that, in compliance with current legislation, need to interact with them to carry out their activities.
 
-The *ModI* critically evolved the *SPCoop* based on the experience gained from the latter’s application, to overcome the factors that limited its diffusion.
+The *ModI* critically evolved the *SPCoop* based on experience gained from its application to overcome the factors that limited its diffusion.
 
 The adoption of the *ModI* by Italian public administrations is provided for by the **Decreto Legislativo del 7 marzo 2005, n. 82** and, specifically, by:
 
-- section 73, paragraph 3-ter, letter b), regarding the adoption of guidelines and rules for cooperation and interoperability;
-- section 50-ter, paragraph 2, regarding the *Piattaforma Digitale Nazionale Dati* (briefly *PDND*) as the technological infrastructure that enables the interoperability of IT systems and databases between public entities and between these and private entities.
+- Section 73, paragraph 3-ter, letter b), regarding the adoption of guidelines and rules for cooperation and interoperability;
+- Section 50-ter, paragraph 2, regarding the *Piattaforma Digitale Nazionale Dati* (briefly *PDND*) as the technological infrastructure that enables the interoperability of IT systems and databases between public entities and between these and private entities.
 
 Operationally, the *ModI* is regulated by guidelines adopted by the *Agenzia per l’Italia Digitale*, in agreement with the *Dipartimento per la trasformazione digitale*, and constantly updated, also by incorporating requests from interested parties.
 
@@ -14,9 +14,9 @@ The *ModI* is based on the following principles:
 - **Interactions:** Interactions assume that the involved entities, public and private, can perform the function of *Producer* of *e-services*, when they make digital services available to other entities, and the function of *Consumer* of *e-services*, when they use the *e-services* made available by another entity.
 - **Application programming interface:** The *e-services* made available by *Producers* are implemented by application programming interfaces (APIs) using either of these technologies and standards for remote invocation:
     - SOAP over HTTP and the so-called WS-* stack;
-    - REST APIs classifiable at Level 1 of the Richardson Maturity Model, hereinafter HTTP APIs.
-- **Interoperability patterns and profiles:** Patterns and profiles of interoperability are progressively identified, with the involvement of interested parties. These define solutions to secure data exchange needs, which *Producers* use to implement their *e-services*.
-- **Division of responsibilities:** *Producers* are responsible for the *e-services* they provide, while *Consumers* are responsible for the management of data received through them.
+    - REST APIs, classifiable at Level 1 of the Richardson Maturity Model, hereinafter HTTP APIs.
+- **Interoperability patterns and profiles:**  Interoperability patterns and profiles are progressively identified with the involvement of interested parties. These define solutions to secure data exchange needs, which *Producers* use to implement their *e-services*.
+- **Division of responsibilities:** *Producers* are responsible for the *e-services* they provide, while *Consumers* are responsible for managing the data received through them.
 - **Cooperation technologies:** *E-services* are provided and consumed through technologies and standards for remote invocation, standardized (*de iure* and *de facto*) at the international level (W3C [1[^1]], Internet Engineering Task Force [2[^2]], and Linux Foundation [3[^3]]). Specifically:
     - *Regarding SOAP over HTTP e-service implementations:*
         - Simple Object Access Protocol (SOAP), as the application protocol for remote service invocation.
@@ -36,7 +36,7 @@ The *ModI* is based on the following principles:
 
 [^3]: https://www.linuxfoundation.org/
 
-The *ModI* preserves the adoption of the Service-Oriented Computing paradigm and the organization as a Service-Oriented Architecture of the *SPCoop*. It includes in its reference architecture the *PDND* as an infrastructural component that provides services to *Producers* and *Consumers* (generally referred to as *Organizations*) to enable interaction between them. In particular:
+The *ModI* preserves the adoption of the Service-Oriented Computing paradigm and the organization as a Service-Oriented Architecture of the *SPCoop*. It includes the *PDND* in its reference architecture as an infrastructural component that provides services to *Producers* and *Consumers* (generally referred to as *Organizations*) to enable their interaction. In particular:
 
 - It authenticates *Organizations* based on their certain identification at the time of their onboarding to the *PDND* and for their entire period of membership. This is achieved by integration with authoritative sources such as, by way of example, the *Indice dei domicili digitali delle pubbliche amministrazioni e dei gestori di pubblici servizi* (*IPA* – index of digital domiciles of public administrations and private providers of public services) and the *Indice nazionale delle imprese e dei professionisti* (*INI-PEC* – national index of enterprises and professionals).
 - It assigns peculiar characteristics to *Organizations* and maintains them, through the mechanism of certified attributes, based on feedback provided by authoritative sources referring to supervisory or control authorities integrated with the *PDND*.
