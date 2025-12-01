@@ -4,7 +4,7 @@ The *Producer* can request *DPoP* to apply for a *Cross-Border E-Service* when i
 
 To request a *DPoP*-bound *access token*, the *Consumer* includes in the request a *DPoP* proof, sealed with its own private cryptographic material, and provides the corresponding public cryptographic material, hereinafter the proof key.
 
-The *Producer Knode* verifies the *DPoP* proof with the proof key. It it is valid, it issues an *access token* which includes a reference to it, binding the *access token* to it. Thus, the *access token* cannot be used by subjects that do not possess the private cryptographic material associated to the proof key.
+The *Producer Knode* verifies the *DPoP* proof with the proof key. It it is valid, it issues an *access token* which includes a reference to it, binding the *access token* to it. Thus, the *access token* cannot be used by subjects that do not possess the private cryptographic material associated with the proof key.
 
 To call the *Cross-Border E-Service* with a *DPoP*-bound *access token*, the *Consumer* attaches a *DPoP* proof to every request. The *Producer* must verify the signature of the *DPoP* proof against the proof key to which the *access token* is bound.
 

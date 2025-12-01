@@ -14,7 +14,7 @@ The *Producer Knode* follows these steps to issue the token:
     - data of the *Consumer* and its *Federated Attributes*.
 2. Authenticate the *Consumer*, that is, verify the seal of the client assertion against the public cryptographic material in the keychain.
 3. Authorize, that is, verify:
-    - that the *Purpose Statement* referred to in the client assertion is active and associated to the Keychain;
+    - that the *Purpose Statement* referred to in the client assertion is active and associated with the Keychain;
     - that there exists an active *Agreement Request* for the *Consumer* for that *Cross-Border E-Service*;
     - that the *Cross-Border E-Service* is in a state in which it can be consumed (see § [Lifecycle of Cross-Border E-Services](./05-09-01_lifecycle-eservice.md));
     - that the *Consumer*’s *Federated Attributes* satisfy the *consumption requirements* of the *Cross-Border E-Service*.
