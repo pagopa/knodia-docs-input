@@ -1,23 +1,23 @@
 The *Consumer Keychain* is the digital container in which the *Consumer* deposits the public cryptographic material corresponding to the Electronic Seals it uses to seal *access token* requests to consume *E-Services*.
 
-Each *Consumer* creates and manages its *Consumer Keychains* on its own *Consumer Interop Node*, using the latter’s user interface. The *Consumer Interop Node* must make *Consumer Keychains* available through the *Federated API* so a *Producer Interop Node* can retrieve the cryptographic material needed for verification. See § [Issuance of E-Service access tokens](./05-07-00_tokens.md) for more details.
+Each *Consumer* creates and manages its *Consumer Keychains* on its own *Consumer Knode*, using the latter’s user interface. The *Consumer Knode* must make *Consumer Keychains* available through the *Federated API* so a *Producer Knode* can retrieve the cryptographic material needed for verification. See § [Issuance of E-Service access tokens](./05-07-00_tokens.md) for more details.
 
-This architectural choice lets each *Interop Node* be fully autonomous in managing the public cryptographic material of its onboarded *Confederate Organizations*. Therefore, this material need to be distributed and stored on different nodes, which would be more complex and could increase the risk of misalignment.
+This architectural choice lets each *Knode* be fully autonomous in managing the public cryptographic material of its onboarded *Confederate Organizations*. Therefore, this material need to be distributed and stored on different nodes, which would be more complex and could increase the risk of misalignment.
 
-The user interface of each *Consumer Interop Node* must enable *Consumer* *Operators* to:
+The user interface of each *Consumer Knode* must enable *Consumer* *Operators* to:
 
 - create a *Consumer Keychain*;
 - deposit in the *Consumer Keychain* the aforementioned public cryptographic material (one or more public keys).
 
-*Interop Nodes* must support indifferently to deposit X.509 certificates or public keys as public cryptographic material in *Consumer Keychains*.
+*Knodes* must support indifferently to deposit X.509 certificates or public keys as public cryptographic material in *Consumer Keychains*.
 
-The *Consumer Interop Node* must manage the lifecycle of the cryptographic material if the *Operator* that has deposited it loses authorization rights within the *Confederate Organization* (for example, removing all keys deposited by an *Operator* who no longer has access to the *Confederate Organization*).
+The *Consumer Knode* must manage the lifecycle of the cryptographic material if the *Operator* that has deposited it loses authorization rights within the *Confederate Organization* (for example, removing all keys deposited by an *Operator* who no longer has access to the *Confederate Organization*).
 
-***Consumer Interop Nodes* must ensure the following requirements are met:**
+***Consumer Knodes* must ensure the following requirements are met:**
 
 - **They must allow their *Confederate Organizations* to manage *Keychains*.**
-- **They must make the public cryptographic material deposited by *Consumers* available to *Producer Interop Nodes* through the *Federated API*.**
+- **They must make the public cryptographic material deposited by *Consumers* available to *Producer Knodes* through the *Federated API*.**
 
-***Producer Interop Nodes* must ensure the following requirements are met:**
+***Producer Knodes* must ensure the following requirements are met:**
 
-- **They must retrieve the *Consumers*’ public cryptographic material from *Consumer Interop Nodes* to verify the *Consumers*’ *client assertions*.**
+- **They must retrieve the *Consumers*’ public cryptographic material from *Consumer Knodes* to verify the *Consumers*’ *client assertions*.**

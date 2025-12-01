@@ -1,8 +1,8 @@
-Beyond the usual model of consumption (i.e., a *Consumer* calls the *Cross-Border E-Services* offered by *Producers*), the *Interop Node* may also provide a signal distribution system that lets *Consumers* detect when change occur in the data provided by a *Cross-Border E-Service* (which the *Consumer* is authorized to consume) referring to entities the *Consumer* is interested in.
+Beyond the usual model of consumption (i.e., a *Consumer* calls the *Cross-Border E-Services* offered by *Producers*), the *Knode* may also provide a signal distribution system that lets *Consumers* detect when change occur in the data provided by a *Cross-Border E-Service* (which the *Consumer* is authorized to consume) referring to entities the *Consumer* is interested in.
 
 This functionality is intended to allow *Consumers* to react promptly to update information on subjects for whom the *Consumer* has outstanding processing operations, while avoiding excessive load on *Producers* (which would be imposed by *Consumers* repeatedly fetching the data to monitor it for changes). Moreover, this standardizes throughout the *Cross-Border Federation* a single model to distribute data changes.
 
-To support this, the *Interop Node* must implement a service – here referred to as the Signal Hub. The Signal Hub allows *Producers* of that *Interop Node* to deposit signals related to data changes for a *Cross-Border E-Service*, after enabling the Signal Hub for that service. It allows any *Consumer* (throughout the *Cross-Border Federation*) to retrieve the signals it is interested in. To retrieve signals, the *Consumer* needs an active *Agreement Request* and at least one active *Purpose Statement* for the *Cross-Border E-Service*.
+To support this, the *Knode* must implement a service – here referred to as the Signal Hub. The Signal Hub allows *Producers* of that *Knode* to deposit signals related to data changes for a *Cross-Border E-Service*, after enabling the Signal Hub for that service. It allows any *Consumer* (throughout the *Cross-Border Federation*) to retrieve the signals it is interested in. To retrieve signals, the *Consumer* needs an active *Agreement Request* and at least one active *Purpose Statement* for the *Cross-Border E-Service*.
 
 The *Federation Consortium* referred to in § [Considerations on the governance of the Cross-Border Federation](./05-11-00_federation-governance.md), capitalizing on the effects of the proposed experimentation, defines in detail how to implement this functionality.
 
@@ -20,7 +20,7 @@ In addition to signals related to entity lifecycle changes, the *Producer* must 
 
 # Signal deposit, retrieval, and processing flow
 
-A *Producer* that intends to make signals available for data changes for a *Cross-Border E-Service* it producers must enable the Signal Hub for this *E-Service*. The *Producer* must also create an Interop Keychain to request *access tokens* to access the Signal Hub (see § [Interop Keychains for the Interop Node API](./05-08-01_interop-keychains.md)).
+A *Producer* that intends to make signals available for data changes for a *Cross-Border E-Service* it producers must enable the Signal Hub for this *E-Service*. The *Producer* must also create an Interop Keychain to request *access tokens* to access the Signal Hub (see § [Interop Keychains for the Knode API](./05-08-01_interop-keychains.md)).
 
 The following service blueprint illustrates the steps to make signals available for a *Cross-Border E-Services* (exemplifying also a possible subdivision of roles for Organization *Operators*).
 
@@ -34,7 +34,7 @@ The following service blueprint illustrates signal deposit.
 
 The Signal Hub persists the signal for an interval of time defined in the policy of the *Cross-Border Federation* and deletes it automatically when that time is over.
 
-A *Consumer* that is interested in data changes for the *Producer*’s *E-Service* must, like the *Producer*, create an Interop Keychain to request tokens to access the Signal Hub service of the *Producer Interop Node*. Using this token, the *Consumer* periodically accesses (by polling) the Signal Hub to retrieve all signals deposited for that *E-Service*.
+A *Consumer* that is interested in data changes for the *Producer*’s *E-Service* must, like the *Producer*, create an Interop Keychain to request tokens to access the Signal Hub service of the *Producer Knode*. Using this token, the *Consumer* periodically accesses (by polling) the Signal Hub to retrieve all signals deposited for that *E-Service*.
 
 A signal does not include that data itself: it is only a notification that the data changed. Hence, the *Consumer* must process the signals to determine which refer to entities of interest. Then, it may retrieve the new state of those entities by calling the *Producer*’s *E-Service* directly.
 

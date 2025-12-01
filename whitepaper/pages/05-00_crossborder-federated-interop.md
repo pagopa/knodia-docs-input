@@ -1,4 +1,4 @@
-This chapter reports the features that the actors involved in the *Cross-Border Federation*, primarily the *Interop Nodes*, must ensure to enable interoperability between multiple independent *Interoperability Domains*.
+This chapter reports the features that the actors involved in the *Cross-Border Federation*, primarily the *Knodes*, must ensure to enable interoperability between multiple independent *Interoperability Domains*.
 
 The *Cross-Border Federation* extends the Italian interoperability model based on the *PDND*, introduced in the previous chapter and adopted in Italy to enable interaction between the IT systems of public administrations and between these and the IT systems of recognized private subjects.
 

@@ -25,7 +25,7 @@ The *Cross-Border Federation* as a whole constitutes the digital ecosystem invol
 
 - *Producer Confederate Organizations*: the organizations that make APIs available for access to data for which they are the authoritative source.
 - *Consumer Confederate Organizations*: the organizations that, to carry out their activities pursuant to current legislation, access the APIs made available by the Producers.
-- *Interoperability Nodes* (*Interop Nodes*): the entities that manage a domain by identifying a set of *Confederate Organizations* and providing services to them to operate within the ecosystem.
+- *Interoperability Nodes* (*Knodes*): the entities that manage a domain by identifying a set of *Confederate Organizations* and providing services to them to operate within the ecosystem.
 
 In the digital ecosystem constituted by the *Cross-Border Federation*:
 

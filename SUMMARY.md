@@ -15,7 +15,7 @@
 ## Cross-border federated interoperability
 
 - [Cross-border federated interoperability](pages/05-00_crossborder-federated-interop.md)
-- [A federation of Interop Nodes](pages/05-01-00_federation-interop-nodes.md)
+- [A federation of Knodes](pages/05-01-00_federation-interop-nodes.md)
   - [E-Service consumption flow](pages/05-01-01_flow.md)
 - [Management of Confederate Organizations](pages/05-02-00_management-of-orgs.md)
   - [Attributes of Confederate Organizations](pages/05-02-01_attributes.md)
@@ -39,22 +39,22 @@
 - [Issuance of E-Service access tokens](pages/05-07-00_tokens.md)
   - [Bearer authorization](pages/05-07-01_tokens-bearer.md)
   - [Authorization with proof of possession](pages/05-07-02_tokens-dpop.md)
-- [Interop Node API for Confederate Organizations](pages/05-08-00_interop-node-api.md)
-  - [Interop Keychains for the Interop Node APi](pages/05-08-01_interop-keychains.md)
+- [Knode API for Confederate Organizations](pages/05-08-00_interop-node-api.md)
+  - [Interop Keychains for the Knode APi](pages/05-08-01_interop-keychains.md)
   - [Interop access tokens](pages/05-08-02_interop-access-tokens.md)
 - [Lifecycle of entities](pages/05-09-00_lifecycle.md)
   - [Lifecycle of Cross-Border E-Service](pages/05-09-01_lifecycle-eservice.md)
   - [Lifecycle of Agreement Requests](pages/05-09-02_lifecycle-agreement.md)
   - [Lifecycle of Purpose Statements](pages/05-09-03_lifecycle-purpose.md)
-- [Additional functionality provided by Interop Nodes](pages/05-10-00_additional-functionality.md)
+- [Additional functionality provided by Knodes](pages/05-10-00_additional-functionality.md)
   - [Asynchronous communication](pages/05-10-01_async.md)
   - [Distribution of data change signals (Signal Hub)](pages/05-10-02_signal-hub.md)
   - [E-Service Templates](pages/05-10-03_eservice-templates.md)
   - [Purpose Statement Templates](pages/05-10-04_purpose-templates.md)
   - [Producer Keychains](pages/05-10-05_producer-keychains.md)
 - [Considerations on the governance of the Cross-Border Federation](pages/05-11-00_federation-governance.md)
-  - [Distribution of knowledge between Interop Nodes](pages/05-11-01_distribution-of-knowledge.md)
-  - [Configuration of the federation of Interop Nodes](pages/05-11-02_federation-configuration.md)
+  - [Distribution of knowledge between Knodes](pages/05-11-01_distribution-of-knowledge.md)
+  - [Configuration of the federation of Knodes](pages/05-11-02_federation-configuration.md)
 
 ## Annex
 

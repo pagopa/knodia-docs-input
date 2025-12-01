@@ -13,6 +13,6 @@ Relevant states for *E-Service* versions are:
 - **Active:** The *E-Service* version has been published in the catalogue and can be used.
 - **Suspended:** The *Producer* has temporarily suspended operation of the *Cross-Border E-Service* – e.g., due to technical or administrative problems – but can reactivate it later. This suspends issuance of *access tokens*.
 - **Deprecated:** The *Producer* has marked the version as deprecated or has created a new version for the *Cross-Border E-Service*, noting that this version will be disabled in the future. New *Agreement Requests* for that version are not accepted. A deprecated version can still be used, therefore it too can be temporarily suspended if needed.
-- **Archived:** The version is no longer operating and will not be reactivated. The *Producer* can manually archive a deprecated version (respecting advance notification to *Consumers* and other conditions the *Interop Node* can impose). Archiving also occurs automatically when the deprecated version is not consumed any more by any Consumer.
+- **Archived:** The version is no longer operating and will not be reactivated. The *Producer* can manually archive a deprecated version (respecting advance notification to *Consumers* and other conditions the *Knode* can impose). Archiving also occurs automatically when the deprecated version is not consumed any more by any Consumer.
 
 ![](../resources/lifecycle-eservice.svg)

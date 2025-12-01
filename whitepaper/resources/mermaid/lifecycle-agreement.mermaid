@@ -8,7 +8,7 @@ stateDiagram
   [*] --> IF_USER_CONFIRMATION:🧑🏻‍💻<br>create Agreement Request
   IF_USER_CONFIRMATION --> PENDING_USER_CONFIRMATION:if Operator confirmation is required
   IF_USER_CONFIRMATION --> ACTION_NEEDED:if Operator confirmation is not required
-  PENDING_USER_CONFIRMATION --> ACTION_NEEDED:🧑🏻‍💻<br>confirm on Producer Interop Node
+  PENDING_USER_CONFIRMATION --> ACTION_NEEDED:🧑🏻‍💻<br>confirm on Producer Knode
   ACTION_NEEDED --> ACTION_NEEDED:🧑🏻‍💻 or 👷🏼 or 🌐<br>act
   ACTION_NEEDED --> Archived:🧑🏻‍💻 or 👷🏼 or 🌐<br>reject
   ACTION_NEEDED --> Active:👷🏼 or 🌐<br>activate
@@ -28,7 +28,7 @@ stateDiagram
   Multiple suspensions associated with different actors may exist at the same time.
   end note
   note left of root_start 
-  🌐 = Producer Interop Node<br>
+  🌐 = Producer Knode<br>
   👷🏼 = Producer Operator<br>
   🧑🏻‍💻 = Consumer Operator
   end note
