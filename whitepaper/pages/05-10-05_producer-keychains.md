@@ -1,4 +1,4 @@
-A *Knode* may allow *Producers* to create one or more *Producer Keychains* to associate to their *Cross-Border E-Services*. These objects are equivalent to the *Consumer Keychains* described in § [Consumer Keychains](./05-06-00_keychains.md).
+A *Knode* may allow *Producers* to create one or more *Producer Keychains* to associate with their *Cross-Border E-Services*. These objects are equivalent to the *Consumer Keychains* described in § [Consumer Keychains](./05-06-00_keychains.md).
 
 Using the public cryptographic material deposited in the *Producer Keychain*, *Producers* can electronically seal the responses their *Cross-Border E-Services* send. This assures *Consumers* within *Knodia* non-repudiation for these responses.
 

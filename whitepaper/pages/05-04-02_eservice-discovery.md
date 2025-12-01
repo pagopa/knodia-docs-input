@@ -15,6 +15,6 @@ The following service blueprint defines the flow of activities carried out by th
 - ***Operators* of *Confederate Organizations* can filter the *Cross-Border E-Services* of other *Knodes* by *Federated Category*.**
 - **The data to display for each *Cross-Border E-Service* is fetched using the *Federated API* from the corresponding *Knode*.**
 
-***Producer Knodes* must ensure the following requirements are met:**
+***Producer Knodes* must ensure the following requirement is met:**
 
 - **Published *Cross-Border E-Services* are made available to other *Knodes* via the *Federated API*.**

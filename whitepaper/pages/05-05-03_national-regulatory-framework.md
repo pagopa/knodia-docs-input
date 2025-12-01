@@ -21,7 +21,7 @@ The following service blueprint defines the flow of activities carried out by th
 
 ![](../resources/blueprint-agreement-request-eidas-confirmation-additional-steps.svg)
 
-***Producer Knodes* must ensure the following requirements are met:**
+***Producer Knodes* must ensure the following requirement is met:**
 
 - **If additional actions are needed by the *Consumer*, it must notify them to the interested *Consumer Knode* using the *Federated API*, including the link and any additional elements needed to carry out the requested actions.**
 

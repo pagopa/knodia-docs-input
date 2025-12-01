@@ -30,11 +30,11 @@ The implementation details of the token endpoint, which the *Producer Knodes* mu
 - **They must request an *access token* to the *Producer Knode* corresponding to the *Cross-Border E-Service* of interest and in relation to a specific active *Purpose Statement*.**
 - **They must use the *access token* issued by the *Producer Knode* to request access to the *Producer* for the *Cross-Border E-Service* of interest.**
 
-***Producer Knodes* must ensure the following requirements are met:**
+***Producer Knodes* must ensure the following requirement is met:**
 
 - **They must implement the token endpoint that issues *access tokens*, following the specifications of *Knodia*, and make it available to *Consumers*.**
 
-***Producers* must ensure the following requirements are met:**
+***Producers* must ensure the following requirement is met:**
 
 - **They must validate the *access token* sent by the *Consumer* before granting access to their *Cross-Border E-Service*.**
 

@@ -4,6 +4,6 @@ This API can be considered analogous to a *Cross-Border E-Service* produced by t
 
 The implementation details of the machine-to-machine API for *Confederate Organizations*, which the *Producer Knodes* must implement, shall be part of the specification of *Knodia* produced by the Federated Consortium, as described in § [Considerations on the governance of Knodia](./05-11-00_federation-governance.md).
 
-***Knodes* must ensure the following requirements are met:**
+***Knodes* must ensure the following requirement is met:**
 
 - **They must provide machine-to-machine APIs to the *Confederate Organizations* of *Knodia*.**

@@ -18,6 +18,6 @@ The *Consumer Knode* must manage the lifecycle of the cryptographic material in 
 - **They must allow their *Confederate Organizations* to manage *Keychains*.**
 - **They must make the public cryptographic material deposited by *Consumers* available to *Producer Knodes* through the *Federated API*.**
 
-***Producer Knodes* must ensure the following requirements are met:**
+***Producer Knodes* must ensure the following requirement is met:**
 
 - **They must retrieve the *Consumers*’ public cryptographic material from *Consumer Knodes* to verify the *Consumers*’ *client assertions*.**

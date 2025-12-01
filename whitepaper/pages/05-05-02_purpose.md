@@ -105,10 +105,10 @@ The following service blueprint illustrates the flow of activities for purpose c
 
 ![](../resources/blueprint-purpose-creation-receive-data.svg)
 
-***Consumer Knodes* must ensure the following requirements are met:**
+***Consumer Knodes* must ensure the following requirement is met:**
 
 - **They must retrieve the *Purpose Statement* made by the *Producer*, using the *Federated API*, and make it available to the *Consumer* on their user interface.**
 
-***Producer Knodes* must ensure the following requirements are met:**
+***Producer Knodes* must ensure the following requirement is met:**
 
 - **They must make the *Purpose Statement* made by the *Producer* available through the *Federated API* to *Consumer Knodes*.**
