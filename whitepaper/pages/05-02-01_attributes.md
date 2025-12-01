@@ -16,6 +16,6 @@ The lifecycle of this controlled vocabulary is a responsibility of the *Knodia C
 
 ***Knodes* must ensure the following requirements are met:**
 
-- ***Knodes* must associate *Federated Attributes* to *Confederate Organizations* in compliance with its reference regulatory framework.**
+- ***Knodes* must associate *Federated Attributes* to *Confederate Organizations* in compliance with their reference regulatory framework.**
 - ***Confederate Organizations* must not be able to modify their assigned *Federated Attributes* on their own.**
 - **Only *Federated Attributes*, defined in the controlled vocabulary, are considered in *Knodia*.**
