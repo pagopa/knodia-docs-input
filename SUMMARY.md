@@ -40,7 +40,7 @@
   - [Bearer authorization](pages/05-07-01_tokens-bearer.md)
   - [Authorization with proof of possession](pages/05-07-02_tokens-dpop.md)
 - [Knode API for Confederate Organizations](pages/05-08-00_interop-node-api.md)
-  - [Interop Keychains for the Knode APi](pages/05-08-01_interop-keychains.md)
+  - [Interop Keychains for the Knode API](pages/05-08-01_interop-keychains.md)
   - [Interop access tokens](pages/05-08-02_interop-access-tokens.md)
 - [Lifecycle of entities](pages/05-09-00_lifecycle.md)
   - [Lifecycle of Cross-Border E-Services](pages/05-09-01_lifecycle-eservice.md)
