@@ -12,9 +12,9 @@
 - [Evolution from the the public cooperation system to the interoperability model](pages/04-03_evolution.md)
 - [Comparing *Porte di Dominio* and *PDND*](pages/04-04_pdd-and-pdnd.md)
 
-## Cross-border federated interoperability
+## Knodia: cross-border federated interoperability
 
-- [Cross-border federated interoperability](pages/05-00_crossborder-federated-interop.md)
+- [Knodia: cross-border federated interoperability](pages/05-00_crossborder-federated-interop.md)
 - [A federation of Knodes](pages/05-01-00_federation-interop-nodes.md)
   - [E-Service consumption flow](pages/05-01-01_flow.md)
 - [Management of Confederate Organizations](pages/05-02-00_management-of-orgs.md)

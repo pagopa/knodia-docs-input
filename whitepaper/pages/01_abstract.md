@@ -13,4 +13,4 @@ This document is organized into four distinct chapters. Specifically:
 - [**Regulatory context**](./02_regulatory-context.md) considers this proposal in light of Regulation (EU) 2024/903.
 - [**Objective of the proposal**](./03_objective-of-the-proposal.md) presents the objectives that this proposal intends to fulfil.
 - [**Knodia as an evolution of the Italian interoperability experience**](./04-00_italian-interop-intro.md) summarizes the Italian experience on interoperability from which this proposal originates.
-- [**Cross-border federated interoperability**](./05-00_crossborder-federated-interop.md) describes the elements that compose the *Knodia* and how its members can implement it.
+- [**Knodia: cross-border federated interoperability**](./05-00_crossborder-federated-interop.md) describes the elements that compose the *Knodia* and how its members can implement it.
