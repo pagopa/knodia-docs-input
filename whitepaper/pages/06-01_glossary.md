@@ -6,7 +6,7 @@
 | *Consumer Knode* |  | The *Consumer*’s *Knode*. |
 | *Consumer* |  | A *Confederate Organization* that uses a *Cross-Border E-Service*. |
 | *Cross-Border E-Service* |  | An *E-Service* enabled by the *Producer* for *cross-border interactions*. |
-| *Cross-border interactions* |  | A digital interaction carried out by subjects belonging to distinct *Interoperability Domains*, carried out to ensure the exchange of data or integration of services. |
+| *Cross-border interactions* |  | A digital interaction performed by subjects belonging to distinct *Interoperability Domains*, performed to ensure the exchange of data or integration of services. |
 | *Electronic Archiving* |  | As defined in the *eIDAS Regulation*. |
 | *Electronic seals* |  | As defined in the *eIDAS Regulation*. |
 | *European Interoperability Framework* | *EIF* | As defined in the *Interoperable Europe Act*. |
@@ -33,12 +33,12 @@
 | *Porta di Dominio* | *PdD* | The component provided for in the *SPCoop* instantiated by individual public administrations to enable machine-to-machine interaction. |
 | *Producer Knode* |  | The *Producer*’s *Knode*. |
 | *Producer* |  | A *Confederate Organization* that makes *Cross-Border E-Services* available. |
-| *Provide-Data* |  | The method of sending data from *Producer* to *Consumer* via a *Cross-Border E-Service*. In this mode, the *Confederate Organization* acquiring new data from the transactions carried out is the *Consumer*. |
+| *Provide-Data* |  | The method of sending data from *Producer* to *Consumer* via a *Cross-Border E-Service*. In this mode, the *Confederate Organization* acquiring new data from the transactions performed is the *Consumer*. |
 | *Purpose Statement* |  | The statement made by a *Consumer* to explicitly state the lawfulness of processing under the *GDPR*. |
 | *Purpose* |  | The reference to a *Purpose Statement* made by a *Consumer*. |
-| *Receive-Data* |  | The method of sending data from *Consumer* to *Producer* via a *Cross-Border E-Service*. In this mode, the *Confederate Organization* acquiring new data from the transactions carried out is the *Producer*. |
+| *Receive-Data* |  | The method of sending data from *Consumer* to *Producer* via a *Cross-Border E-Service*. In this mode, the *Confederate Organization* acquiring new data from the transactions performed is the *Producer*. |
 | *Servizi di Interoperabilità, Cooperazione ed Accesso* | *SICA* | The system that implements and makes available the infrastructural services of *SPCoop*. |
 | *Signal Hub* |  | The digital tool provided by the *Knodes* to the *Confederate Organizations* of *Knodia* to distribute data changes of interest to *Confederate Organizations*. |
 | *Sistema pubblico di cooperazione* | *SPCoop* | The application cooperation system adopted by Italian public administrations. |
-| *Storing* |  | The digital recording carried out by an IT system to secure the information necessary for its operations. |
+| *Storing* |  | The digital recording performed by an IT system to secure the information necessary for its operations. |
 | *Trans-European digital public service* |  | As defined in the *Interoperable Europe Act*. |

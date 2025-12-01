@@ -17,7 +17,7 @@ When the *Producer Knode* forwards such a link, it must ensure that its user int
 
 When the *Consumer Knode* receives the link and any additional elements, it must provide them to *Consumer* *Operators* to let them carry out the requested actions.
 
-The following service blueprint defines the flow of activities carried out by the subjects, *Operators* and *Knodes*, in this case.
+The following service blueprint outlines the activities performed by the subjects, *Operators* and *Knodes*, in this case.
 
 ![](../resources/blueprint-agreement-request-eidas-confirmation-additional-steps.svg)
 

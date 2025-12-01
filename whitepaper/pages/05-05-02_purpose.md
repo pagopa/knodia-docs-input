@@ -76,7 +76,7 @@ The default behaviour in *Knodia* is for the *Producer Knode* to activate the *P
 
 The *Purpose Statement* can instead need a further confirmation by a *Consumer* *Operator*, if the *Producer* requested it when creating the *Cross-Border E-Service*. In this case, the procedure is equivalent to that described for confirmation of *Agreement Requests* (see § [Agreement Request – Confirmation by the Consumer Operator](./05-05-01_agreement.md#confirmation-by-the-consumer-operator)).
 
-The following service blueprint illustrates the flow of activities carried out by the subject, *Operators* and *Knodes*, in the latter case.
+The following service blueprint outlines the activities performed by the subjects, *Operators* and *Knodes*, in the latter case.
 
 ![](../resources/blueprint-purpose-creation-provide-data.svg)
 

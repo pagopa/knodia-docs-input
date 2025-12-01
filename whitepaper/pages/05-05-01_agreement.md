@@ -9,7 +9,7 @@ The *Consumer*, after identifying the *Cross-Border E-Service* it intends to con
 
 The *Producer Knode* can thus verify whether the *Consumer* satisfies the *consumption requirements* of the *Cross-Border E-Service*. If so, it creates an *Agreement Request*, *Stores* it, and sends its identifier to the *Producer Knode*.
 
-By default, *Knodia* assumes that the *Producer Knode* will activate the *Agreement Request* when it creates it. The following service blueprint illustrates the flow of activities carried out by the subjects in this case.
+By default, *Knodia* assumes that the *Producer Knode* will activate the *Agreement Request* when it creates it. The following service blueprint outlines the activities performed by the subjects in this case.
 
 ![](../resources/blueprint-agreement-request.svg)
 
