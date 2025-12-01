@@ -44,7 +44,7 @@ Each *Producer Interop Node* must update the state of each *Agreement Request* i
 - changes to the *Cross-Border E-Service* originated by the Producer;
 - changes to the *Federated Attributes* of the *Consumer*, obtained by monitoring events using the *Federated API* of the *Consumer Interop Node* (see § [Distribution of knowledge between Interop Nodes](./05-11-01_distribution-of-knowledge.md) for more details).
 
-Specifically, the *Agreement Request* must be suspended if the *Consumer*'s *Federated Attributes* no longer satisfy the consumption requirements of the *Cross-Border E-Service*.
+Specifically, the *Agreement Request* must be suspended if the *Consumer*’s *Federated Attributes* no longer satisfy the consumption requirements of the *Cross-Border E-Service*.
 
 Within the *Cross-Border Federation*, for each E-Service and *Consumer*, there can be at most one *Agreement Request*.
 
@@ -92,4 +92,4 @@ For what concerns Producers, Interop Nodes must ensure the following requirement
 For what concerns *Consumers*, Interop Nodes must ensure the following requirements are met:
 
 - The *Consumer Interop Node* must monitor state changes of the *Agreement Request* using the *Federated API* to detect when the confirmation has occurred.
-- The *Consumer Interop Node* must forward to interested consumers the information needed to fulfil the *Producer*'s request for explicit confirmation, received from the *Producer Interop Node*.
+- The *Consumer Interop Node* must forward to interested consumers the information needed to fulfil the *Producer*’s request for explicit confirmation, received from the *Producer Interop Node*.

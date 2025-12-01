@@ -1,6 +1,6 @@
 The *Consumer Keychain* is the digital container in which the *Consumer* deposits the public cryptographic material corresponding to the Electronic Seals it uses to seal *access token* requests to consume E-Services.
 
-Each *Consumer* creates and manages its *Consumer Keychains* on its own *Consumer Interop Node*, using the latter's user interface. The *Consumer Interop Node* must make *Consumer Keychains* available through the *Federated API* so a *Producer Interop Node* can retrieve the cryptographic material needed for verification. See § [Issuance of E-Service access tokens](./05-07-00_tokens.md) for more details.
+Each *Consumer* creates and manages its *Consumer Keychains* on its own *Consumer Interop Node*, using the latter’s user interface. The *Consumer Interop Node* must make *Consumer Keychains* available through the *Federated API* so a *Producer Interop Node* can retrieve the cryptographic material needed for verification. See § [Issuance of E-Service access tokens](./05-07-00_tokens.md) for more details.
 
 This architectural choice lets each *Interop Node* be fully autonomous in managing the public cryptographic material of its onboarded *Confederate Organizations*. Therefore, this material need to be distributed and stored on different nodes, which would be more complex and could increase the risk of misalignment.
 
@@ -20,4 +20,4 @@ The *Consumer Interop Node* must manage the lifecycle of the cryptographic mater
 
 ***Producer Interop Nodes* must ensure the following requirements are met:**
 
-- **They must retrieve the *Consumers*' public cryptographic material from *Consumer Interop Nodes* to verify the *Consumers*' *client assertions*.**
+- **They must retrieve the *Consumers*’ public cryptographic material from *Consumer Interop Nodes* to verify the *Consumers*’ *client assertions*.**

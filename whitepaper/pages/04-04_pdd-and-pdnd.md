@@ -10,7 +10,7 @@ The comparative analysis highlights the advantages obtained in transitioning fro
 
 - the definition of a normalized process, shared among all interested subjects, to enable access to e-services and allow interaction between them;
 - the adoption of technologies that are in wider use and have lower complexity, which can potentially reduce costs;
-- the centralized sharing, via the *PDND*'s API Catalogue, of the offer of digital services, to facilitate meeting demand with supply;
+- the centralized sharing, via the *PDND*’s API Catalogue, of the offer of digital services, to facilitate meeting demand with supply;
 - the security framework based on the *PDND* which ensures: the authentication and authorization of access to e-services; the protection, integrity, and confidentiality of the data exchanged; the complete traceability of requests and their outcome.
 
 # Technological aspects

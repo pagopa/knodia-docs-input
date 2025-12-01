@@ -3,7 +3,7 @@
 | *Agreement Request* |  | The request to use an *E-Service* by a *Confederate Organization*. |
 | *Application Programming Interface* | API | An interface that allows different software to communicate with each other, exchanging data and functionality. |
 | *Confederate Organization* |  | A public or private organization which has completed the identification process (onboarding) on the *Interop Node* to which it belongs based on territorial, administrative, or organizational competence. |
-| *Consumer Interop Node* |  | The *Consumer*'s *Interop Node*. |
+| *Consumer Interop Node* |  | The *Consumer*’s *Interop Node*. |
 | *Consumer* |  | A *Confederate Organization* that uses an *E-Service*. |
 | *Cross-Border E-Service* |  | An *E-Service* enabled by the *Producer* for cross-border interactions. |
 | *Cross-border interactions* |  | A digital interaction carried out by subjects belonging to distinct *Interoperability Domains*, carried out to ensure the exchange of data or integration of services. |
@@ -31,7 +31,7 @@
 | *Piattaforma Digitale Nazionale Dati* | *PDND* | The platform provided for in the *ModI* to authenticate and authorize access to *E-Services*. |
 | *Policy implementation support projects* |  | As defined in the *Interoperable Europe Act*. |
 | *Porta di Dominio* | *PdD* | The component provided for in *SPCoop* instantiated by individual public administrations to enable machine-to-machine interaction. |
-| *Producer Interop Node* |  | The *Producer*'s *Interop Node*. |
+| *Producer Interop Node* |  | The *Producer*’s *Interop Node*. |
 | *Producer* |  | A *Confederate Organization* that makes *E-Services* available. |
 | *Provide-Data* |  | The method of sending data from *Producer* to *Consumer* via an *E-Service*. In this mode, the *Confederate Organization* acquiring new data from the transactions carried out is the *Consumer*. |
 | *Purpose Statement* |  | The statement made by a *Consumer* to explicitly state the lawfulness of processing under the *GDPR*. |

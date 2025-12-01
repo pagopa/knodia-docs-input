@@ -8,9 +8,9 @@ The *Cross-Border Federation* requires *Interop Nodes* to manage Attributes for 
 
 Each Interoperability Domain which joins the *Cross-Border Federation* must ensure that its *Interop Node* assigns and maintains Attributes which are shared among the *Cross-Border Federation*, hereinafter referred to as *Federated Attributes*.
 
-For example, consider that attributes are needed to identify the administrative divisions of Member State (NUTS). Each *Interop Node* should translate these attributes as befits its Interoperability Domain: e.g., NUTS 1 should translated as "Land" for Germany, NUTS 2 as "Regione" for Italy, etc.
+For example, consider that attributes are needed to identify the administrative divisions of Member State (NUTS). Each *Interop Node* should translate these attributes as befits its Interoperability Domain: e.g., NUTS 1 should translated as “Land” for Germany, NUTS 2 as “Regione” for Italy, etc.
 
-The *Cross-Border Federation* must therefore define and share a controlled vocabulary for *Federated Attributes*. In this example, this controlled vocabulary will contain the attributes "NUTS 1" and "NUTS 2" to identify the first- and second-level administrative divisions. Each *Interop Node* can render the *Federated Attributes* translated into the languages of its Interoperability Domain.
+The *Cross-Border Federation* must therefore define and share a controlled vocabulary for *Federated Attributes*. In this example, this controlled vocabulary will contain the attributes “NUTS 1” and “NUTS 2” to identify the first- and second-level administrative divisions. Each *Interop Node* can render the *Federated Attributes* translated into the languages of its Interoperability Domain.
 
 The lifecycle of this controlled vocabulary is a responsibility of the Federation Consortium, as reported in § [Considerations on the governance of the Cross-Border Federation](./05-11-00_federation-governance.md).
 

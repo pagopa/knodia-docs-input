@@ -34,9 +34,9 @@ The following service blueprint illustrates signal deposit.
 
 The Signal Hub persists the signal for an interval of time defined in the policy of the *Cross-Border Federation* and deletes it automatically when that time is over.
 
-A *Consumer* that is interested in data changes for the *Producer*'s E-Service must, like the *Producer*, create an Interop Keychain to request tokens to access the Signal Hub service of the *Producer Interop Node*. Using this token, the *Consumer* periodically accesses (by polling) the Signal Hub to retrieve all signals deposited for that E-Service.
+A *Consumer* that is interested in data changes for the *Producer*’s E-Service must, like the *Producer*, create an Interop Keychain to request tokens to access the Signal Hub service of the *Producer Interop Node*. Using this token, the *Consumer* periodically accesses (by polling) the Signal Hub to retrieve all signals deposited for that E-Service.
 
-A signal does not include that data itself: it is only a notification that the data changed. Hence, the *Consumer* must process the signals to determine which refer to entities of interest. Then, it may retrieve the new state of those entities by calling the *Producer*'s E-Service directly.
+A signal does not include that data itself: it is only a notification that the data changed. Hence, the *Consumer* must process the signals to determine which refer to entities of interest. Then, it may retrieve the new state of those entities by calling the *Producer*’s E-Service directly.
 
 To process the signals, the *Consumer* must compute the pseudonymous identifiers of all entities of interest (using the hashing algorithm and seed communicated by the *Producer*) and compare them with those in the signals.
 
