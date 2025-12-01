@@ -17,6 +17,6 @@ By way of example, consider the need to identify the *Cross-Border E-Services* t
 - whether, to submit *Agreement Requests* and *Purpose Statements* for the *Cross-Border E-Service*, the *Consumer* *Operator* must confirm the submission via *eIDAS login* to the **Producer* *Knode**;
 - whether *Consumers* can access to the *Producer Knode*’s Signal Hub functionality (for details, see § [Distribution of data change signals (Signal Hub)](./05-10-02_signal-hub.md)).
 
-*Knodes* must ensure the following requirement is met:
+***Knodes* must ensure the following requirement is met:**
 
-- Published *E-Services* ensure the indicated technical characteristics.
+- **Published *E-Services* ensure the indicated technical characteristics.**

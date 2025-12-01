@@ -4,7 +4,7 @@ This section describes what *Knodes* must ensure regarding management of their o
 
 *Knodia* does not constrain how the onboarding process is implemented by *Knodes*, except that they must ensure that a single public or private subject can be onboarded only on a single *Knode*.
 
-*Knodes* must ensure the following requirements are met:
+***Knodes* must ensure the following requirements are met:**
 
-- The manager of a *Knode* is responsible for the certain identification of *Confederate Organizations*, respecting the corresponding regulatory framework.
-- A public or private subject may be onboarded only on a single *Knode*.
+- **The manager of a *Knode* is responsible for the certain identification of *Confederate Organizations*, respecting the corresponding regulatory framework.**
+- **A public or private subject may be onboarded only on a single *Knode*.**

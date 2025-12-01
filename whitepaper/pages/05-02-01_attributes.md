@@ -14,8 +14,8 @@ For example, consider that attributes are needed to identify the administrative 
 
 The lifecycle of this controlled vocabulary is a responsibility of the *Knodia Consortium*, as reported in § [Considerations on the governance of Knodia](./05-11-00_federation-governance.md).
 
-*Knodes* must ensure the following requirements are met:
+***Knodes* must ensure the following requirements are met:**
 
-- *Knodes* must associate *Federated Attributes* to *Confederate Organizations* in compliance with its reference regulatory framework.
-- *Confederate Organizations* must not be able to modify their assigned *Federated Attributes* on their own.
-- Only *Federated Attributes*, defined in the controlled vocabulary, are considered in *Knodia*.
+- ***Knodes* must associate *Federated Attributes* to *Confederate Organizations* in compliance with its reference regulatory framework.**
+- ***Confederate Organizations* must not be able to modify their assigned *Federated Attributes* on their own.**
+- **Only *Federated Attributes*, defined in the controlled vocabulary, are considered in *Knodia*.**

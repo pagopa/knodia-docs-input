@@ -6,6 +6,6 @@ By way of example, consider the need to identify the *Cross-Border E-Services* t
 
 The lifecycle of this controlled vocabulary is a responsibility of the *Knodia Consortium*, as reported in § [Considerations on the governance of Knodia](./05-11-00_federation-governance.md).
 
-*Knodes* must ensure the following requirement is met:
+***Knodes* must ensure the following requirement is met:**
 
-- *E-Services* can be associated to Federated Categories and are preferably associated to at least one Federated Category.
+- ***E-Services* can be associated to Federated Categories and are preferably associated to at least one Federated Category.**
