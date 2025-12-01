@@ -2,7 +2,7 @@ This document describes the Italian proposal to the *Interoperable Europe Board*
 
 *Knodia*, a *cross-border authentication and authorization framework*, is intended as a technical and administrative solution to enable digital interaction between organizations in different Member States, as well as between these organizations and the agencies of the *European Commission* and, in general, the *European Union*. The solution implements the API-first approach and is intended to ease the implementation of the once-only principle.
 
-The *Knodia* proposal originates from the positive experience of the *Piattaforma Digitale Nazionale Dati* in Italy (*PDND*). The latter is the infrastructure for authentication and authorization of organizations – both public and private – within the *Interoperability Model* (*MoDI*) for Italian public administrations.
+The *Knodia* proposal originates from the positive experience of the *Piattaforma Digitale Nazionale Dati* in Italy (*PDND*). The latter is the infrastructure for authentication and authorization of organizations – both public and private – within the *Interoperability Model* (*ModI*) for Italian public administrations.
 
 ![](../resources/diagram-spcoop-to-modi-to-crossborder.svg)
 
