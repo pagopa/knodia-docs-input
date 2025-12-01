@@ -1,8 +1,8 @@
-The *Consumer Keychain* is the digital container in which the *Consumer* deposits the public cryptographic material corresponding to the Electronic Seals it uses to seal *access token* requests to consume *Cross-Border E-Services*.
+The *Consumer Keychain* is the digital container in which the *Consumer* deposits the public cryptographic material corresponding to the *Electronic Seals* it uses to seal *access token* requests to consume *Cross-Border E-Services*.
 
 Each *Consumer* creates and manages its *Consumer Keychains* on its own *Consumer Knode*, using the latter’s user interface. The *Consumer Knode* must make *Consumer Keychains* available through the *Federated API* so a *Producer Knode* can retrieve the cryptographic material needed for verification. See § [Issuance of access tokens for Cross-Border E-Services](./05-07-00_tokens.md) for more details.
 
-This architectural choice lets each *Knode* be fully autonomous in managing the public cryptographic material of its onboarded *Confederate Organizations*. Therefore, this material need to be distributed and stored on different nodes, which would be more complex and could increase the risk of misalignment.
+This architectural choice lets each *Knode* be fully autonomous in managing the public cryptographic material of its onboarded *Confederate Organizations*. Therefore, this material does not need to be distributed and stored on different nodes, which would be more complex and could increase the risk of misalignment.
 
 The user interface of each *Consumer Knode* must enable *Consumer* *Operators* to:
 
@@ -11,7 +11,7 @@ The user interface of each *Consumer Knode* must enable *Consumer* *Operators* t
 
 *Knodes* must support indifferently to deposit X.509 certificates or public keys as public cryptographic material in *Consumer Keychains*.
 
-The *Consumer Knode* must manage the lifecycle of the cryptographic material if the *Operator* that has deposited it loses authorization rights within the *Confederate Organization* (for example, removing all keys deposited by an *Operator* who no longer has access to the *Confederate Organization*).
+The *Consumer Knode* must manage the lifecycle of the cryptographic material in case the *Operator* that has deposited it loses authorization rights within the *Confederate Organization* (for example, removing all keys deposited by an *Operator* who no longer has access to the *Confederate Organization*).
 
 ***Consumer Knodes* must ensure the following requirements are met:**
 

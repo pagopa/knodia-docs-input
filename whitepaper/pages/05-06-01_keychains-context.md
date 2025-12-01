@@ -1,4 +1,4 @@
-A *Consumer* who has an active *Agreement Request* and an active *Purpose Statement* for a *Cross-Border E-Service* has all prerequisites to be able to consume it. The *Producer Knode* can therefore issue an *access token* which the *Consumer* can use to access the *Cross-Border E-Service*’s API.
+A *Consumer* who has an active *Agreement Request* and an active *Purpose Statement* for a *Cross-Border E-Service* has all prerequisites to be able to consume it. The *Producer Knode* can therefore issue *access tokens* which the *Consumer* can use to access the *E-Service*’s API.
 
 The *Consumer* can request an *access token* using an API on the *Producer Knode*, referred to hereinafter as token endpoint. Authentication of requests to the token endpoint (that is, verification that they originate from the IT system of the *Consumer* in *Knodia*) complies with the OAuth2 framework. Specifically, it requires the *Consumer* to prepare a client assertion, i.e., a JSON web token (JWT):
 
