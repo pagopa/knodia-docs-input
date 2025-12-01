@@ -4,7 +4,7 @@ This concept was not mentioned up to now, to keep a simpler presentation.
 
 The first version of the *Cross-Border E-Service* is created by the *Producer* at the same time as the *Cross-Border E-Service* itself. Afterwards, the *Producer* can create and publish an updated version. This automatically deprecates the existing version.
 
-Creating a new version does not prevent *Consumers* to continue consuming the previous, now deprecated, versions. However, *Consumers* must be notified that a new version has been published and the one they are consuming is deprecated. The notification should prompt *Consumers* to upgrade to consume the new version. *Agreement Requests* are themselves associated with specific versions, not generically to the *Cross-Border E-Service*.
+Creating a new version does not prevent *Consumers* from continuing to consume the previous, now deprecated, versions. However, *Consumers* must be notified that a new version has been published and the one they are consuming is deprecated. The notification should prompt *Consumers* to upgrade to consume the new version. *Agreement Requests* are themselves associated with specific versions, not generically to the *Cross-Border E-Service*.
 
 The following diagram represents the states and lifecycle of each *E-Service* version. State transitions in the diagram are labelled with an icon to identify the actors that can perform that action.
 
