@@ -2,7 +2,7 @@
 
 IMAGE MISSING
 
-The *Interoperable Europe Act* identifies the *European Interoperability Framework* (*EIF*), which is addressed to all entities within its scope, as a set of guidelines and recommendations on legal, organizational, semantic, and technical interoperability.
+The *Interoperable Europe Act* identifies the *European Interoperability Framework* (*EIF*) as a set of guidelines and recommendations on legal, organizational, semantic, and technical interoperability, addressed to all entities within its scope.
 
 The European Commission adopts the *EIF* to define cross-border and cross-sector *interoperability solutions* based on open standards and specifications.
 
