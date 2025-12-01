@@ -3,7 +3,7 @@ This section explains the rationale for Italy's transition from the *SPCoop* to 
 The *SPCoop* launched the Italian experience in data sharing and service integration between Italian public administrations via digital tools. However, experience with it highlighted that:
 
 - The *Porta di Dominio* component of the technological architecture (which used the custom SOAP extension named *busta e-gov*) required public administrations to adopt this component, risking technological lock-in.
-- The *Porta di Dominio* component was imposed on public administrations, reducing their freedom to make internal choices within each organization. This circumstance was most relevant in complex public administrations applying aggressive segmentation policies for their server farms, or in public administrations that began adopting cloud computing.
+- The *Porta di Dominio* component was imposed on public administrations, reducing their freedom to make internal choices within each organization. This circumstance was most relevant in complex public administrations that applied aggressive segmentation policies to their server farms, or in public administrations that began adopting cloud computing.
 - Delegating to individual cooperating entities the responsibility for authorizing access to their provided data and/or services (through agreements between parties) delayed public administrations' participation due to frequent duplication of administrative proceedings.
 - Defining a unique security framework – regardless of the nature of the data subject to interaction – overburdens public administrations participating in interactions, even in cases where the data to be exchanged could have allowed a less onerous approach.
 
