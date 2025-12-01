@@ -50,7 +50,7 @@ The *ModI* preserves the adoption of the Service-Oriented Computing paradigm and
 - It issues authorization tokens (bearer tokens or *DPoP*-bound tokens) for *Consumers* to access *e-services*. To do so, it verifies the completion of the purpose statement by the *Organization* receiving new data and the status of the associated agreement request.
 - It supports an asynchronous message exchange model for interactions between *Producers* and *Consumers* for an *e-service*, enabling the inclusion of the necessary elements in the authorization tokens.
 - It makes *e-service* templates available as a co-design tool to facilitate coordination across application domains where several *Organizations* provide analogous *e-services*. It also makes pre-compiled models of purpose statements available to simplify the statement incumbent on *Organizations*.
-- It provides tools that allow *Producers* to communicate evidence of changes to data provided by their *e-services* to *Consumers* who need to manage these changes, consistent with the regulatory framework.
+- It provides tools that allow *Producers* to communicate evidence of changes to data provided by their *e-services* to *Consumers* who need to manage these changes, in a manner consistent with the regulatory framework.
 
 In short, the *PDND* serves as an *Authentication and Authorization Server*. It applies the Attribute-Based Access Control model regarding the agreement requests initiated by *Consumers* and integrated with purpose statements by *Organizations* to enable access to *e-services*. It ensures the issuance of authorization tokens to permit interactions between the IT systems of *Producers* and *Consumers*. Furthermore, the *PDND* provides *Organizations* with the services necessary for their full participation in the *ModI*, in compliance with current legislation, with particular attention to the protection of personal data, within an administrative and technological security framework for *Organizations*.
 
@@ -58,4 +58,4 @@ The following diagram illustrates the high-level architecture of the *ModI*.
 
 ![](../resources/diagram-modi.svg)
 
-Within the *ModI*, the *PDND*, in addition to performing the function of an *Authentication and Authorization Server*, supports and standardizes the processes of *Organizations*, in particular regarding enabling the use of *e-services*.
+Within the *ModI*, the *PDND*, in addition to performing the function of an *Authentication and Authorization Server*, supports and standardizes *Organizations’* processes, particularly for enabling the use of *e-services*.
