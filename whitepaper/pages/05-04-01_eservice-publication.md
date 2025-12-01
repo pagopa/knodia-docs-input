@@ -1,6 +1,6 @@
 A *Knode* must allow its *Confederate Organizations* that are *Producers* of *Cross-Border E-Services* to publish their *E-Services* on the *Knode Catalogue*.
 
-To publish a *Cross-Border E-Service*, a *Producer* must define its required characteristics as described in § [Cross-Border E-Services](./05-03-00_eservices.md). It must then manage its lifecycle as described in § [Lifecycle of E-Services](./05-09-01_lifecycle-eservice.md).
+To publish a *Cross-Border E-Service*, a *Producer* must define its required characteristics as described in § [Cross-Border E-Services](./05-03-00_eservices.md). It must then manage its lifecycle as described in § [Lifecycle of Cross-Border E-Services](./05-09-01_lifecycle-eservice.md).
 
 *Knodia* does not prevent *Interoperability Domains* to define additional activities for these workflow, provided that any additions do not compromise the usability of the *Cross-Border E-Service* for *cross-border interactions*.
 
