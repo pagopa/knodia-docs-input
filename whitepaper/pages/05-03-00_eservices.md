@@ -1,4 +1,4 @@
-An *E-Service* is a Web service provided by a *Producer*, that is, published by the it in the Node Catalogue of the *Knode* to which the *Producer* has onboarded. *Producers* publish *E-Services* so that other *Confederate Organizations* can access them, acting as *Consumers*.
+An *E-Service* is a Web service provided by a *Producer*, that is, published by the it in the *Knode Catalogue* of the *Knode* to which the *Producer* has onboarded. *Producers* publish *E-Services* so that other *Confederate Organizations* can access them, acting as *Consumers*.
 
 Within *Knodia*, *E-Services* are assumed to use Hypertext Transfer Protocol Secure (HTTPS) as the communication protocol.
 
