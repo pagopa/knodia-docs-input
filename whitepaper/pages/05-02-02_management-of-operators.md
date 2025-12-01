@@ -2,7 +2,7 @@
 
 *Knodia* favours interactions between *Operators* and the *Knode* to which their *Confederate Organization* is onboarded. It minimizes direct interaction between *Operators* and the user interface of other *Knodes*.
 
-Despite this, direct interaction between a *Consumer* *Operator* and the *Knode* of a *Producer* can be required. For this reason, *Operators* must possess means of electronic identification issued within an electronic identification scheme (hereinafter *eIDAS login*) notified pursuant to Regulation (EU) No 910/2014 of the European Parliament and of the Council of 23 July 2014 on electronic identification and trust services for electronic transactions in the internal market and repealing Directive 1999/93/EC (in short, *eIDAS Regulation*).
+Despite this, direct interaction between a *Consumer* *Operator* and the *Knode* of a *Producer* can be required. For this reason, *Operators* must possess means of electronic identification issued within an electronic identification scheme (hereinafter *eIDAS login*) notified pursuant to Regulation (EU) No 910/2014 of the European Parliament and of the Council of 23 July 2014 on electronic identification and trust services for electronic transactions in the internal market and repealing Directive 1999/93/EC (*eIDAS Regulation*).
 
 ***Knodes* must ensure the following requirements are met:**
 

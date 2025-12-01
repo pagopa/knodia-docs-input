@@ -1,6 +1,6 @@
 Within *Knodia*, *cross-border interactions* to share data and/or integrate services are realized through *Cross-Border E-Services*.
 
-Organizations make *Cross-Border E-Services* available – hereinafter *produce* them – to allow other interested organizations to use them – hereinafter *consume* them – by defining an application programming interface (in short, API) and the associated metadata that characterize it.
+Organizations make *Cross-Border E-Services* available – hereinafter *produce* them – to allow other interested organizations to use them – hereinafter *consume* them – by defining an application programming interface (API) and the associated metadata that characterize it.
 
 *Knodia* provides for the existence of the following actors:
 
