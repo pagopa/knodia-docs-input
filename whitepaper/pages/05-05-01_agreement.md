@@ -1,8 +1,8 @@
-An *Agreement Request* is a digital agreement between *Consumer* and *Producer* related to a *Cross-Border E-Service* produced by the *Producer*. The *Agreement Request* is needed for the *Consumer* to consume the *E-Service*.
+An *Agreement Request* is a digital agreement between a *Consumer* and a *Producer* regarding a *Cross-Border E-Service* produced by the *Producer*. The *Agreement Request* is needed for the *Consumer* to consume the *E-Service*.
 
 For *Provide-Data* *Cross-Border E-Services*, the *Agreement Request* is not sufficient to allow usage of the *E-Service*, since the *Consumer* must also submit the *Purpose Statement* (see § [Purpose Statement](./05-05-02_purpose.md) for more details).
 
-The *Consumer*, after identifying the *Cross-Border E-Service* it intends to consume, can submit an *Agreement Request* for it via the user interface of the *Consumer Knode*. Using the *Federated API*, the *Consumer Knode* forwards to the *Producer Knode*:
+The *Consumer*, after identifying the *Cross-Border E-Service* it intends to consume, can submit an *Agreement Request* for it via the *Consumer Knode* user interface. Using the *Federated API*, the *Consumer Knode* forwards to the *Producer Knode*:
 
 - the identifier of the *Cross-Border E-Service*;
 - the identifier of the *Consumer* and its *Federated Attributes*.
