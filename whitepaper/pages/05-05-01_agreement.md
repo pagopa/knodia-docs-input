@@ -74,15 +74,15 @@ In this case, when the *Producer Knode* creates the *Agreement Request*, it must
 - a link to its user interface that a *Consumer* *Operator* must use to confirm the operation on the *Producer Knode*;
 - an (unforgeable) secret token that the aforementioned *Operator* must provide to the *Producer Knode*.
 
-To confirm submission of an *Agreement Request*, an *Operator* of the *Consumer* will have to follow the link, authenticate to the user interface of the *Producer Knode* via *eIDAS login*, and provide the secret token.
+To confirm submission of an *Agreement Request*, an *Operator* of the *Consumer* must follow the link, authenticate to the *Producer Knode* user interface via *eIDAS login*, and provide the secret token.
 
-The *Consumer Knode* is responsible to provide the link and secret token only the *Operators* of the *Consumer* which are authorized in its domain to carry out this confirmation.
+The *Consumer Knode* is responsible for providing the link and secret token only to the *Operators* of the *Consumer* who are authorized in its domain to carry out this confirmation.
 
 After confirmation, if no other action is needed, the *Producer Knode* activates the *Agreement Request*. This case is illustrated in the following service blueprint.
 
 ![](../resources/blueprint-agreement-request-eidas-confirmation.svg)
 
-If the regulatory framework applicalbe to the *Producer Knode* requires additional actions, the *Producer Knode* sets the state of the *Agreement Request* to reflect this (see § [Actions requested by the national regulatory framework](./05-05-03_national-regulatory-framework.md)).
+If the regulatory framework applicable to the *Producer Knode* requires additional actions, the *Producer Knode* sets the *Agreement Request* state accordingly (see § [Actions requested by the national regulatory framework](./05-05-03_national-regulatory-framework.md)).
 
 ***Producer Knodes* must ensure the following requirements are met:**
 
@@ -91,5 +91,5 @@ If the regulatory framework applicalbe to the *Producer Knode* requires addition
 
 ***Consumers Knodes* must ensure the following requirements are met:**
 
-- **The *Consumer Knode* must monitor state changes of the *Agreement Request* using the *Federated API* to detect when the confirmation has occurred.**
-- **The *Consumer Knode* must forward to interested consumers the information needed to fulfil the *Producer*’s request for explicit confirmation, received from the *Producer Knode*.**
+- **The *Consumer Knode* must monitor state changes in the *Agreement Request* using the *Federated API* to detect when confirmation has occurred.**
+- **The *Consumer Knode* must forward to interested consumers the information needed to fulfil the *Producer*’s explicit confirmation request, received from the *Producer Knode*.**
