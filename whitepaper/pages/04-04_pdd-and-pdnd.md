@@ -40,7 +40,7 @@ The comparative analysis highlights the advantages obtained in transitioning fro
 | **E-service discovery** | ❌ direct relation between interested parties | ✅ centralized via API Catalogue |
 | **Subject categorization** | ❌ realized by interested parties towards each other | ✅ centralized via attribute management |
 | **E-service co-design** | ❌ direct relation between interested parties | ✅ API templates |
-| **Data variation distribution** | ⚠️ implemented by interested parties for individual e-services | ✅ standardized and centralized via the Signal Hub |
+| **Data variation distribution** | ⚠️ implemented by interested parties for individual e-services | ✅ standardized and centralized via the *Signal Hub* |
 
 # Governance and compliance
 
