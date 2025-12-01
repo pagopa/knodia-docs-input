@@ -11,4 +11,4 @@ This chapter reports the features that the actors involved in *Knodia*, primaril
 - *legal interoperability:* ensures compliance with the European regulatory framework on interoperability and on the protection of personal data of natural persons, preserving the possibility of integrations by Member States;
 - *organizational interoperability:* specifies the relationships between the organizations involved and the processes they follow to enable *cross-border interactions* between them;
 - *semantic interoperability:* identifies the common semantic objects (controlled vocabularies, ontologies, and data schemas) necessary to enable *cross-border interactions*;
-- *tchnical interoperability:* defines a shared federated protocol that interested organizations implement to enable *cross-border interactions* between their IT systems.
+- *technical interoperability:* defines a shared federated protocol that interested organizations implement to enable *cross-border interactions* between their IT systems.
