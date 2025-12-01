@@ -9,9 +9,9 @@ In this scenario, regardless of the specific application domain that the interac
 
 [^1]: [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679)
 
-The present proposal – within the framework of the *Interoperable Europe Act* and specifically the instrument of *interoperability regulatory sandboxes* – proposes to establish a technical-administrative framework that, at a cross-border level, allows managing authentication and authorization for access to APIs by the organizations involved (in short *Cross-Border Federation*).
+The present proposal – within the framework of the *Interoperable Europe Act* and specifically the instrument of *interoperability regulatory sandboxes* – proposes to establish a technical-administrative framework, here named *Knodia*, that, at a cross-border level, allows managing authentication and authorization for access to APIs by the organizations involved (constituting a cross-border federation).
 
-The definition of the *Cross-Border Federation*, which capitalizes on the Italian experience of the *Piattaforma Digitale Nazionale Dati* (in short *PDND*), pursues the following objectives:
+The definition of *Knodia*, which capitalizes on the Italian experience of the *Piattaforma Digitale Nazionale Dati* (in short *PDND*), pursues the following objectives:
 
 - Ensure the identification of organizations participating in the ecosystem (*Confederate Organizations*) and guarantee the assignment of *attributes* to them.
 - Allow *Confederate Organizations* to make APIs available for access to data and services for which the organization itself is the authoritative source (*Producers*).
@@ -21,18 +21,18 @@ The definition of the *Cross-Border Federation*, which capitalizes on the Italia
 
 ![](../resources/diagram-domains.svg)
 
-The *Cross-Border Federation* as a whole constitutes the digital ecosystem involving:
+*Knodia* as a whole constitutes the digital ecosystem involving:
 
 - *Producer Confederate Organizations*: the organizations that make APIs available for access to data for which they are the authoritative source.
 - *Consumer Confederate Organizations*: the organizations that, to carry out their activities pursuant to current legislation, access the APIs made available by the Producers.
 - *Interoperability Nodes* (*Knodes*): the entities that manage a domain by identifying a set of *Confederate Organizations* and providing services to them to operate within the ecosystem.
 
-In the digital ecosystem constituted by the *Cross-Border Federation*:
+In the digital ecosystem constituted by *Knodia*:
 
 - A *Confederate Organization* can be simultaneously both a *Producer* and a *Consumer*.
 - *Producer*-*Consumer* interactions always occur between two *Confederate Organizations* belonging to distinct domains.
 
-The proposed *Cross-Border Federation* ensures that:
+The proposed cross-border federation realized by *Knodia* ensures that:
 
 - Attribution of responsibilities to the subjects involved for the functioning of the ecosystem is certain.
 - APIs made available by *Producers* are published on the *E-Service Catalogue* of the *Interoperability Node* on which the *Producer* is identified.
@@ -46,4 +46,4 @@ The proposed *Cross-Border Federation* ensures that:
 - *Producers* can request *Consumers* of their APIs proof of possession of the cryptographic material deposited by the latter on the *Interoperability Nodes*.
 - The *Interoperability Nodes* provide functionality useful to notify interested *Consumers* of changes of data held by the Producers.
 
-This proposal will be supplemented by the preparation of a prototype of the application components necessary to realize the *Cross-Border Federation*, to be made available to subjects interested in verifying its functioning.
+This proposal will be supplemented by the preparation of a prototype of the application components necessary to realize *Knodia*, to be made available to subjects interested in verifying its functioning.

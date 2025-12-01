@@ -10,12 +10,12 @@
 | *Electronic Archiving* |  | As defined in the *eIDAS Regulation*. |
 | *Electronic seals* |  | As defined in the *eIDAS Regulation*. |
 | *European Interoperability Framework* | *EIF* | As defined in the *Interoperable Europe Act*. |
-| *Federated API* |  | The machine-to-machine APIs implemented and used by the *Knodes* to engage in the communication protocols of the *Cross-Border Federation*. |
-| *Federated Attribute* |  | The attributes defined in the *Cross-Border Federation* associated with *Confederate Organizations*. |
+| *Federated API* |  | The machine-to-machine APIs implemented and used by the *Knodes* to engage in the communication protocols of *Knodia*. |
+| *Federated Attribute* |  | The attributes defined in *Knodia* associated with *Confederate Organizations*. |
 | *Innovation measures* |  | As defined in the *Interoperable Europe Act*. |
 | *Interoperability Domain* |  | A set of subjects that have defined and shared common rules, based on mutual trust, to proceed with the sharing of data and services among themselves using digital tools. |
 | *Interoperability assessment* |  | As defined in the *Interoperable Europe Act*. |
-| *Interoperability Node* | *Knode* | The component of the *Cross-Border Federation* to enable *cross-border interactions*. |
+| *Interoperability Node* | *Knode* | The component of *Knodia* to enable *cross-border interactions*. |
 | *Interoperability regulatory sandbox* |  | A controlled environment established by a European Union entity or a public body for the development, training, testing, and validation regarding innovative interoperability solutions, where appropriate in real-world conditions, supporting the cross-border interoperability of trans-European digital public services for a limited period of time under regulatory supervision. |
 | *Interoperability solutions* |  | As defined in the *Interoperable Europe Act*. |
 | *Interoperable Europe Agenda* |  | As defined in the *Interoperable Europe Act*. |
@@ -38,7 +38,7 @@
 | *Purpose* |  | The reference to a *Purpose Statement* made by a *Consumer*. |
 | *Receive-Data* |  | The method of sending data from *Consumer* to *Producer* via an *E-Service*. In this mode, the *Confederate Organization* acquiring new data from the transactions carried out is the *Producer*. |
 | *Servizi di Interoperabilità, Cooperazione ed Accesso* | *SICA* | The system that implements and makes available the infrastructural services of *SPCoop*. |
-| *Signal Hub* |  | The digital tool provided by the *Knodes* to the *Confederate Organizations* of the *Cross-Border Federation* to distribute data changes of interest to *Confederate Organizations*. |
+| *Signal Hub* |  | The digital tool provided by the *Knodes* to the *Confederate Organizations* of *Knodia* to distribute data changes of interest to *Confederate Organizations*. |
 | *Sistema pubblico di cooperazione* | *SPCoop* | The application cooperation system adopted by Italian public administrations. |
 | *Storing* |  | The digital recording carried out by an IT system to secure the information necessary for its operations. |
 | *Trans-European digital public service* |  | As defined in the *Interoperable Europe Act*. |

@@ -1,10 +1,10 @@
 Beyond the usual model of consumption (i.e., a *Consumer* calls the *Cross-Border E-Services* offered by *Producers*), the *Knode* may also provide a signal distribution system that lets *Consumers* detect when change occur in the data provided by a *Cross-Border E-Service* (which the *Consumer* is authorized to consume) referring to entities the *Consumer* is interested in.
 
-This functionality is intended to allow *Consumers* to react promptly to update information on subjects for whom the *Consumer* has outstanding processing operations, while avoiding excessive load on *Producers* (which would be imposed by *Consumers* repeatedly fetching the data to monitor it for changes). Moreover, this standardizes throughout the *Cross-Border Federation* a single model to distribute data changes.
+This functionality is intended to allow *Consumers* to react promptly to update information on subjects for whom the *Consumer* has outstanding processing operations, while avoiding excessive load on *Producers* (which would be imposed by *Consumers* repeatedly fetching the data to monitor it for changes). Moreover, this standardizes throughout *Knodia* a single model to distribute data changes.
 
-To support this, the *Knode* must implement a service – here referred to as the Signal Hub. The Signal Hub allows *Producers* of that *Knode* to deposit signals related to data changes for a *Cross-Border E-Service*, after enabling the Signal Hub for that service. It allows any *Consumer* (throughout the *Cross-Border Federation*) to retrieve the signals it is interested in. To retrieve signals, the *Consumer* needs an active *Agreement Request* and at least one active *Purpose Statement* for the *Cross-Border E-Service*.
+To support this, the *Knode* must implement a service – here referred to as the Signal Hub. The Signal Hub allows *Producers* of that *Knode* to deposit signals related to data changes for a *Cross-Border E-Service*, after enabling the Signal Hub for that service. It allows any *Consumer* (throughout *Knodia*) to retrieve the signals it is interested in. To retrieve signals, the *Consumer* needs an active *Agreement Request* and at least one active *Purpose Statement* for the *Cross-Border E-Service*.
 
-The *Federation Consortium* referred to in § [Considerations on the governance of the Cross-Border Federation](./05-11-00_federation-governance.md), capitalizing on the effects of the proposed experimentation, defines in detail how to implement this functionality.
+The *Federation Consortium* referred to in § [Considerations on the governance of Knodia](./05-11-00_federation-governance.md), capitalizing on the effects of the proposed experimentation, defines in detail how to implement this functionality.
 
 The remainder of this section reports considerations on this functionality based on the experience with the PDND in Italy.
 
@@ -32,7 +32,7 @@ The following service blueprint illustrates signal deposit.
 
 ![](../resources/blueprint-signal-hub-produce.svg)
 
-The Signal Hub persists the signal for an interval of time defined in the policy of the *Cross-Border Federation* and deletes it automatically when that time is over.
+The Signal Hub persists the signal for an interval of time defined in the policy of *Knodia* and deletes it automatically when that time is over.
 
 A *Consumer* that is interested in data changes for the *Producer*’s *E-Service* must, like the *Producer*, create an Interop Keychain to request tokens to access the Signal Hub service of the *Producer Knode*. Using this token, the *Consumer* periodically accesses (by polling) the Signal Hub to retrieve all signals deposited for that *E-Service*.
 

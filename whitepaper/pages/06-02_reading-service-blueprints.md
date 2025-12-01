@@ -1,4 +1,4 @@
-Throughout this proposal, *service blueprints* are used to illustrate the activities and interactions between entitities in the flows of the *Cross-Border Federation*. While the blueprint is intended as an intuitive representation, for clarity, the following notes describe the conventions used.
+Throughout this proposal, *service blueprints* are used to illustrate the activities and interactions between entitities in the flows of *Knodia*. While the blueprint is intended as an intuitive representation, for clarity, the following notes describe the conventions used.
 
 - Each blueprint is organized into horizontal rows (often called *swimlanes*), which separate the entitites involved in the process. These entitites can be human *actors* (the *Operators* of *Confederate Organizations*) or *systems*. *Knodes* are the systems represented in most blueprints (normally without subdividing them into what internal components they may consist of).
 - Each box within the rows represents an action carried out by the corresponding entity. It also indicates:

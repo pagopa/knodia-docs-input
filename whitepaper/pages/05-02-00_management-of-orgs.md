@@ -2,7 +2,7 @@ This section describes what *Knodes* must ensure regarding management of their o
 
 *Knodes* ensure certain identification of the *Confederate Organizations*. Each *Knode* defines autonomously the onboarding process and the required checks to constantly ensure that the prerequisites needed for enrollment of a *Confederate Organization* hold.
 
-The *Cross-Border Federation* does not constrain how the onboarding process is implemented by *Knodes*, except that they must ensure that a single public or private subject can be onboarded only on a single *Knode*.
+*Knodia* does not constrain how the onboarding process is implemented by *Knodes*, except that they must ensure that a single public or private subject can be onboarded only on a single *Knode*.
 
 *Knodes* must ensure the following requirements are met:
 

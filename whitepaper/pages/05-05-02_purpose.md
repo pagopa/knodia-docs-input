@@ -7,14 +7,14 @@ This declaration is made:
 - for *Provide-Data* *Cross-Border E-Services*, by the *Consumers*, for each *E-Service* they have an active *Agreement Request* for and each processing that will use that *E-Service*;
 - for *Receive-Data* *Cross-Border E-Services*, by the *Producer* when publishing the *E-Service*.
 
-Within the *Cross-Border Federation*, *Purpose Statements* are characterized by:
+Within *Knodia*, *Purpose Statements* are characterized by:
 
 - an identifier which is unique within the *Interoperability Domain*;
 - name and description;
 - indication of the lawfulness of processing, as a value chosen from the options admitted by Article 6 of Regulation (EU) 2016/679;
 - any additional information required by the national regulatory framework to which the *Producer Knode* is subject regarding the protection of personal data of natural persons (see § [Actions requested by the national regulatory framework](./05-05-03_national-regulatory-framework.md)).
 
-The *Purpose Statements* must be filled in at least in the common language accepted by the *Cross-Border Federation*.
+The *Purpose Statements* must be filled in at least in the common language accepted by *Knodia*.
 
 The *Consumer* must declare the load it expects to put on the *Cross-Border E-Service* in terms of a maximum number of requests per given unit of time. This parameter is useful to the *Producer* to evaluate dimensioning of its technological infrastructure. Specifically:
 
@@ -72,7 +72,7 @@ The *Producer Knode* must *Store* the references:
 - of the *Consumer*;
 - of the *Consumer Knode*.
 
-The default behaviour in the *Cross-Border Federation* is for the *Producer Knode* to activate the *Purpose Declaration* simultaneously when it is created.
+The default behaviour in *Knodia* is for the *Producer Knode* to activate the *Purpose Declaration* simultaneously when it is created.
 
 The *Purpose Statement* can instead need a further confirmation by a *Consumer* *Operator*, if the *Producer* requested it when creating the *Cross-Border E-Service*. In this case, the procedure is equivalent to that described for confirmation of *Agreement Requests* (see § [Agreement Request – Confirmation by the Consumer Operator](./05-05-01_agreement.md#confirmation-by-the-consumer-operator)).
 

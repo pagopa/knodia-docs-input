@@ -9,13 +9,13 @@ The *Consumer*, after identifying the *Cross-Border E-Service* it intends to con
 
 The *Producer Knode* can thus verify whether the *Consumer* satisfies the *consumption requirements* of the *Cross-Border E-Service*. If so, it creates and *Agreement Request*, Stores it, and sends its identifier to the *Producer Knode*.
 
-By default, the *Cross-Border Federation* assumes that the *Producer Knode* will activate the *Agreement Request* when it creates it. The following service blueprint illustrates the flow of activities carried out by the subjects in this case.
+By default, *Knodia* assumes that the *Producer Knode* will activate the *Agreement Request* when it creates it. The following service blueprint illustrates the flow of activities carried out by the subjects in this case.
 
 ![](../resources/blueprint-agreement-request.svg)
 
 Activating an *Agreement Request* can require additional actions depending on the regulatory framework that then *Producer Knode* operates in: see § [Actions requested by the national regulatory framework](./05-05-03_national-regulatory-framework.md).
 
-The *Agreement Request* must be filled in at least in the common language accepted by the *Cross-Border Federation*.
+The *Agreement Request* must be filled in at least in the common language accepted by *Knodia*.
 
 The *Consumer Knode* must monitor events concerning state changes of the *Agreement Request* using the *Federated API* and notify them to the corresponding *Consumer*. See § [Distribution of knowledge between Knodes](./05-11-01_distribution-of-knowledge.md) for more details.
 
@@ -46,7 +46,7 @@ Each *Producer Knode* must update the state of each *Agreement Request* it has c
 
 Specifically, the *Agreement Request* must be suspended if the *Consumer*’s *Federated Attributes* no longer satisfy the *consumption requirements* of the *Cross-Border E-Service*.
 
-Within the *Cross-Border Federation*, for each E-Service and *Consumer*, there can be at most one *Agreement Request*.
+Within *Knodia*, for each E-Service and *Consumer*, there can be at most one *Agreement Request*.
 
 See § [Lifecycle of Agreement Requests](./05-09-02_lifecycle-agreement.md) for more details on the lifecycle of *Agreement Requests*.
 

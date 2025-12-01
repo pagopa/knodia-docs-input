@@ -1,1 +1,1 @@
-This section describes additional functionality that *Knodes* may provide to *Confederate Organizations* in the *Cross-Border Federation* to help cross-border interoperability between them. The experience with the PDND in Italy has already demonstrated its usefulness to Organizations.
+This section describes additional functionality that *Knodes* may provide to *Confederate Organizations* in *Knodia* to help cross-border interoperability between them. The experience with the PDND in Italy has already demonstrated its usefulness to Organizations.

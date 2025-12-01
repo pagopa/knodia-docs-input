@@ -8,4 +8,4 @@ Using an Interop Keychain, a *Confederate Organization* can request an interop *
 
 - **They must make the public cryptographic material deposited in *Interop Keychains* available to other *Knodes* through the *Federated API*.**
 - **They must retrieve the public cryptographic material of *Interop Keychains* from other *Knodes* to verify *client assertions*.**
-- **They must issue interop *access tokens* to *Confederate Organizations* of the *Cross-Border Federation*, with write, edit, or delete operations only if the declaration responsibility was made by an *Operator* of the *Organization*.**
+- **They must issue interop *access tokens* to *Confederate Organizations* of *Knodia*, with write, edit, or delete operations only if the declaration responsibility was made by an *Operator* of the *Organization*.**

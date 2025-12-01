@@ -4,4 +4,4 @@ A *Consumer* with an active *Agreement Request* for a *Cross-Border E-Service* c
 
 Using a *Purpose Statement* Template does not exempt the *Consumer* from responsibility for the *Purpose Statement* it creates.
 
-The *Federation Consortium* referred to in § [Considerations on the governance of the Cross-Border Federation](./05-11-00_federation-governance.md), capitalizing on the effects of the proposed experimentation, defines in detail how to implement this functionality.
+The *Federation Consortium* referred to in § [Considerations on the governance of Knodia](./05-11-00_federation-governance.md), capitalizing on the effects of the proposed experimentation, defines in detail how to implement this functionality.

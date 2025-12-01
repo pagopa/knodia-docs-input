@@ -23,7 +23,7 @@ If the verification succeeds, the *Producer Knode* creates and seals the *access
 
 The *Producer* is responsible to implement verification of the *access token* in the *Cross-Border E-Service*. That is must check that it is a valid JWT, as concerns expiration and audience, and that it is electronically sealed by the *Producer Knode* (which guarantees authenticity and integrity). To allow this, the *Producer Knode* must make its own public cryptographic material, with which it seals the *access tokens* it issues, publicly available as a well-known JSON web keyset (JWKS).
 
-The implementation details of the token endpoint, which the *Producer Knodes* must implement, shall be part of the specification of the *Cross-Border Federation* produced by the Federated Consortium, as described in § [Considerations on the governance of the Cross-Border Federation](./05-11-00_federation-governance.md).
+The implementation details of the token endpoint, which the *Producer Knodes* must implement, shall be part of the specification of *Knodia* produced by the Federated Consortium, as described in § [Considerations on the governance of Knodia](./05-11-00_federation-governance.md).
 
 ***Consumers* must ensure the following requirements are met:**
 
@@ -32,7 +32,7 @@ The implementation details of the token endpoint, which the *Producer Knodes* mu
 
 ***Producer Knodes* must ensure the following requirements are met:**
 
-- **They must implement the token endpoint that issues *access tokens*, following the specifications of the *Cross-Border Federation*, and make it available to *Consumers*.**
+- **They must implement the token endpoint that issues *access tokens*, following the specifications of *Knodia*, and make it available to *Consumers*.**
 
 ***Producers* must ensure the following requirements are met:**
 

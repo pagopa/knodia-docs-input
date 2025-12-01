@@ -4,9 +4,9 @@
 - [Regulatory context](pages/02_regulatory-context.md)
 - [Objective of the proposal](pages/03_objective-of-the-proposal.md)
 
-## The Cross-Border Federation as an evolution of the Italian interoperability experience
+## Knodia as an evolution of the Italian interoperability experience
 
-- [The Cross-Border Federation as an evolution of the Italian interoperability experience](pages/04-00_italian-interop-intro.md)
+- [Knodia as an evolution of the Italian interoperability experience](pages/04-00_italian-interop-intro.md)
 - [The Italian public cooperation system](pages/04-01_public-cooperation-system.md)
 - [The Italian interoperability model](pages/04-02_interoperability-model.md)
 - [Evolution from the the public cooperation system to the interoperability model](pages/04-03_evolution.md)
@@ -52,7 +52,7 @@
   - [E-Service Templates](pages/05-10-03_eservice-templates.md)
   - [Purpose Statement Templates](pages/05-10-04_purpose-templates.md)
   - [Producer Keychains](pages/05-10-05_producer-keychains.md)
-- [Considerations on the governance of the Cross-Border Federation](pages/05-11-00_federation-governance.md)
+- [Considerations on the governance of Knodia](pages/05-11-00_federation-governance.md)
   - [Distribution of knowledge between Knodes](pages/05-11-01_distribution-of-knowledge.md)
   - [Configuration of the federation of Knodes](pages/05-11-02_federation-configuration.md)
 

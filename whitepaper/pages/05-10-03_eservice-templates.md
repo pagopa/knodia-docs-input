@@ -4,4 +4,4 @@ Every *Producer* can view the E-Service Templates available on both its own and 
 
 E-Service Templates, like *E-Services*, can have multiple versions. When a new version is created, the previous versions are automatically deprecated. New instances can only be created from the latest version. However, *E-Services* can still exist which have been instantiated from an older version. The *Knode* must notify (possibly via other *Knodes*) the *Producers* that have instantiated an E-Service Template when a new version of the template is published and, if so, that the version currently in use will no longer be available after a given date.
 
-The *Federation Consortium* referred to in § [Considerations on the governance of the Cross-Border Federation](./05-11-00_federation-governance.md), capitalizing on the effects of the proposed experimentation, defines in detail how to implement this functionality.
+The *Federation Consortium* referred to in § [Considerations on the governance of Knodia](./05-11-00_federation-governance.md), capitalizing on the effects of the proposed experimentation, defines in detail how to implement this functionality.

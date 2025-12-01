@@ -1,4 +1,4 @@
-The *Cross-Border Federation*, the subject of this proposal, benefits from the experience gained by Italian public entities regarding the sharing of data and services among themselves and with private entities (businesses and citizens), as a prerequisite to implement the once-only principle.
+*Knodia*, the subject of this proposal, benefits from the experience gained by Italian public entities regarding the sharing of data and services among themselves and with private entities (businesses and citizens), as a prerequisite to implement the once-only principle.
 
 The Italian experience in this matter has seen two main stages:
 

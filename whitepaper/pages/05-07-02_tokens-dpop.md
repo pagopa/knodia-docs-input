@@ -8,7 +8,7 @@ The *Producer Knode* verifies the *DPoP* proof with the proof key. It it is vali
 
 To call the *Cross-Border E-Service* with a *DPoP*-bound *access token*, the *Consumer* attaches a *DPoP* proof to every request. The *Producer* must verify the signature of the *DPoP* proof against the proof key to which the *access token* is bound.
 
-The implementation details of the token endpoint to issue *DPoP*-bound *access token*, which the *Producer Knodes* must implement, shall be part of the specification of the *Cross-Border Federation* produced by the Federated Consortium, as described in § [Considerations on the governance of the Cross-Border Federation](./05-11-00_federation-governance.md).
+The implementation details of the token endpoint to issue *DPoP*-bound *access token*, which the *Producer Knodes* must implement, shall be part of the specification of *Knodia* produced by the Federated Consortium, as described in § [Considerations on the governance of Knodia](./05-11-00_federation-governance.md).
 
 ***Consumers* must ensure the following requirements are met:**
 
@@ -17,7 +17,7 @@ The implementation details of the token endpoint to issue *DPoP*-bound *access t
 
 ***Producer Knodes* must ensure the following requirements are met:**
 
-- **They must implement the token endpoint that issues *DPoP*-bound *access tokens*, following the specifications of the *Cross-Border Federation*, and make it available to *Consumers*.**
+- **They must implement the token endpoint that issues *DPoP*-bound *access tokens*, following the specifications of *Knodia*, and make it available to *Consumers*.**
 
 ***Producers* must ensure the following requirements are met:**
 

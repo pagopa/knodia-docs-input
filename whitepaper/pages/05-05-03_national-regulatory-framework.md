@@ -13,7 +13,7 @@ The former case is managed internally to the *Producer Knode*.
 
 In the latter case, the *Producer Knode* must include, in the state change event, a link and any additional elements needed for the *Customer* to be able to carry out the requested actions.
 
-When the *Producer Knode* forwards such a link, it must ensure that its user interface supports at least the common language accepted by the *Cross-Border Federation*.
+When the *Producer Knode* forwards such a link, it must ensure that its user interface supports at least the common language accepted by *Knodia*.
 
 When the *Consumer Knode* receives the link and any additional elements, it must provide them to *Consumer* *Operators* to let them carry out the requested actions.
 
@@ -38,15 +38,15 @@ This request for additional information occurs using a custom form defined by th
 
 This form:
 
-- must be defined following a format shared within the *Cross-Border Federation* which supports multiple languages;
-- must be made available by the *Producer Knode* at least in the common language accepted by the *Cross-Border Federation*;
+- must be defined following a format shared within *Knodia* which supports multiple languages;
+- must be made available by the *Producer Knode* at least in the common language accepted by *Knodia*;
 - must accept responses in any of the languages it is made available in.
 
 Defining the standard format of this form, which every *Knode* must follow, is a responsibility of the *Federation Consortium* mentioned in § [Configuration of the federation of Knodes](./05-11-02_federation-configuration.md).
 
 ***Producer Knodes* must ensure the following requirements are met:**
 
-- **Use the standard format of the *Cross-Border Federation* to define the form which *Customers* of *Cross-Border E-Services* must fill in.**
+- **Use the standard format of *Knodia* to define the form which *Customers* of *Cross-Border E-Services* must fill in.**
 - **Provide the form to *Consumer Knodes* using the *Federated API*.**
 
 ***Consumer Knodes* must ensure the following requirements are met:**
