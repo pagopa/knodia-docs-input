@@ -13,11 +13,11 @@ By default, *Knodia* assumes that the *Producer Knode* will activate the *Agreem
 
 ![](../resources/blueprint-agreement-request.svg)
 
-Activating an *Agreement Request* can require additional actions depending on the regulatory framework that the *Producer Knode* operates in: see § [Actions requested by the national regulatory framework](./05-05-03_national-regulatory-framework.md).
+Activating an *Agreement Request* may require additional actions depending on the regulatory framework in which the *Producer Knode* operates; see § [Actions requested by the national regulatory framework](./05-05-03_national-regulatory-framework.md).
 
 The *Agreement Request* must be filled in at least in the common language accepted by *Knodia*.
 
-The *Consumer Knode* must monitor events concerning state changes of the *Agreement Request* using the *Federated API* and notify them to the corresponding *Consumer*. See § [Distribution of knowledge between Knodes](./05-11-01_distribution-of-knowledge.md) for more details.
+The *Consumer Knode* must monitor state change events to the *Agreement Request* using the *Federated API* and notify the corresponding *Consumer*. See § [Distribution of knowledge between Knodes](./05-11-01_distribution-of-knowledge.md) for more details.
 
 The *Consumer Knode* must *Store* the references (identifiers) of:
 
@@ -54,12 +54,12 @@ See § [Lifecycle of Agreement Requests](./05-09-02_lifecycle-agreement.md) for 
 
 - ***Confederate Organizations* can submit *Agreement Requests* for *E-Services* and receive notifications concerning these *Agreement Requests*.**
 - **The *Knode* uses the *Federated API* of the *Producer Knode* to forward the request to create an *Agreement Request*.**
-- **The Knode uses the *Federated API* to receive from the *Producer Knode* evidence on the state of the created *Agreement Requests*.**
+- **The Knode uses the *Federated API* to receive evidence from the *Producer Knode* about the state of the created *Agreement Requests*.**
 - **Changes in the *Federated Attributes* of *Confederate Organizations* are made available to *Producer Knodes* via the *Federated API*.**
 
 ***Producer Knodes* must ensure the following requirements are met:**
 
-- ***Consumer Knode* can submit the request to create an *Agreement Request* using the *Federated API*.**
+- ***Consumer Knode* can submit an *Agreement Request* using the *Federated API*.**
 - **The state of the *Agreement Request* is kept up to date.**
 - **Changes in the state of *Agreement Requests* are made available to the *Consumer Knodes* that created them via the *Federated API*.**
 

@@ -13,7 +13,7 @@ An *Operator* who declares to be responsible for an *Interop Keychain* assumes a
 
 The assumption of responsibility towards the target *Knode* therefore works similarly to the confirmation process described in § [Agreement Request – Confirmation by the Consumer Operator](./05-05-01_agreement.md#confirmation-by-the-consumer-operator).
 
-The target *Knode* that receives the declaration must store the references:
+The target *Knode* that receives the declaration must *Store* the references:
 
 - of the *Interop Keychain*;
 - of the responsible *Operator*.
