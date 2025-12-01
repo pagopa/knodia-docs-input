@@ -1,4 +1,4 @@
-This chapter reports the features that the actors involved in *Knodia*, primarily the *Knodes*, must ensure to enable interoperability between multiple independent *Interoperability Domains*.
+This chapter reports the features that the actors involved in *Knodia*, primarily the *Knodes* or *Interoperability Nodes*, must ensure to enable interoperability between multiple independent *Interoperability Domains*.
 
 *Knodia* extends the Italian interoperability model based on the *PDND*, introduced in the previous chapter and adopted in Italy to enable interaction between the IT systems of public administrations and between these and the IT systems of recognized private subjects.
 
