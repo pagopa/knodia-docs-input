@@ -4,7 +4,7 @@ A *Purpose Statement* is necessary to enable the *Consumer* to access a *Cross-B
 
 This declaration is made:
 
-- for *Provide-Data* *Cross-Border E-Services*, by the *Consumers*, for each *E-Service* they have an active *Agreement Request* for and each processing that will use that *E-Service*;
+- for *Provide-Data* *Cross-Border E-Services*, by the *Consumers*, for each *E-Service* they have an active *Agreement Request* for, and each data processing purpose they will apply on the *E-Service* data;
 - for *Receive-Data* *Cross-Border E-Services*, by the *Producer* when publishing the *E-Service*.
 
 Within *Knodia*, *Purpose Statements* are characterized by:
@@ -16,28 +16,28 @@ Within *Knodia*, *Purpose Statements* are characterized by:
 
 The *Purpose Statements* must be filled in at least in the common language accepted by *Knodia*.
 
-The *Consumer* must declare the load it expects to put on the *Cross-Border E-Service* in terms of a maximum number of requests per given unit of time. This parameter is useful to the *Producer* to evaluate dimensioning of its technological infrastructure. Specifically:
+The *Consumer* must declare the load it expects to place on the *Cross-Border E-Service*, expressed as a maximum number of requests per unit of time. This parameter is useful to the *Producer* to evaluate the dimensioning of its technological infrastructure. Specifically:
 
 - for *Provide-Data* *E-Services*, the *Consumer* declares it in each *Purpose Statement* it creates;
 - for *Receive-Data* *E-Services*, the *Consumer* declares it by selecting the *Purpose Statement* created by the *Producer*.
 
-Each *Producer Knode* may choose to define and carry out checks regarding the load declared by the *Consumer* versus the quotas defined by the *Producer* of the *Cross-Border E-Service*. For example, a *Knode* may choose:
+Each *Producer Knode* may choose to define and perform checks comparing the load declared by the *Consumer* to the quotas defined by the *Producer* of the *Cross-Border E-Service*. For example, a *Knode* may choose:
 
 - not to perform any check (the load declaration is only used to inform the *Producer*, who can dimension infrastructure accordingly and possibly defer or reject requests in excess of the declared load);
-- to prevent the creation new *Purpose Statements* if the quotas declared by the *Producer* for that *E-Service* is saturated by existing *Purpose Statements*.
+- to prevent the creation of new *Purpose Statements* if existing *Purpose Statements* saturate the quotas declared by the *Producer* for that *E-Service*.
 
 See § [Lifecycle of Purpose Statements](./05-09-03_lifecycle-purpose.md) for more details on the lifecycle of *Purpose Statements*.
 
 ***Consumer Knodes* must ensure the following requirements are met:**
 
-- ***Confederate Organizations* can create or select (respectively, for *Provide-Data* or *Receive-Data* *Cross-Border E-Services*) the *Purpose Statements* for *Agreement Requests* and receive notifications related to them.**
+- ***Confederate Organizations* can create or select (respectively, for *Provide-Data* or *Receive-Data* *Cross-Border E-Services*) the *Purpose Statements* for *Cross-Border E-Services* and receive notifications related to them.**
 - **The *Consumer Knode* must forward the request to create a *Purpose Statement* to the *Producer Knode* using the *Federated API*.**
 - **The *Consumer Knode* must receive from the *Producer Knode*, using the *Federated API*, evidence on the state of *Purpose Statements* it has created.**
 
 ***Producer Knodes* must ensure the following requirements are met:**
 
-- **The *Producer Knode* must allow other *Knodes* to create *Purpose Statements* using the *Federated API* (for *Provide-Data* *Cross-Border E-Services*) or to retrieve existing *Purpose Statements* created by the *Producer* (for *Receive-Data* *Cross-Border E-Services*).**
-- **The *Producer Knode* must forward to the *Consumer Knode*, using the *Federated API*, the state changes of *Purpose Statements* the *Consumer Knode* has created.**
+- **The *Producer Knode* must allow other *Knodes* to create *Purpose Statements* (for *Provide-Data* *Cross-Border E-Services*) or to retrieve existing *Purpose Statements* created by the *Producer* (for *Receive-Data* *Cross-Border E-Services*) using the *Federated API*.**
+- **Changes in the state of *Purpose Statements* are made available to the *Consumer Knodes* that created them via the *Federated API*.**
 
 # Purpose Statements for Provide-Data E-Services
 
