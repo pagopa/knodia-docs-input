@@ -20,7 +20,8 @@
 | *Interoperable Europe Community* |  | As defined in the *Interoperable Europe Act*. |
 | *Interoperable Europe portal* |  | As defined in the *Interoperable Europe Act*. |
 | *Knodia API* |  | The machine-to-machine APIs implemented and used by the *Knodes* to engage in the communication protocols of *Knodia*. |
-| *Knodia Attribute* |  | The attributes defined in *Knodia* associated with *Confederate Organizations*. |
+| *Knodia Attribute* |  | The attributes defined in *Knodia* that are associated with *Confederate Organizations* and used to grant the right to make requests for access to *Cross-Border E-Services*. |
+| *Knodia Category* |  | The categories defined in *Knodia* that are used by *Confederate Organizations* to classify their *Cross-Border E-Services* in relation to the nature of the data and services they provide. |
 | *Knodia Domain* |  | A set of subjects that have defined and shared common rules, based on mutual trust, to proceed with the sharing of data and services among themselves using digital tools. |
 | *Lawfulness of processing* |  | As defined in the *GDPR*. |
 | *Modello di interoperabilità* | *ModI* | The interoperability model adopted by Italian public administrations. |
