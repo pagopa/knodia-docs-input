@@ -11,7 +11,7 @@ Before the *Agreement Request* reaches the active state, it can transit through 
 
 The first case is managed internally to the *Producer Knode*.
 
-In the second case, the *Producer Knode* must include, in the state change event, a link and any additional elements needed for the *Customer* to be able to carry out the requested actions.
+In the second case, the *Producer Knode* must include, in the state change event, a link and any additional elements needed for the *Consumer* to be able to carry out the requested actions.
 
 When the *Producer Knode* forwards such a link, it must ensure that its user interface supports at least the common language accepted by *Knodia*.
 
@@ -46,7 +46,7 @@ Defining the standard format which every *Knode* must use to define this form is
 
 ***Producer Knodes* must ensure the following requirements are met:**
 
-- **They must use the standard format of *Knodia* to define the form which *Customers* of *Cross-Border E-Services* must fill in.**
+- **They must use the standard format of *Knodia* to define the form which *Consumers* of *Cross-Border E-Services* must fill in.**
 - **They must provide the form to *Consumer Knodes* using the *Federated API*.**
 
 ***Consumer Knodes* must ensure the following requirements are met:**

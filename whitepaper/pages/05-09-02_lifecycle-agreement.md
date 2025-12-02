@@ -1,4 +1,4 @@
-The following diagram illustrates the lifecycle of an *Agreement Request*, starting when the Customer requests its creation through its *Consumer Knode*. The diagram uses choice nodes to indicate that confirmation via *eIDAS login* is optional.
+The following diagram illustrates the lifecycle of an *Agreement Request*, starting when the *Consumer* requests its creation through its *Consumer Knode*. The diagram uses choice nodes to indicate that confirmation via *eIDAS login* is optional.
 
 The states are:
 

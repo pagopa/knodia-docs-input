@@ -45,10 +45,10 @@ A *Consumer* *Operator* may, through the user interface of the *Consumer Knode*,
 
 The *Consumer Knode*:
 
-1. requests to the *Consumer* *Operator* to fill in the required information according to the requirements defined in § [Purpose Statement](./05-05-02_purpose.md) above;
+1. requests to the *Consumer* *Operator* to fill in the required information according to the requirements defined in the § [Purpose Statement](./05-05-02_purpose.md) above;
 2. retrieves from the *Producer Knode*, using the *Federated API*, the form for any additional information requested by the national regulatory framework (see § [Actions requested by the national regulatory framework](./05-05-03_national-regulatory-framework.md) for details);
-3. provide the form to the *Consumer* *Operator* to fill in;
-4. forward the filled-in data to the *Producer Knode* using the *Federated API*.
+3. provides the form to the *Consumer* *Operator* to fill in;
+4. forwards the filled-in data to the *Producer Knode* using the *Federated API*.
 
 The *Producer Knode* creates the *Purpose Statement* and returns its reference to the *Consumer Knode*.
 
@@ -74,24 +74,24 @@ The *Producer Knode* must *Store* the references:
 
 The default behaviour in *Knodia* is for the *Producer Knode* to activate the *Purpose Declaration* simultaneously when it is created.
 
-The *Purpose Statement* can instead need a further confirmation by a *Consumer* *Operator*, if the *Producer* requested it when creating the *Cross-Border E-Service*. In this case, the procedure is equivalent to that described for confirmation of *Agreement Requests* (see § [Agreement Request – Confirmation by the Consumer Operator](./05-05-01_agreement.md#confirmation-by-the-consumer-operator)).
+The *Purpose Statement* may instead need further confirmation by a *Consumer* *Operator* if the *Producer* requested it when creating the *Cross-Border E-Service*. In this case, the procedure is equivalent to that described for confirmation of *Agreement Requests* (see § [Agreement Request – Confirmation by the Consumer Operator](./05-05-01_agreement.md#confirmation-by-the-consumer-operator)).
 
-The following service blueprint outlines the activities performed by the subjects, *Operators* and *Knodes*, in the latter case.
+The following service blueprint outlines the activities performed by the subjects (*Operators* and *Knodes*) in the latter case.
 
 ![](../resources/blueprint-purpose-creation-provide-data.svg)
 
-In any case, the *Consumer Knode* must monitor state change events of the *Purpose Statement*, using the *Federated API*, and notify them to the corresponding *Consumer*. See § [Distribution of knowledge between Knodes](./05-11-01_distribution-of-knowledge.md) for more details.
+In any case, the *Consumer Knode* must monitor state change events for the *Purpose Statement* using the *Federated API* and notify the corresponding *Consumer*. See § [Distribution of knowledge between Knodes](./05-11-01_distribution-of-knowledge.md) for more details.
 
 ***Producer Knodes* must ensure the following requirements are met:**
 
 - ***Producers* can request explicit confirmation from potential *Consumers* before activating their *Agreement Requests*.**
 - **If a *Producer* requests explicit confirmation, the *Producer Knode* returns to interested *Consumer Knodes*, via the *Federated API*, the information needed for *Operators* to fulfil this.**
-- **If any additional information is requested from the *Consumer* in relation to regulation for protection of personal data of natural persons, the *Producer Knode* must provide to interested *Customer Knodes*, through the *Federated API*, the form to collect this information and operations to receive the latter form.**
+- **If any additional information is requested from the *Consumer* in relation to the regulation for protection of personal data of natural persons, the *Producer Knode* must provide interested *Consumer Knodes*, through the *Federated API*, with the form to collect this information and the operations to receive it after it is completed.**
 
 ***Consumer Knodes* must ensure the following requirements are met:**
 
 - ***Consumer Knodes* must monitor, using the *Federated API* of the *Producer Knodes*, state changes of *Purpose Statements*, to react when the confirmation is given.**
-- **If any additional information is requested from the *Consumer* in relation to regulation for protection of personal data of natural persons, the *Customer Knode* must retrieve the form to collect this information and forward it to the *Producer Knode*.**
+- **If any additional information is requested from the *Consumer* in relation to regulation for protection of personal data of natural persons, the *Consumer Knode* must retrieve the form to collect this information and forward it to the *Producer Knode*.**
 
 # Purpose Statements for Receive-Data E-Services
 
