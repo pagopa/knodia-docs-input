@@ -1,6 +1,6 @@
 The *Consumer Keychain* is the digital container in which the *Consumer* deposits the public cryptographic material corresponding to the *Electronic Seals* it uses to seal *access token* requests for consuming *Cross-Border E-Services*.
 
-Each *Consumer* creates and manages its *Consumer Keychains* via the user interface on its *Consumer Knode*. The *Consumer Knode* must make *Consumer Keychains* available through the *Federated API* so a *Producer Knode* can retrieve the cryptographic material needed for verification. See § [Issuance of access tokens for Cross-Border E-Services](./05-07-00_tokens.md) for more details.
+Each *Consumer* creates and manages its *Consumer Keychains* via the user interface on its *Consumer Knode*. The *Consumer Knode* must make *Consumer Keychains* available through the *Knodia API* so a *Producer Knode* can retrieve the cryptographic material needed for verification. See § [Issuance of access tokens for Cross-Border E-Services](./05-07-00_tokens.md) for more details.
 
 This architectural choice lets each *Knode* be fully autonomous in managing the public cryptographic material of its onboarded *Confederate Organizations*. Therefore, this material does not need to be distributed across different nodes, which would be more complex and could increase the risk of misalignment.
 
@@ -16,7 +16,7 @@ The *Consumer Knode* must manage the lifecycle of the cryptographic material if 
 ***Consumer Knodes* must ensure the following requirements are met:**
 
 - **They must allow their *Confederate Organizations* to manage *Keychains*.**
-- **They must make the public cryptographic material deposited by *Consumers* available to *Producer Knodes* through the *Federated API*.**
+- **They must make the public cryptographic material deposited by *Consumers* available to *Producer Knodes* through the *Knodia API*.**
 
 ***Producer Knodes* must ensure the following requirement is met:**
 

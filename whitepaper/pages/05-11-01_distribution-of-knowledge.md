@@ -11,7 +11,7 @@ The second mode is used to forward relevant events between *Knodes* to ensure th
 
 # Means of communication
 
-Both modes of communication are implemented as HTTP APIs, using JSON for request and response bodies. This API was heretofore referred to as *Federated API*. Every *Knode* must implement the endpoints of this API following an OpenAPI specification to be defined by the *Knodia Consortium*, capitalizing on the effects of the proposed experimentation.
+Both modes of communication are implemented as HTTP APIs, using JSON for request and response bodies. This API was heretofore referred to as *Knodia API*. Every *Knode* must implement the endpoints of this API following an OpenAPI specification to be defined by the *Knodia Consortium*, capitalizing on the effects of the proposed experimentation.
 
 Synchronous queries and commands will therefore be implemented as HTTP requests (with methods GET, POST, or other as appropriate) from a *Knode* to another.
 

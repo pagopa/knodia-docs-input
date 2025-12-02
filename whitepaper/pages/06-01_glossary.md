@@ -10,7 +10,7 @@
 | *Electronic Archiving* |  | As defined in the *eIDAS Regulation*. |
 | *Electronic seals* |  | As defined in the *eIDAS Regulation*. |
 | *European Interoperability Framework* | *EIF* | As defined in the *Interoperable Europe Act*. |
-| *Federated API* |  | The machine-to-machine APIs implemented and used by the *Knodes* to engage in the communication protocols of *Knodia*. |
+| *Knodia API* |  | The machine-to-machine APIs implemented and used by the *Knodes* to engage in the communication protocols of *Knodia*. |
 | *Federated Attribute* |  | The attributes defined in *Knodia* associated with *Confederate Organizations*. |
 | *Innovation measures* |  | As defined in the *Interoperable Europe Act*. |
 | *Interoperability Domain* |  | A set of subjects that have defined and shared common rules, based on mutual trust, to proceed with the sharing of data and services among themselves using digital tools. |
