@@ -11,11 +11,11 @@ Before the *Agreement Request* reaches the active state, it can transit through 
 
 The first case is managed internally to the *Producer Knode*.
 
-In the second case, the *Producer Knode* must include, in the state change event, a link and any additional elements needed for the *Consumer* to be able to carry out the requested actions.
+In the second case, the *Producer Knode* must include, in the state change event, a link and any additional elements needed for the *Consumer* to be able to perform the requested actions.
 
 When the *Producer Knode* forwards such a link, it must ensure that its user interface supports at least the common language accepted by *Knodia*.
 
-When the *Consumer Knode* receives the link and any additional elements, it must provide them to *Consumer* *Operators* to let them carry out the requested actions.
+When the *Consumer Knode* receives the link and any additional elements, it must provide them to *Consumer* *Operators* to let them perform the requested actions.
 
 The following service blueprint outlines the activities performed by the subjects, *Operators* and *Knodes*, in this case.
 
@@ -23,11 +23,11 @@ The following service blueprint outlines the activities performed by the subject
 
 ***Producer Knodes* must ensure the following requirement is met:**
 
-- **If additional actions are needed by the *Consumer*, it must notify them to the interested *Consumer Knode* using the *Federated API*, including the link and any additional elements needed to carry out the requested actions.**
+- **If additional actions are needed by the *Consumer*, it must notify them to the interested *Consumer Knode* using the *Federated API*, including the link and any additional elements needed to perform the requested actions.**
 
 ***Consumer Knodes* must ensure the following requirements are met:**
 
-- **They must retrieve from the *Producer Knode*, using the *Federated API*, the link and any additional elements needed to carry out the requested actions.**
+- **They must retrieve from the *Producer Knode*, using the *Federated API*, the link and any additional elements needed to perform the requested actions.**
 - **They must forward the link and any additional elements received from the *Producer Knode* to the *Consumer*.**
 
 # Additional information for Purpose Statements

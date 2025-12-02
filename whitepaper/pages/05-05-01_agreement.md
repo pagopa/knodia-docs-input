@@ -76,7 +76,7 @@ In this case, when the *Producer Knode* creates the *Agreement Request*, it must
 
 To confirm submission of an *Agreement Request*, an *Operator* of the *Consumer* must follow the link, authenticate to the *Producer Knode* user interface via *eIDAS login*, and provide the secret token.
 
-The *Consumer Knode* is responsible for providing the link and secret token only to the *Operators* of the *Consumer* who are authorized in its domain to carry out this confirmation.
+The *Consumer Knode* is responsible for providing the link and secret token only to the *Operators* of the *Consumer* who are authorized in its domain to perform this confirmation.
 
 After confirmation, if no other action is needed, the *Producer Knode* activates the *Agreement Request*. This case is illustrated in the following service blueprint.
 

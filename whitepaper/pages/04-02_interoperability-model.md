@@ -1,4 +1,4 @@
-The *ModI* considers the digital services (hereinafter *e-services*) created by public entities to ensure access to their data and/or services through the interaction of their IT systems with those of other entities that, in compliance with current legislation, need to interact with them to carry out their activities.
+The *ModI* considers the digital services (hereinafter *e-services*) created by public entities to ensure access to their data and/or services through the interaction of their IT systems with those of other entities that, in compliance with current legislation, need to interact with them to perform their activities.
 
 The *ModI* critically evolved the *SPCoop* based on experience gained from its application to overcome the factors that limited its diffusion.
 
