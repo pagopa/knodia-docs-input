@@ -10,18 +10,18 @@
 | *Electronic Archiving* |  | As defined in the *eIDAS Regulation*. |
 | *Electronic seals* |  | As defined in the *eIDAS Regulation*. |
 | *European Interoperability Framework* | *EIF* | As defined in the *Interoperable Europe Act*. |
-| *Knodia API* |  | The machine-to-machine APIs implemented and used by the *Knodes* to engage in the communication protocols of *Knodia*. |
-| *Knodia Attribute* |  | The attributes defined in *Knodia* associated with *Confederate Organizations*. |
 | *Innovation measures* |  | As defined in the *Interoperable Europe Act*. |
-| *Knodia Domain* |  | A set of subjects that have defined and shared common rules, based on mutual trust, to proceed with the sharing of data and services among themselves using digital tools. |
 | *Interoperability assessment* |  | As defined in the *Interoperable Europe Act*. |
+| *Interoperability Node* | *Knode* | The component of *Knodia* to enable *cross-border interactions*. |
 | *Interoperability regulatory sandbox* |  | A controlled environment established by a European Union entity or a public body for the development, training, testing, and validation regarding innovative interoperability solutions, where appropriate in real-world conditions, supporting the cross-border interoperability of trans-European digital public services for a limited period of time under regulatory supervision. |
 | *Interoperability solutions* |  | As defined in the *Interoperable Europe Act*. |
 | *Interoperable Europe Agenda* |  | As defined in the *Interoperable Europe Act*. |
 | *Interoperable Europe Board* |  | As defined in the *Interoperable Europe Act*. |
 | *Interoperable Europe Community* |  | As defined in the *Interoperable Europe Act*. |
 | *Interoperable Europe portal* |  | As defined in the *Interoperable Europe Act*. |
-| *Knode* or *Interoperability Node* |  | The component of *Knodia* to enable *cross-border interactions*. |
+| *Knodia API* |  | The machine-to-machine APIs implemented and used by the *Knodes* to engage in the communication protocols of *Knodia*. |
+| *Knodia Attribute* |  | The attributes defined in *Knodia* associated with *Confederate Organizations*. |
+| *Knodia Domain* |  | A set of subjects that have defined and shared common rules, based on mutual trust, to proceed with the sharing of data and services among themselves using digital tools. |
 | *Lawfulness of processing* |  | As defined in the *GDPR*. |
 | *Modello di interoperabilità* | *ModI* | The interoperability model adopted by Italian public administrations. |
 | *Monitoring and evaluation* |  | As defined in the *Interoperable Europe Act*. |
