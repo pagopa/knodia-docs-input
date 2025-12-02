@@ -6,11 +6,11 @@ The *Interoperable Europe Act* identifies the *European Interoperability Framewo
 
 The European Commission adopts the *EIF* to define cross-border and cross-sector *interoperability solutions* based on open standards and specifications.
 
-The *Interoperable Europe Board* (defined in section 15 of the *Interoperable Europe Act*) is tasked with drafting and presenting the *EIF* to the European Commission for adoption (pursuant to section 6 of the *Interoperable Europe Act*).
+The *Interoperable Europe Board* (defined in Article 15 of the *Interoperable Europe Act*) is tasked with drafting and presenting the *EIF* to the European Commission for adoption (pursuant to section 6 of the *Interoperable Europe Act*).
 
 The current version of the *EIF* is the one set out in Annex 2 to the **Communication from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of the Regions (COM/2017/0134 final) regarding the European Interoperability Framework – Implementation Strategy** [2[^2]].
 
-The *Interoperable Europe Act* allows for the creation of *interoperability regulatory sandboxes*, also for “fostering innovation and facilitating the development and roll-out of innovative digital *interoperability solutions* for public services” (section 11 of the *Interoperable Europe Act*).
+The *Interoperable Europe Act* allows for the creation of *interoperability regulatory sandboxes*, also for “fostering innovation and facilitating the development and roll-out of innovative digital *interoperability solutions* for public services” (Article 11 of the *Interoperable Europe Act*).
 
 [^1]:  [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R0903](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R0903)
 

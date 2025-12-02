@@ -25,10 +25,10 @@ The *SPCoop* was based on the following principles:
 
 [^3]: [https://www.oasis-open.org/](https://www.oasis-open.org/)
 
-In summary, the *SPCoop* was based on the Service-Oriented Computing paradigm and organized as a Service-Oriented Architecture, by adopting international technologies and standards, extended and integrated, to make this architecture suitable for the Italian e-Government context.
+In summary, the *SPCoop* was based on the Service-Oriented Computing paradigm and organized as a Service-Oriented Architecture, by adopting international technologies and standards, extended and integrated to make this architecture suitable for the Italian e-Government context.
 
 To mediate and support cooperation between administrations, the *SPCoop* provided for an infrastructural component, called *Servizi di Interoperabilità, Cooperazione ed Accesso* (*SICA*). This provided infrastructure and technological services (registry services, security services, etc.). In particular, the Certification Authority required to manage a Public Key Infrastructure (PKI) – the base mechanism for all cryptographic aspects supporting the security of *SPCoop* – was instantiated within the *SICA* security services.
 
-The following figure shows the high-level architecture of the *SPCoop*. It emphasizes that Service Agreements were stipulated autonomously by the interested parties, without the tools made available in *SPCoop* for this. Their formalization and upload, also the responsibility of the interested parties, were needed to register with the *SICA*.
+The following figure shows the high-level architecture of the *SPCoop*. It emphasizes that *Service Agreements* were stipulated autonomously by the interested parties, without the tools made available in the *SPCoop* for this. Their formalization and upload, also the responsibility of the interested parties, were needed to register with the *SICA*.
 
 ![](../resources/diagram-spcoop.svg)
