@@ -9,7 +9,7 @@ This declaration is made:
 
 Within *Knodia*, *Purpose Statements* are characterized by:
 
-- an identifier which is unique within the *Interoperability Domain*;
+- an identifier which is unique within the *Knodia Domain*;
 - name and description;
 - indication of the lawfulness of processing, as a value chosen from the options admitted by Article 6 of Regulation (EU) 2016/679;
 - any additional information required by the national regulatory framework to which the *Producer Knode* is subject regarding the protection of personal data of natural persons (see § [Actions requested by the national regulatory framework](./05-05-03_national-regulatory-framework.md)).

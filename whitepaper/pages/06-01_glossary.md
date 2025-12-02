@@ -6,14 +6,14 @@
 | *Consumer Knode* |  | The *Consumer*’s *Knode*. |
 | *Consumer* |  | A *Confederate Organization* that uses a *Cross-Border E-Service*. |
 | *Cross-Border E-Service* |  | An *E-Service* enabled by the *Producer* for *cross-border interactions*. |
-| *Cross-border interactions* |  | A digital interaction performed by subjects belonging to distinct *Interoperability Domains*, performed to ensure the exchange of data or integration of services. |
+| *Cross-border interactions* |  | A digital interaction performed by subjects belonging to distinct *Knodia Domains*, performed to ensure the exchange of data or integration of services. |
 | *Electronic Archiving* |  | As defined in the *eIDAS Regulation*. |
 | *Electronic seals* |  | As defined in the *eIDAS Regulation*. |
 | *European Interoperability Framework* | *EIF* | As defined in the *Interoperable Europe Act*. |
 | *Knodia API* |  | The machine-to-machine APIs implemented and used by the *Knodes* to engage in the communication protocols of *Knodia*. |
 | *Knodia Attribute* |  | The attributes defined in *Knodia* associated with *Confederate Organizations*. |
 | *Innovation measures* |  | As defined in the *Interoperable Europe Act*. |
-| *Interoperability Domain* |  | A set of subjects that have defined and shared common rules, based on mutual trust, to proceed with the sharing of data and services among themselves using digital tools. |
+| *Knodia Domain* |  | A set of subjects that have defined and shared common rules, based on mutual trust, to proceed with the sharing of data and services among themselves using digital tools. |
 | *Interoperability assessment* |  | As defined in the *Interoperable Europe Act*. |
 | *Interoperability regulatory sandbox* |  | A controlled environment established by a European Union entity or a public body for the development, training, testing, and validation regarding innovative interoperability solutions, where appropriate in real-world conditions, supporting the cross-border interoperability of trans-European digital public services for a limited period of time under regulatory supervision. |
 | *Interoperability solutions* |  | As defined in the *Interoperable Europe Act*. |

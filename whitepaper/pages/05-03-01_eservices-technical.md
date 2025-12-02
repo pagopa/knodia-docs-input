@@ -1,6 +1,6 @@
 *Cross-Border E-Services* within *Knodia* are characterized by:
 
-- an identifier which is unique within the *Interoperability Domain*;
+- an identifier which is unique within the *Knodia Domain*;
 - a formal description of the application programming interface (hereinafter API), specified in an interface description language recognized in *Knodia* (for example, an OpenAPI specification for HTTP APIs);
 - the duration and audience to be used by the *Knode* when issuing *access tokens* to *Consumers*;
 - the quotas set by the *Producer* defining the maximum number of requests in a given unit of time:

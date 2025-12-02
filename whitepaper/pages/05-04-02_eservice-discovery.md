@@ -1,7 +1,7 @@
 A potential *Consumer* can search for published *Cross-Border E-Services* through the user interface of their *Consumer Knode*. The user interface of every *Knode* must allow *Operators* of potential *Consumers* to:
 
 - view the *Cross-Border E-Services* provided by a specific *Producer Knode* of interest to the *Consumer*, different from the *Consumer Knode*;
-- filter the list of *Cross-Border E-Services* by *Knodia Category* (for example, “main address”, to search for *Cross-Border E-Services* that provide data on the main address of residence for citizens in the *Interoperability Domain* represented by the *Producer Knode*).
+- filter the list of *Cross-Border E-Services* by *Knodia Category* (for example, “main address”, to search for *Cross-Border E-Services* that provide data on the main address of residence for citizens in the *Knodia Domain* represented by the *Producer Knode*).
 
 The *Consumer Knode* must fetch the *Knode Catalogue* data on demand from the *Producer Knode* using the machine-to-machine API defined within *Knodia* and implemented by each *Knode* (hereinafter *Knodia API*). See § [Distribution of knowledge between Knodes](./05-11-01_distribution-of-knowledge.md) for details.
 
