@@ -1,7 +1,7 @@
 The *EIF* provides guidance to European public administrations through recommendations on how to improve the governance of their interoperability activities to:
 
-- foster and simplify interactions between the European Union and Member States, and among Member States themselves, to promote the sharing of data, information, and knowledge through digital processes;
-- avoid the creation of fragmented ICT islands whose interoperability is difficult to guarantee.
+- Foster and simplify interactions between the European Union and Member States, and among Member States themselves, to promote the sharing of data, information, and knowledge through digital processes.
+- Avoid the creation of fragmented ICT islands whose interoperability is difficult to guarantee.
 
 The objectives of the *EIF* are met through the realization of a shared infrastructure of services and information sources that enables communication between the information systems of interested parties via application programming interfaces (APIs), as expressed in Recommendation 36 of the *EIF*.
 

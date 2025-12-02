@@ -4,7 +4,7 @@ The *ModI* critically evolved the *SPCoop* based on experience gained from its a
 
 The adoption of the *ModI* by Italian public administrations is provided for by the **Decreto Legislativo del 7 marzo 2005, n. 82** and, specifically, by:
 
-- Article 73, paragraph 3-ter, letter b), regarding the adoption of guidelines and rules for cooperation and interoperability;
+- Article 73, paragraph 3-ter, letter b), regarding the adoption of guidelines and rules for cooperation and interoperability.
 - Article 50-ter, paragraph 2, regarding the *Piattaforma Digitale Nazionale Dati* (briefly *PDND*) as the technological infrastructure that enables the interoperability of IT systems and databases between public entities and between these and private entities.
 
 Operationally, the *ModI* is regulated by guidelines adopted by the *Agenzia per l’Italia Digitale*, in agreement with the *Dipartimento per la trasformazione digitale*, and constantly updated, also by incorporating requests from interested parties.
@@ -13,7 +13,7 @@ The *ModI* is based on the following principles:
 
 - **Interactions:** Interactions assume that the involved entities, public and private, can perform the function of *Producer* of *e-services*, when they make digital services available to other entities, and the function of *Consumer* of *e-services*, when they use the *e-services* made available by another entity.
 - **Application programming interface:** The *e-services* made available by *Producers* are implemented by application programming interfaces (APIs) using either of these technologies and standards for remote invocation:
-    - SOAP over HTTP and the so-called WS-* stack;
+    - SOAP over HTTP and the so-called WS-* stack.
     - REST APIs, classifiable at Level 1 of the Richardson Maturity Model, hereinafter HTTP APIs.
 - **Interoperability patterns and profiles:** These are progressively identified with the involvement of interested parties. These define solutions to secure data exchange needs, which *Producers* use to implement their *e-services*.
 - **Division of responsibilities:** *Producers* are responsible for the *e-services* they provide, while *Consumers* are responsible for managing the data they receive.
@@ -22,12 +22,12 @@ The *ModI* is based on the following principles:
         - Simple Object Access Protocol (SOAP), as the application protocol for remote service invocation.
         - Web Service Description Language (WSDL), as the language for interface description.
     - *Regarding HTTP API e-service implementations:*
-        - RFC3230, RFC3744, RFC5246, RFC5789, RFC7231, RFC7233, RFC7389, RFC7396, RFC7515, RFC7519, RFC8725, RFC9110, for the implementation of application interfaces (API);
+        - RFC3230, RFC3744, RFC5246, RFC5789, RFC7231, RFC7233, RFC7389, RFC7396, RFC7515, RFC7519, RFC8725, RFC9110, for the implementation of application interfaces (API).
         - OpenAPI Specification, as the language for interface description.
     - *Regarding services offered by the PDND:*
-        - RFC6749, RFC6750, RFC7235, RFC7515, RFC7523, RFC9449, for the issuance of authorization tokens;
-        - RFC7517, RFC7696, for public key management;
-        - RFC3230, RFC3744, RFC5246, RFC5789, RFC7231, RFC7233, RFC7389, RFC7396, RFC7515, RFC7519, RFC8725, RFC9110, for the implementation of application interfaces (API);
+        - RFC6749, RFC6750, RFC7235, RFC7515, RFC7523, RFC9449, for the issuance of authorization tokens.
+        - RFC7517, RFC7696, for public key management.
+        - RFC3230, RFC3744, RFC5246, RFC5789, RFC7231, RFC7233, RFC7389, RFC7396, RFC7515, RFC7519, RFC8725, RFC9110, for the implementation of application interfaces (API).
         - OpenAPI Specification, as the language for interface description.
 
 [^1]: [https://www.w3.org/](https://www.w3.org/)

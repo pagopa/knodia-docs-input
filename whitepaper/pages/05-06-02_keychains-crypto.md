@@ -6,8 +6,8 @@ This architectural choice lets each *Knode* be fully autonomous in managing the 
 
 The user interface of each *Consumer Knode* must enable *Consumer* *Operators* to:
 
-- create a *Consumer Keychain*;
-- deposit in the *Consumer Keychain* the aforementioned public cryptographic material (one or more public keys).
+- Create a *Consumer Keychain*.
+- Deposit in the *Consumer Keychain* the aforementioned public cryptographic material (one or more public keys).
 
 *Knodes* must support depositing X.509 certificates or public keys as public cryptographic material in *Consumer Keychains*.
 

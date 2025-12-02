@@ -4,27 +4,27 @@ A *Purpose Statement* is necessary to enable the *Consumer* to access a *Cross-B
 
 This declaration is made:
 
-- for *Provide-Data* *Cross-Border E-Services*, by the *Consumers*, for each *E-Service* they have an active *Agreement Request* for, and each data processing purpose they will apply on the *E-Service* data;
-- for *Receive-Data* *Cross-Border E-Services*, by the *Producer* when publishing the *E-Service*.
+- For *Provide-Data* *Cross-Border E-Services*, by the *Consumers*, for each *E-Service* they have an active *Agreement Request* for, and each data processing purpose they will apply on the *E-Service* data.
+- For *Receive-Data* *Cross-Border E-Services*, by the *Producer* when publishing the *E-Service*.
 
 Within *Knodia*, *Purpose Statements* are characterized by:
 
-- an identifier which is unique within the *Knodia Domain*;
-- name and description;
-- indication of the lawfulness of processing, as a value chosen from the options admitted by Article 6 of Regulation (EU) 2016/679;
-- any additional information required by the national regulatory framework to which the *Producer Knode* is subject regarding the protection of personal data of natural persons (see § [Actions requested by the national regulatory framework](./05-05-03_national-regulatory-framework.md)).
+- An identifier which is unique within the *Knodia Domain*.
+- Name and description.
+- Indication of the lawfulness of processing, as a value chosen from the options admitted by Article 6 of Regulation (EU) 2016/679.
+- Any additional information required by the national regulatory framework to which the *Producer Knode* is subject regarding the protection of personal data of natural persons (see § [Actions requested by the national regulatory framework](./05-05-03_national-regulatory-framework.md)).
 
 The *Purpose Statements* must be filled in at least in the common language accepted by *Knodia*.
 
 The *Consumer* must declare the load it expects to place on the *Cross-Border E-Service*, expressed as a maximum number of requests per unit of time. This parameter is useful to the *Producer* to evaluate the dimensioning of its technological infrastructure. Specifically:
 
-- for *Provide-Data* *E-Services*, the *Consumer* declares it in each *Purpose Statement* it creates;
-- for *Receive-Data* *E-Services*, the *Consumer* declares it by selecting the *Purpose Statement* created by the *Producer*.
+- For *Provide-Data* *E-Services*, the *Consumer* declares it in each *Purpose Statement* it creates.
+- For *Receive-Data* *E-Services*, the *Consumer* declares it by selecting the *Purpose Statement* created by the *Producer*.
 
 Each *Producer Knode* may choose to define and perform checks comparing the load declared by the *Consumer* to the quotas defined by the *Producer* of the *Cross-Border E-Service*. For example, a *Knode* may choose:
 
-- not to perform any check (the load declaration is only used to inform the *Producer*, who can dimension infrastructure accordingly and possibly defer or reject requests in excess of the declared load);
-- to prevent the creation of new *Purpose Statements* if existing *Purpose Statements* saturate the quotas declared by the *Producer* for that *E-Service*.
+- Not to perform any check (the load declaration is only used to inform the *Producer*, who can dimension infrastructure accordingly and possibly defer or reject requests in excess of the declared load).
+- To prevent the creation of new *Purpose Statements* if existing *Purpose Statements* saturate the quotas declared by the *Producer* for that *E-Service*.
 
 See § [Lifecycle of Purpose Statements](./05-09-03_lifecycle-purpose.md) for more details on the lifecycle of *Purpose Statements*.
 
@@ -45,32 +45,32 @@ A *Consumer* *Operator* may, through the user interface of the *Consumer Knode*,
 
 The *Consumer Knode*:
 
-1. requests to the *Consumer* *Operator* to fill in the required information according to the requirements defined in the § [Purpose Statement](./05-05-02_purpose.md) above;
-2. retrieves from the *Producer Knode*, using the *Knodia API*, the form for any additional information requested by the national regulatory framework (see § [Actions requested by the national regulatory framework](./05-05-03_national-regulatory-framework.md) for details);
-3. provides the form to the *Consumer* *Operator* to fill in;
-4. forwards the filled-in data to the *Producer Knode* using the *Knodia API*.
+1. Requests to the *Consumer* *Operator* to fill in the required information according to the requirements defined in the § [Purpose Statement](./05-05-02_purpose.md) above.
+2. Retrieves from the *Producer Knode*, using the *Knodia API*, the form for any additional information requested by the national regulatory framework (see § [Actions requested by the national regulatory framework](./05-05-03_national-regulatory-framework.md) for details).
+3. Provides the form to the *Consumer* *Operator* to fill in.
+4. Forwards the filled-in data to the *Producer Knode* using the *Knodia API*.
 
 The *Producer Knode* creates the *Purpose Statement* and returns its reference to the *Consumer Knode*.
 
 The *Consumer Knodes* must *Store* the references:
 
-- of the *Purpose Statement*, as returned by the *Producer Knode*, to be able to retrieve its data later using the *Knodia API*;
-- of the *Cross-Border E-Service* subject of the declaration;
-- of the *Producer Knode*.
+- Of the *Purpose Statement*, as returned by the *Producer Knode*, to be able to retrieve its data later using the *Knodia API*.
+- Of the *Cross-Border E-Service* subject of the declaration.
+- Of the *Producer Knode*.
 
 The *Consumer Knode* must *Electronically Archive* the information:
 
-- on the *Consumer*, including its *Knodia Attributes*.
+- On the *Consumer*, including its *Knodia Attributes*.
 
 The *Producer Knode* must *Electronically Archive* the information:
 
-- of the *Purpose Declaration*;
-- of the *Cross-Border E-Service* subject of the declaration.
+- Of the *Purpose Declaration*.
+- Of the *Cross-Border E-Service* subject of the declaration.
 
 The *Producer Knode* must *Store* the references:
 
-- of the *Consumer*;
-- of the *Consumer Knode*.
+- Of the *Consumer*.
+- Of the *Consumer Knode*.
 
 The default behaviour in *Knodia* is for the *Producer Knode* to activate the *Purpose Declaration* simultaneously when it is created.
 

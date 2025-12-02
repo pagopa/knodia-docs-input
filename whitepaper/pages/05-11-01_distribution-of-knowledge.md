@@ -1,7 +1,7 @@
 To implement the functionality described in this proposal, *Knodes* need to communicate with each other. Two modes of communication are envisioned:
 
-1. queries and commands that a *Knode* sends to another – synchronously – while processing a request from an *Operator* or, in general, to perform the described flows;
-2. propagation of events for state changes of entities (*Confederate Organizations* and *Knodia Attributes* associated with them, *Cross-Border E-Services*, *Agreement Requests*, *Purpose Statements*, etc.) from the *Knode* where the change occurs to other interested *Knodes*.
+1. Queries and commands that a *Knode* sends to another – synchronously – while processing a request from an *Operator* or, in general, to perform the described flows.
+2. Propagation of events for state changes of entities (*Confederate Organizations* and *Knodia Attributes* associated with them, *Cross-Border E-Services*, *Agreement Requests*, *Purpose Statements*, etc.) from the *Knode* where the change occurs to other interested *Knodes*.
 
 Note that, in both cases, the data exchanged between *Knodes* does not contain personal data of natural persons.
 

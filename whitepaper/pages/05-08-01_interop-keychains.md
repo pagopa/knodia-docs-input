@@ -1,22 +1,22 @@
 *Interop Keychains* are used by *Confederate Organizations* to request *access tokens* for the machine-to-machine API of a *Knode*, hereinafter referred to as the target *Knode*. They are like the *Consumer Keychains* described in § [Consumer Keychains](./05-06-00_keychains.md), except for these differences:
 
-- They are not associated with any *Purpose Statement*;
-- By default, they can only be used to perform read operations;
+- They are not associated with any *Purpose Statement*.
+- By default, they can only be used to perform read operations.
 - To be enabled for create, edit, or delete operations, they require an *Operator* of the *Confederate Organization* to assume responsibility for the operations performed with it. This assumption of responsibility must be made towards all target *Knodes* with which the *Confederate Organization* intends to interact.
 
 An *Operator* who declares responsibility for an *Interop Keychain* assumes administrative responsibility for all operations performed with it. To make this declaration, the *Operator* must:
 
-1. access the *Interop Keychain* details in the user interface of their *Knode*;
-2. select the target *Knode* they intend to issue the declaration of responsibility towards;
-3. be redirected to the user interface of the target *Knode*;
-4. authenticate via *eIDAS login* and confirm the operation.
+1. Access the *Interop Keychain* details in the user interface of their *Knode*.
+2. Select the target *Knode* they intend to issue the declaration of responsibility towards.
+3. Be redirected to the user interface of the target *Knode*.
+4. Authenticate via *eIDAS login* and confirm the operation.
 
 The assumption of responsibility towards the target *Knode* therefore works similarly to the confirmation process described in § [Agreement Request – Confirmation by the Consumer Operator](./05-05-01_agreement.md#confirmation-by-the-consumer-operator).
 
 The target *Knode* that receives the declaration must *Store* the references:
 
-- of the *Interop Keychain*;
-- of the responsible *Operator*.
+- Of the *Interop Keychain*.
+- Of the responsible *Operator*.
 
 After the declaration, the *Keychain* is enabled for create, edit, and delete operations towards the target *Knode*.
 

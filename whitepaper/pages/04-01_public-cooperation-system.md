@@ -15,8 +15,8 @@ The *SPCoop* was based on the following principles:
 - **Scope of responsibility:** Each cooperating public entity maintained responsibility for the services it provided and the data supplied through such services.
 - **Service agreements:** An application service operated on the basis of agreements stipulated between at least two entities (producer and consumer), based on consultation between them, and subsequently formalized by them in *Service Agreements* (*Accordi di Servizio*), a semi-automatic representation based on XML language.
 - **Cooperation technologies:** Application services were provided and consumed through remote invocation technologies and standards. This followed international standards (W3C [2[^2]] and OASIS [3[^3]]) at the time of *SPCoop* adoption, specifically:
-    - Simple Object Access Protocol (SOAP) as the application protocol for remote service invocation;
-    - Web Service Description Language (WSDL) as the language for interface description.;
+    - Simple Object Access Protocol (SOAP) as the application protocol for remote service invocation.
+    - Web Service Description Language (WSDL) as the language for interface description.
     - Universal Description, Discovery, and Invocation (UDDI) as the architecture and interface of the registry of provided services, with access predominantly based on unique identifiers.
 
   These were completed by defining national standards, such as the extension to SOAP called *busta e-gov*, to meet the objectives of the *SPCoop*.

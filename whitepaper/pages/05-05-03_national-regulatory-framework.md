@@ -6,8 +6,8 @@ For this reason, after the the *Consumer* submits the *Agreement Request*, the *
 
 Before the *Agreement Request* reaches the active state, it can transit through one or more of these states:
 
-- additional action requested from a *Producer* *Operator*, e.g., manual approval;
-- additional action requested from a *Consumer* *Operator*.
+- Additional action requested from a *Producer* *Operator*, e.g., manual approval.
+- Additional action requested from a *Consumer* *Operator*.
 
 The first case is managed internally to the *Producer Knode*.
 
@@ -38,9 +38,9 @@ This request for additional information is made through a custom form defined by
 
 This form:
 
-- must be defined following a format shared within *Knodia*, which supports multiple languages;
-- must be made available by the *Producer Knode* at least in the common language accepted by *Knodia*;
-- must accept responses in any of the languages it is made available in.
+- Must be defined following a format shared within *Knodia*, which supports multiple languages.
+- Must be made available by the *Producer Knode* at least in the common language accepted by *Knodia*.
+- Must accept responses in any of the languages it is made available in.
 
 Defining the standard format that every *Knode* must use for the form is a responsibility of the *Knodia Consortium* mentioned in § [Configuration of the federation of Knodes](./05-11-02_federation-configuration.md).
 

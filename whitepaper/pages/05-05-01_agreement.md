@@ -4,8 +4,8 @@ For *Provide-Data* *Cross-Border E-Services*, the *Agreement Request* is not suf
 
 The *Consumer*, after identifying the *Cross-Border E-Service* it intends to consume, can submit an *Agreement Request* for it via the *Consumer Knode* user interface. Using the *Knodia API*, the *Consumer Knode* forwards to the *Producer Knode*:
 
-- the identifier of the *Cross-Border E-Service*;
-- the identifier of the *Consumer* and its *Knodia Attributes*.
+- The identifier of the *Cross-Border E-Service*.
+- The identifier of the *Consumer* and its *Knodia Attributes*.
 
 The *Producer Knode* can thus verify whether the *Consumer* satisfies the *consumption requirements* of the *Cross-Border E-Service*. If so, it creates an *Agreement Request*, *Stores* it, and sends its identifier to the *Producer Knode*.
 
@@ -21,28 +21,28 @@ The *Consumer Knode* must monitor state change events to the *Agreement Request*
 
 The *Consumer Knode* must *Store* the references (identifiers) of:
 
-- the *Agreement Request*, as returned by the *Producer Knode*, so it can later fetch its details using the *Knodia API*;
-- the *Cross-Border E-Service* involved in the *Agreement Request*;
-- the *Producer Knode*.
+- The *Agreement Request*, as returned by the *Producer Knode*, so it can later fetch its details using the *Knodia API*.
+- The *Cross-Border E-Service* involved in the *Agreement Request*.
+- The *Producer Knode*.
 
 The *Consumer Knode* must *Electronically Archive* the information on:
 
-- the *Consumer*, including its *Knodia Attributes*.
+- The *Consumer*, including its *Knodia Attributes*.
 
 The *Producer Knode* must *Electronically Archive* the information on:
 
-- the *Agreement Request*;
-- the *Cross-Border E-Service* involved in the *Agreement Request*;
+- The *Agreement Request*.
+- The *Cross-Border E-Service* involved in the *Agreement Request*.
 
 The *Producer Knode* must *Store* the references (identifiers) of:
 
-- the *Consumer*;
-- the *Consumer Knode*.
+- The *Consumer*.
+- The *Consumer Knode*.
 
 Each *Producer Knode* must update the state of each *Agreement Request* it has created in response to:
 
-- changes to the *Cross-Border E-Service* originated by the Producer;
-- changes to the *Knodia Attributes* of the *Consumer*, obtained by monitoring events using the *Knodia API* of the *Consumer Knode* (see § [Distribution of knowledge between Knodes](./05-11-01_distribution-of-knowledge.md) for more details).
+- Changes to the *Cross-Border E-Service* originated by the Producer.
+- Changes to the *Knodia Attributes* of the *Consumer*, obtained by monitoring events using the *Knodia API* of the *Consumer Knode* (see § [Distribution of knowledge between Knodes](./05-11-01_distribution-of-knowledge.md) for more details).
 
 Specifically, the *Agreement Request* must be suspended if the *Consumer*’s *Knodia Attributes* no longer satisfy the *consumption requirements* of the *Cross-Border E-Service*.
 
@@ -71,8 +71,8 @@ This allows the *Producer Knode* to *Electronically Archive*, for an *Agreement 
 
 In this case, when the *Producer Knode* creates the *Agreement Request*, it must send to the *Consumer Knode* (together with the identifier of the *Agreement Request*):
 
-- a link to its user interface that a *Consumer* *Operator* must use to confirm the operation on the *Producer Knode*;
-- an (unforgeable) secret token that the aforementioned *Operator* must provide to the *Producer Knode*.
+- A link to its user interface that a *Consumer* *Operator* must use to confirm the operation on the *Producer Knode*.
+- An (unforgeable) secret token that the aforementioned *Operator* must provide to the *Producer Knode*.
 
 To confirm submission of an *Agreement Request*, an *Operator* of the *Consumer* must follow the link, authenticate to the *Producer Knode* user interface via *eIDAS login*, and provide the secret token.
 

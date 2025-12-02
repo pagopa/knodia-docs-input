@@ -4,5 +4,5 @@ As a whole, the actions described below and the information that is *Electronica
 
 The section also describes the difference between the two modes of data transmission for *Cross-Border E-Services*:
 
-- *Provide-Data*, in the case where the *Producer* sends data to the *Consumer*;
+- *Provide-Data*, in the case where the *Producer* sends data to the *Consumer*.
 - *Receive-Data*, in the case where the *Producer* receives data from the *Consumer*.
