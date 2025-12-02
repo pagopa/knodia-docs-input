@@ -8,7 +8,7 @@ The following criteria are examined considering the burdens and possibilities fo
 
 The comparative analysis highlights the advantages obtained in transitioning from *Porte di Dominio* to the *PDND*. In brief, these are:
 
-- the definition of a normalized process, shared among all interested subjects, to enable access to e-services and allow interaction between them;
+- the definition of a normalized process, shared among all interested subjects, to enable access to *e-services* and allow interaction between them;
 - the adoption of technologies that are in wider use and have lower complexity, which can potentially reduce costs;
 - the centralized sharing, via the *PDND*’s API Catalogue, of the offer of digital services, to facilitate meeting demand with supply;
 - the security framework based on the *PDND* which ensures: the authentication and authorization of access to *e-services*; the protection, integrity, and confidentiality of the data exchanged; and the complete traceability of requests and their outcome.
@@ -47,8 +47,8 @@ The comparative analysis highlights the advantages obtained in transitioning fro
 | **Criterion** | ***Porte di Dominio*** | ***PDND*** |
 | - | - | - |
 | **Regulatory compliance** | ⚠️ conforms to outdated regulatory framework | ✅ conforms to current Italian regulatory framework |
-| **Once-only principle application** | ❌ direct relation between interested parties | ✅ favored in a native manner |
-| **GDPR application** | ❌ realized by interested parties | ✅ uniform purpose statement managed centrally<br>✅ pre-compiled purpose statement templates |
+| **Once-only principle application** | ❌ direct relation between interested parties | ✅ favoured in a native manner |
+| ***GDPR* application** | ❌ realized by interested parties | ✅ uniform purpose statement managed centrally<br>✅ pre-compiled purpose statement templates |
 | **Interaction traceability** | ⚠️ distributed for each *Porta di Dominio* instance of the subject | ✅ complete and centralized |
 | **Exchange audit** | ⚠️ distributed for each *Porta di Dominio* instance of the subject | ✅ simplified by centralization of evidence |
 | **Future roadmap** | ❌ phasing out | ✅ investments in progress |
