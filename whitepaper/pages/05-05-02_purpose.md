@@ -91,13 +91,13 @@ In any case, the *Consumer Knode* must monitor state change events for the *Purp
 ***Consumer Knodes* must ensure the following requirements are met:**
 
 - ***Consumer Knodes* must monitor, using the *Federated API* of the *Producer Knodes*, state changes of *Purpose Statements*, to react when the confirmation is given.**
-- **If any additional information is requested from the *Consumer* in relation to regulation for protection of personal data of natural persons, the *Consumer Knode* must retrieve the form to collect this information and forward it to the *Producer Knode*.**
+- **If any additional information is requested from the *Consumer* in relation to the regulation for protection of personal data of natural persons, the *Consumer Knode* must retrieve the form to collect this information and forward it to the *Producer Knode*.**
 
 # Purpose Statements for Receive-Data E-Services
 
-A *Cross-Border E-Service* in the *Receive-Data* mode allows its *Producer* to collect data from *Consumers*. In this case, the *Purpose Statement* must be made by the *Producer*, who is the subject who processes the data.
+A *Cross-Border E-Service* in the *Receive-Data* mode allows its *Producer* to collect data from *Consumers*. In this case, the *Purpose Statement* must be issued by the *Producer*, the subject that processes the data.
 
-The *Producer Knode* must provide the functionality for *Producers* to fill in the required information according to the requirements defined in § [Purpose Statement](./05-05-02_purpose.md) above.
+The *Producer Knode* must provide functionality for *Producers* to enter the required information in accordance with the requirements defined in the § [Purpose Statement](./05-05-02_purpose.md) above.
 
 The *Consumer Knode*, when a *Consumer* has an active *Agreement Request* for a *Receive-Data* *Cross-Border E-Service*, must retrieve from the *Producer Knode*, using the *Federated API*, the *Purpose Statements* and make them available to the *Consumer*.
 
@@ -107,8 +107,8 @@ The following service blueprint illustrates the flow of activities for purpose c
 
 ***Consumer Knodes* must ensure the following requirement is met:**
 
-- **They must retrieve the *Purpose Statement* made by the *Producer*, using the *Federated API*, and make it available to the *Consumer* on their user interface.**
+- **They must retrieve the *Purpose Statement* issued by the *Producer*, using the *Federated API*, and make it available to the *Consumer* on their user interface.**
 
 ***Producer Knodes* must ensure the following requirement is met:**
 
-- **They must make the *Purpose Statement* made by the *Producer* available through the *Federated API* to *Consumer Knodes*.**
+- **They must make the *Purpose Statement* issued by the *Producer* available through the *Federated API* to *Consumer Knodes*.**
