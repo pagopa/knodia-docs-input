@@ -1,10 +1,10 @@
 *Interop Keychains* are used by *Confederate Organizations* to request *access tokens* for the machine-to-machine API of a *Knode*, hereinafter referred to as the target *Knode*. They are like the *Consumer Keychains* described in § [Consumer Keychains](./05-06-00_keychains.md), except for these differences:
 
-- They are not associated with *Purpose Statement*.
-- By default, they can only be used to perform read operations.
+- They are not associated with any *Purpose Statement*;
+- By default, they can only be used to perform read operations;
 - To be enabled for create, edit, or delete operations, they require an *Operator* of the *Confederate Organization* to assume responsibility for the operations performed with it. This assumption of responsibility must be made towards all target *Knodes* with which the *Confederate Organization* intends to interact.
 
-An *Operator* who declares to be responsible for an *Interop Keychain* assumes administrative responsibility for all operations performed with it. To make this declaration, the *Operator* must:
+An *Operator* who declares responsibility for an *Interop Keychain* assumes administrative responsibility for all operations performed with it. To make this declaration, the *Operator* must:
 
 1. access the *Interop Keychain* details in the user interface of their *Knode*;
 2. select the target *Knode* they intend to issue the declaration of responsibility towards;
