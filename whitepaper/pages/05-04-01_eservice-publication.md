@@ -9,6 +9,6 @@ To publish a *Cross-Border E-Service*, a *Producer* must define its required cha
 - *Producers* have the tools needed to publish and manage the lifecycle of the *Cross-Border E-Services* they produce.
 - Any additional activity specific to the individual *Knodia Domain* must not compromise the usability of the *Cross-Border E-Service* for *cross-border interactions*.
 
-The following service blueprint outlines the activities performed by a *Producer* *Operator* on its *Producer *Knode** to publish a *Cross-Border E-Service*. See § [Reading service blueprints](./06-02_reading-service-blueprints.md) for an explanation of the conventions used.
+The following service blueprint outlines the activities performed by a *Producer* *Operator* on its *Producer Knode* to publish a *Cross-Border E-Service*. See § [Reading service blueprints](./06-02_reading-service-blueprints.md) for an explanation of the conventions used.
 
 ![](../resources/blueprint-eservice-publish.svg)
