@@ -24,7 +24,7 @@
   - [Technical characteristics](pages/05-03-01_eservices-technical.md)
   - [Consumption requirements](pages/05-03-02_eservices-requirements.md)
   - [Metadata](pages/05-03-03_eservices-metadata.md)
-  - [Federated Categories](pages/05-03-04_eservices-categories.md)
+  - [Knodia Categories](pages/05-03-04_eservices-categories.md)
 - [Knode Catalogue](pages/05-04-00_catalogue.md)
   - [Cross-Border E-Service publication](pages/05-04-01_eservice-publication.md)
   - [Cross-Border E-Service discovery](pages/05-04-02_eservice-discovery.md)
