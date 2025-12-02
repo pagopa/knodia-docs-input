@@ -6,16 +6,16 @@
 
 *Knodia* requires *Knodes* to manage *Attributes* for their *Confederate Organizations*.
 
-Each *Interoperability Domain* that joins *Knodia* must ensure that its *Knode* assigns and maintains *Attributes* that are shared among *Knodia*, hereinafter referred to as *Federated Attributes*.
+Each *Interoperability Domain* that joins *Knodia* must ensure that its *Knode* assigns and maintains *Attributes* that are shared among *Knodia*, hereinafter referred to as *Knodia Attributes*.
 
 For example, consider that attributes are needed to identify the administrative divisions of Member States (NUTS). Each *Knode* should translate these attributes as befits its *Interoperability Domain*: e.g., NUTS 1 should be translated as “Land” for Germany, NUTS 2 as “Regione” for Italy, etc.
 
-*Knodia* must therefore define and share a controlled vocabulary for *Federated Attributes*. In this example, this controlled vocabulary will contain the attributes “NUTS 1” and “NUTS 2” to identify the first- and second-level administrative divisions. Each *Knode* can render the *Federated Attributes* translated into the languages of its *Interoperability Domain*.
+*Knodia* must therefore define and share a controlled vocabulary for *Knodia Attributes*. In this example, this controlled vocabulary will contain the attributes “NUTS 1” and “NUTS 2” to identify the first- and second-level administrative divisions. Each *Knode* can render the *Knodia Attributes* translated into the languages of its *Interoperability Domain*.
 
 The lifecycle of this controlled vocabulary is a responsibility of the *Knodia Consortium*, as reported in § [Considerations on the governance of Knodia](./05-11-00_federation-governance.md).
 
 ***Knodes* must ensure the following requirements are met:**
 
-- ***Knodes* must associate *Federated Attributes* with *Confederate Organizations* in compliance with their reference regulatory framework.**
-- ***Confederate Organizations* must not be able to modify their assigned *Federated Attributes* on their own.**
-- **Only *Federated Attributes*, defined in the controlled vocabulary, are considered in *Knodia*.**
+- ***Knodes* must associate *Knodia Attributes* with *Confederate Organizations* in compliance with their reference regulatory framework.**
+- ***Confederate Organizations* must not be able to modify their assigned *Knodia Attributes* on their own.**
+- **Only *Knodia Attributes*, defined in the controlled vocabulary, are considered in *Knodia*.**

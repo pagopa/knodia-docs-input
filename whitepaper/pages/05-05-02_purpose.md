@@ -60,7 +60,7 @@ The *Consumer Knodes* must *Store* the references:
 
 The *Consumer Knode* must *Electronically Archive* the information:
 
-- on the *Consumer*, including its *Federated Attributes*.
+- on the *Consumer*, including its *Knodia Attributes*.
 
 The *Producer Knode* must *Electronically Archive* the information:
 

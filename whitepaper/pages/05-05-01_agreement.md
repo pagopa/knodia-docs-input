@@ -5,7 +5,7 @@ For *Provide-Data* *Cross-Border E-Services*, the *Agreement Request* is not suf
 The *Consumer*, after identifying the *Cross-Border E-Service* it intends to consume, can submit an *Agreement Request* for it via the *Consumer Knode* user interface. Using the *Knodia API*, the *Consumer Knode* forwards to the *Producer Knode*:
 
 - the identifier of the *Cross-Border E-Service*;
-- the identifier of the *Consumer* and its *Federated Attributes*.
+- the identifier of the *Consumer* and its *Knodia Attributes*.
 
 The *Producer Knode* can thus verify whether the *Consumer* satisfies the *consumption requirements* of the *Cross-Border E-Service*. If so, it creates an *Agreement Request*, *Stores* it, and sends its identifier to the *Producer Knode*.
 
@@ -27,7 +27,7 @@ The *Consumer Knode* must *Store* the references (identifiers) of:
 
 The *Consumer Knode* must *Electronically Archive* the information on:
 
-- the *Consumer*, including its *Federated Attributes*.
+- the *Consumer*, including its *Knodia Attributes*.
 
 The *Producer Knode* must *Electronically Archive* the information on:
 
@@ -42,9 +42,9 @@ The *Producer Knode* must *Store* the references (identifiers) of:
 Each *Producer Knode* must update the state of each *Agreement Request* it has created in response to:
 
 - changes to the *Cross-Border E-Service* originated by the Producer;
-- changes to the *Federated Attributes* of the *Consumer*, obtained by monitoring events using the *Knodia API* of the *Consumer Knode* (see § [Distribution of knowledge between Knodes](./05-11-01_distribution-of-knowledge.md) for more details).
+- changes to the *Knodia Attributes* of the *Consumer*, obtained by monitoring events using the *Knodia API* of the *Consumer Knode* (see § [Distribution of knowledge between Knodes](./05-11-01_distribution-of-knowledge.md) for more details).
 
-Specifically, the *Agreement Request* must be suspended if the *Consumer*’s *Federated Attributes* no longer satisfy the *consumption requirements* of the *Cross-Border E-Service*.
+Specifically, the *Agreement Request* must be suspended if the *Consumer*’s *Knodia Attributes* no longer satisfy the *consumption requirements* of the *Cross-Border E-Service*.
 
 Within *Knodia*, for each *E-Service* and *Consumer*, there can be at most one *Agreement Request*.
 
@@ -55,7 +55,7 @@ See § [Lifecycle of Agreement Requests](./05-09-02_lifecycle-agreement.md) for 
 - ***Confederate Organizations* can submit *Agreement Requests* for *E-Services* and receive notifications concerning these *Agreement Requests*.**
 - **The *Knode* uses the *Knodia API* of the *Producer Knode* to forward the request to create an *Agreement Request*.**
 - **The Knode uses the *Knodia API* to receive evidence from the *Producer Knode* about the state of the created *Agreement Requests*.**
-- **Changes in the *Federated Attributes* of *Confederate Organizations* are made available to *Producer Knodes* via the *Knodia API*.**
+- **Changes in the *Knodia Attributes* of *Confederate Organizations* are made available to *Producer Knodes* via the *Knodia API*.**
 
 ***Producer Knodes* must ensure the following requirements are met:**
 

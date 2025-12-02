@@ -11,13 +11,13 @@ The *Producer Knode* follows these steps to issue the token:
 
 1. Retrieve the needed information using the *Knodia API* of the *Consumer Knode*:
     - data of the *Consumer Keychain*: public cryptographic material and associated *Purpose Statements*;
-    - data of the *Consumer* and its *Federated Attributes*.
+    - data of the *Consumer* and its *Knodia Attributes*.
 2. Authenticate the *Consumer*, that is, verify the seal of the client assertion against the public cryptographic material in the keychain.
 3. Authorize, that is, verify:
     - that the *Purpose Statement* referred to in the client assertion is active and associated with the Keychain;
     - that there exists an active *Agreement Request* for the *Consumer* for that *Cross-Border E-Service*;
     - that the *Cross-Border E-Service* is in a state in which it can be consumed (see § [Lifecycle of Cross-Border E-Services](./05-09-01_lifecycle-eservice.md));
-    - that the *Consumer*’s *Federated Attributes* satisfy the *consumption requirements* of the *Cross-Border E-Service*.
+    - that the *Consumer*’s *Knodia Attributes* satisfy the *consumption requirements* of the *Cross-Border E-Service*.
 
 If the verification succeeds, the *Producer Knode* creates and seals the *access token* and returns it to the *Consumer*. The *Consumer* can then call the *Cross-Border E-Service* using the token as HTTP Authentication in Bearer mode.
 
