@@ -21,18 +21,18 @@ The *Producer Knode* follows these steps to issue the token:
 
 If verification succeeds, the *Producer Knode* creates and seals the *access token*, then returns it to the *Consumer*. The *Consumer* can then call the *Cross-Border E-Service* using the token as HTTP Authentication in Bearer mode.
 
-The *Producer* is responsible to implement verification of the *access token* in the *Cross-Border E-Service*. That is, it must check that it is a valid JWT, as concerns expiration and audience, and that it is electronically sealed by the *Producer Knode* (which guarantees authenticity and integrity). To allow this, the *Producer Knode* must make its own public cryptographic material, with which it seals the *access tokens* it issues, publicly available as a well-known JSON web keyset (JWKS).
+The *Producer* is responsible for implementing *access token* verification in the *Cross-Border E-Service*. That is, it must verify that it is a valid JWT, with respect to expiration and audience, and that it is electronically sealed by the *Producer Knode* (which guarantees authenticity and integrity). To allow this, the *Producer Knode* must make its own public cryptographic material, with which it seals the *access tokens* it issues, publicly available as a well-known JSON Web Key Set (JWKS).
 
-The implementation details of the token endpoint, which the *Producer Knodes* must implement, shall be part of the specification of *Knodia* produced by the Federated Consortium, as described in § [Considerations on the governance of Knodia](./05-11-00_federation-governance.md).
+The implementation details of the token endpoint, which the *Producer Knodes* must implement, shall be part of the *Knodia* specification produced by the Federated Consortium, as described in § [Considerations on the governance of Knodia](./05-11-00_federation-governance.md).
 
 ***Consumers* must ensure the following requirements are met:**
 
-- **They must request an *access token* to the *Producer Knode* corresponding to the *Cross-Border E-Service* of interest and in relation to a specific active *Purpose Statement*.**
+- **They must request an *access token* from the *Producer Knode* corresponding to the *Cross-Border E-Service* of interest and to a specific active *Purpose Statement*.**
 - **They must use the *access token* issued by the *Producer Knode* to request access to the *Producer* for the *Cross-Border E-Service* of interest.**
 
 ***Producer Knodes* must ensure the following requirement is met:**
 
-- **They must implement the token endpoint that issues *access tokens*, following the specifications of *Knodia*, and make it available to *Consumers*.**
+- **They must implement the token endpoint that issues *access tokens* in accordance with the *Knodia* specification and make it available to *Consumers*.**
 
 ***Producers* must ensure the following requirement is met:**
 
