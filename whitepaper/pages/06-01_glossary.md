@@ -6,7 +6,7 @@
 | *Consumer Knode* |  | The *Consumer*’s *Knode*. |
 | *Consumer* |  | A *Confederate Organization* that uses a *Cross-Border E-Service*. |
 | *Cross-Border E-Service* |  | An *E-Service* enabled by the *Producer* for *cross-border interactions*. |
-| *Cross-border interactions* |  | A digital interaction performed by subjects belonging to distinct *Knodia Domains*, performed to ensure the exchange of data or integration of services. |
+| *Cross-border interaction* |  | A digital interaction performed by subjects belonging to distinct *Knodia Domains*, performed to ensure the exchange of data or integration of services. |
 | *Electronic Archiving* |  | As defined in the *eIDAS Regulation*. |
 | *Electronic seals* |  | As defined in the *eIDAS Regulation*. |
 | *European Interoperability Framework* | *EIF* | As defined in the *Interoperable Europe Act*. |
