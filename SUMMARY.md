@@ -70,4 +70,7 @@
   - Expected benefits and features
     - [Expected benefits and features](executive-summary/pages/04_benefits-features.md)
 
-## Knodia prototype use guide
+## Knodia prototype docs
+  - User guide
+
+  - Tutorial
