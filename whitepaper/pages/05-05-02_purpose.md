@@ -84,7 +84,7 @@ In any case, the *Consumer Knode* must monitor state change events for the *Purp
 
 ***Producer Knodes* must ensure the following requirements are met:**
 
-- ***Producers* can request explicit confirmation from potential *Consumers* before activating their *Agreement Requests*.**
+- ***Producers* can request explicit confirmation from potential *Consumers* before activating their *Purpose Statements*.**
 - **If a *Producer* requests explicit confirmation, the *Producer Knode* returns to interested *Consumer Knodes*, via the *Knodia API*, the information needed for *Operators* to fulfil this.**
 - **If any additional information is requested from the *Consumer* in relation to the regulation for protection of personal data of natural persons, the *Producer Knode* must provide interested *Consumer Knodes*, through the *Knodia API*, with the form to collect this information and the operations to receive it after it is completed.**
 
