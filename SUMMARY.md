@@ -72,5 +72,10 @@
 
 ## Knodia prototype docs
   - User guide
-
-  - Tutorial
+    - Getting started
+      - [Knodia prototype overview](prototype-docs/user-guide/getting-started/pages/00_prototype-overview.md)
+      - [Who is it for](prototype-docs/user-guide/getting-started/pages/01_who-is-it-for.md)
+      - [How it works: the operational flow](prototype-docs/user-guide/getting-started/pages/02_how-it-works.md)
+      - [How to join: the complete guide](getting-started/funzionamento-generale.md)
+      - [First access and initial configuration](getting-started/guida-alladesione.md)
+    - Technical references
