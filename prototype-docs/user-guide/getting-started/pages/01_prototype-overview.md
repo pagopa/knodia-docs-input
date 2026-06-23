@@ -4,6 +4,8 @@ The **Knodia prototype** is the infrastructure that allows testing of **secure a
 
 The **Knodia prototype** was created by **PagoPA** to demonstrate the applicability of the cross-border federated interoperability model defined in the **Knodia whitepaper**.
 
+The **Knodia prototype** implements two Knodels, **Orion Knodel** and **Lynx Knode**, made available to stakeholders to test the cross-border federated interoperability model.
+
 ## Objectives
 
 * **Simplification** of administrative procedures, resulting in reduced time and costs.
