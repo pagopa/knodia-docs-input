@@ -1,0 +1,73 @@
+## Knodia whitepaper
+  - Summary
+    - [Abstract](whitepaper/pages/01_abstract.md)
+    - [Regulatory context](whitepaper/pages/02_regulatory-context.md)
+    - [Objective of the proposal](whitepaper/pages/03_objective-of-the-proposal.md)
+
+  - Knodia as an evolution of the Italian interoperability experience
+    - [Knodia as an evolution of the Italian interoperability experience](whitepaper/pages/04-00_italian-interop-intro.md)
+    - [The Italian public cooperation system](whitepaper/pages/04-01_public-cooperation-system.md)
+    - [The Italian interoperability model](whitepaper/pages/04-02_interoperability-model.md)
+    - [Evolution from the public cooperation system to the interoperability model](whitepaper/pages/04-03_evolution.md)
+    - [Comparing *Porte di Dominio* and *PDND*](whitepaper/pages/04-04_pdd-and-pdnd.md)
+
+  - Knodia: cross-border federated interoperability
+    - [Knodia: cross-border federated interoperability](whitepaper/pages/05-00_crossborder-federated-interop.md)
+    - [A federation of Knodes](whitepaper/pages/05-01-00_federation-interop-nodes.md)
+      - [Cross-Border E-Service consumption flow](whitepaper/pages/05-01-01_flow.md)
+    - [Management of Confederate Organizations](whitepaper/pages/05-02-00_management-of-orgs.md)
+      - [Attributes of Confederate Organizations](whitepaper/pages/05-02-01_attributes.md)
+      - [Management of Operators](whitepaper/pages/05-02-02_management-of-operators.md)
+    - [Cross-Border E-Services](whitepaper/pages/05-03-00_eservices.md)
+      - [Technical characteristics](whitepaper/pages/05-03-01_eservices-technical.md)
+      - [Consumption requirements](whitepaper/pages/05-03-02_eservices-requirements.md)
+      - [Metadata](whitepaper/pages/05-03-03_eservices-metadata.md)
+      - [Knodia Categories](whitepaper/pages/05-03-04_eservices-categories.md)
+    - [Knode Catalogue](whitepaper/pages/05-04-00_catalogue.md)
+      - [Cross-Border E-Service publication](whitepaper/pages/05-04-01_eservice-publication.md)
+      - [Cross-Border E-Service discovery](whitepaper/pages/05-04-02_eservice-discovery.md)
+    - [Consuming Cross-Border E-Services](whitepaper/pages/05-05-00_consuming.md)
+      - [Agreement Request](whitepaper/pages/05-05-01_agreement.md)
+      - [Purpose Statement](whitepaper/pages/05-05-02_purpose.md)
+      - [Actions requested by the national regulatory framework](whitepaper/pages/05-05-03_national-regulatory-framework.md)
+    - [Consumer Keychains](whitepaper/pages/05-06-00_keychains.md)
+      - [Context of use](whitepaper/pages/05-06-01_keychains-context.md)
+      - [Management of cryptographic material](whitepaper/pages/05-06-02_keychains-crypto.md)
+      - [Consumer Keychain association with Purpose Statements](whitepaper/pages/05-06-03_keychains-purpose.md)
+    - [Issuance of access tokens for Cross-Border E-Services](whitepaper/pages/05-07-00_tokens.md)
+      - [Bearer authorization](whitepaper/pages/05-07-01_tokens-bearer.md)
+      - [Authorization with proof of possession](whitepaper/pages/05-07-02_tokens-dpop.md)
+    - [Knode API for Confederate Organizations](whitepaper/pages/05-08-00_interop-node-api.md)
+      - [Interop Keychains for the Knode API](whitepaper/pages/05-08-01_interop-keychains.md)
+      - [Interop access tokens](whitepaper/pages/05-08-02_interop-access-tokens.md)
+    - [Lifecycle of entities](whitepaper/pages/05-09-00_lifecycle.md)
+      - [Lifecycle of Cross-Border E-Services](whitepaper/pages/05-09-01_lifecycle-eservice.md)
+      - [Lifecycle of Agreement Requests](whitepaper/pages/05-09-02_lifecycle-agreement.md)
+      - [Lifecycle of Purpose Statements](whitepaper/pages/05-09-03_lifecycle-purpose.md)
+    - [Additional functionality provided by Knodes](whitepaper/pages/05-10-00_additional-functionality.md)
+      - [Asynchronous communication](whitepaper/pages/05-10-01_async.md)
+      - [Distribution of data change signals (Signal Hub)](whitepaper/pages/05-10-02_signal-hub.md)
+      - [E-Service Templates](whitepaper/pages/05-10-03_eservice-templates.md)
+      - [Purpose Statement Templates](whitepaper/pages/05-10-04_purpose-templates.md)
+      - [Producer Keychains](whitepaper/pages/05-10-05_producer-keychains.md)
+    - [Considerations on the governance of Knodia](whitepaper/pages/05-11-00_federation-governance.md)
+      - [Distribution of knowledge between Knodes](whitepaper/pages/05-11-01_distribution-of-knowledge.md)
+      - [Configuration of the federation of Knodes](whitepaper/pages/05-11-02_federation-configuration.md)
+
+  - Annex
+    - [Glossary](whitepaper/pages/06-01_glossary.md)
+    - [Reading service blueprints](whitepaper/pages/06-02_reading-service-blueprints.md)
+
+## Knodia executive summary
+  - Summary
+    - [Abstract](executive-summary/pages/01_abstract.md)
+  - The need for authentication and authorization
+    - [The need for authentication and authorization](executive-summary/pages/02_need-authentication-authorization.md)
+  - Proposed solution
+    - [Proposed solution](executive-summary/pages/03-00_proposed-solution.md)
+    - [E-Service consumption flow](executive-summary/pages/03-01_eservice-consumption-flow.md)
+    - [Additional functionality provided by Knodes](executive-summary/pages/03-02_additional-functionality.md)
+  - Expected benefits and features
+    - [Expected benefits and features](executive-summary/pages/04_benefits-features.md)
+
+## Knodia prototype use guide

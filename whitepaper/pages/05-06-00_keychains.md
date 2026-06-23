@@ -1,0 +1,1 @@
+This section describes the functionality that every *Knode* must provide to *Confederate Organizations* regarding *Consumer Keychains*. These are needed for *Consumers* to use the *Knode*’s API to request *access tokens* to consume a *Cross-Border E-Service*.

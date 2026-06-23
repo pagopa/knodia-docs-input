@@ -1,0 +1,34 @@
+---
+config:
+  layout: dagre
+---
+stateDiagram
+  direction TB
+  state IF_USER_CONFIRMATION <<choice>>
+  [*] --> IF_USER_CONFIRMATION:🧑🏻‍💻<br>create Agreement Request
+  IF_USER_CONFIRMATION --> PENDING_USER_CONFIRMATION:if Operator confirmation is required
+  IF_USER_CONFIRMATION --> ACTION_NEEDED:if Operator confirmation is not required
+  PENDING_USER_CONFIRMATION --> ACTION_NEEDED:🧑🏻‍💻<br>confirm on Producer Knode
+  ACTION_NEEDED --> ACTION_NEEDED:🧑🏻‍💻 or 👷🏼 or 🌐<br>act
+  ACTION_NEEDED --> Archived:🧑🏻‍💻 or 👷🏼 or 🌐<br>reject
+  ACTION_NEEDED --> Active:👷🏼 or 🌐<br>activate
+  Active --> Suspended:👷🏼 or 🧑🏻‍💻 or 🌐<br>suspend
+  Suspended --> Active:👷🏼 or 🧑🏻‍💻 or 🌐<br>resume
+  Active --> Archived:🧑🏻‍💻<br>archive
+  Active --> Archived:🌐<br>auto-archive due to<br>Agreement upgrade <br>to new E-Service version
+  Suspended --> Archived:🧑🏻‍💻<br>archive
+  PENDING_USER_CONFIRMATION:Pending Operator confirmation
+  ACTION_NEEDED:Submitted
+  
+  note left of ACTION_NEEDED 
+  Required actions include e.g. automatic checks, explicit Producer approval, requests to the Consumer to complete additional steps.
+  end note
+  note right of Suspended 
+  An Agreement can be suspended by any actor. It can only be resumed by the same actor.
+  Multiple suspensions associated with different actors may exist at the same time.
+  end note
+  note left of root_start 
+  🌐 = Producer Knode<br>
+  👷🏼 = Producer Operator<br>
+  🧑🏻‍💻 = Consumer Operator
+  end note

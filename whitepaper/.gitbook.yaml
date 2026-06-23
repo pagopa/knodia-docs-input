@@ -1,0 +1,3 @@
+structure:
+  readme: ./pages/01.md
+  summary: ./SUMMARY.md
