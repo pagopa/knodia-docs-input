@@ -14,11 +14,40 @@ The proposed cross-border federation realized by Knodia ensures that:
 
 The following table summarizes the key features of Knodia as proposed.
 
-
-
 ## Technological aspects
 
 | Characteristic | Knodia's adopted |
 |--|--|
 | Interaction technologies | <li>HTTP APIs</li> |
 | Authentication standards | <li>OAuth2</li><li>JWT</li><li>JWK</li> |
+| Development model | <li>open source</li> |
+
+## Operative aspects
+
+| Characteristic | Knodia's adopted |
+|--|--|
+| Initial setup | <li>one-off for interested parties</li> |
+| Agreement management | <li>GDPR-compliant process based on agreement requests and purpose statements</li> |
+| Maintenance | <li>Knodes only</li> |
+| Infrastructure costs | <li>Knodes only</li> |
+| Monitoring | <li>centralized in Knodes</li> |
+
+## Functionality
+
+| Characteristic | Knodia's adopted |
+|--|--|
+| E-Service versioning | <li>centralized tools</li> |
+| E-Service discovery | <li>using Knode Cross-Border E-Service Catalogues</li> |
+| Confederate Organization categorization | <li>centralized attribute management</li> |
+| E-Service co-design | <li>possible using E-Service Templates</li> |
+| Data variation distribution | <li>standardized and centralized</li> |
+
+## Governance and compliance
+
+| Characteristic | Knodia's adopted |
+|--|--|
+| Regulatory compliance | <li>adaptable to national regulatory frameworks in individual Knodes</li> |
+| Application of the once-only principle | <li>natively supported</li> |
+| GDPR compliance | <li>standardized and centrally managed purpose statement</li><li>pre-filled purpose statement templates</li> | 
+| Traceability of interactions | <li>centralized in individual Knodes</li> |
+| Exchange audit | <li>simplified by centralizing evidence in individual Knodes</li> |
