@@ -1,9 +1,3 @@
----
-navigation:
-    prev: true
-    next: false
----
-
 The proposed cross-border federation realized by Knodia ensures that:
 
 - The attribution of responsibilities to the subjects involved in the functioning of the ecosystem is certain.
