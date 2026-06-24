@@ -1,4 +1,4 @@
-# Knodia whitepaper
+## Knodia whitepaper
   - Summary
     - [Abstract](whitepaper/pages/01_abstract.md)
     - [Regulatory context](whitepaper/pages/02_regulatory-context.md)
@@ -58,7 +58,7 @@
     - [Glossary](whitepaper/pages/06-01_glossary.md)
     - [Reading service blueprints](whitepaper/pages/06-02_reading-service-blueprints.md)
 
-# Knodia executive summary
+## Knodia executive summary
   - [Abstract](executive-summary/pages/01_abstract.md)
   - [The need for authentication and authorization](executive-summary/pages/02_need-authentication-authorization.md)
   - [Proposed solution](executive-summary/pages/03-00_proposed-solution.md)
@@ -66,7 +66,7 @@
     - [Additional functionality provided by Knodes](executive-summary/pages/03-02_additional-functionality.md)
   - [Expected benefits and features](executive-summary/pages/04_benefits-features.md)
 
-# Knodia prototype User guide
+## Knodia prototype User guide
   ## Getting started
     - [Knodia prototype overview](prototype-user-guide/getting-started/pages/01_prototype-overview.md)
     - [Who is it for](prototype-user-guide/getting-started/pages/02_who-is-it-for.md)
