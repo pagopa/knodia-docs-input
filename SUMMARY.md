@@ -1,18 +1,16 @@
 ## Knodia whitepaper
-  - Summary
-    - [Abstract](whitepaper/pages/01_abstract.md)
-    - [Regulatory context](whitepaper/pages/02_regulatory-context.md)
-    - [Objective of the proposal](whitepaper/pages/03_objective-of-the-proposal.md)
 
-  - Knodia as an evolution of the Italian interoperability experience
-    - [Knodia as an evolution of the Italian interoperability experience](whitepaper/pages/04-00_italian-interop-intro.md)
+  - [Abstract](whitepaper/pages/01_abstract.md)
+  - [Regulatory context](whitepaper/pages/02_regulatory-context.md)
+  - [Objective of the proposal](whitepaper/pages/03_objective-of-the-proposal.md)
+
+  - [Knodia as an evolution of the Italian interoperability experience](whitepaper/pages/04-00_italian-interop-intro.md)
     - [The Italian public cooperation system](whitepaper/pages/04-01_public-cooperation-system.md)
     - [The Italian interoperability model](whitepaper/pages/04-02_interoperability-model.md)
     - [Evolution from the public cooperation system to the interoperability model](whitepaper/pages/04-03_evolution.md)
     - [Comparing *Porte di Dominio* and *PDND*](whitepaper/pages/04-04_pdd-and-pdnd.md)
 
-  - Knodia: cross-border federated interoperability
-    - [Knodia: cross-border federated interoperability](whitepaper/pages/05-00_crossborder-federated-interop.md)
+  - [Knodia: cross-border federated interoperability](whitepaper/pages/05-00_crossborder-federated-interop.md)
     - [A federation of Knodes](whitepaper/pages/05-01-00_federation-interop-nodes.md)
       - [Cross-Border E-Service consumption flow](whitepaper/pages/05-01-01_flow.md)
     - [Management of Confederate Organizations](whitepaper/pages/05-02-00_management-of-orgs.md)
