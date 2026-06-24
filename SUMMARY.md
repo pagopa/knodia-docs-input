@@ -59,16 +59,12 @@
     - [Reading service blueprints](whitepaper/pages/06-02_reading-service-blueprints.md)
 
 ## Knodia executive summary
-  - Summary
-    - [Abstract](executive-summary/pages/01_abstract.md)
-  - The need for authentication and authorization
-    - [The need for authentication and authorization](executive-summary/pages/02_need-authentication-authorization.md)
-  - Proposed solution
-    - [Proposed solution](executive-summary/pages/03-00_proposed-solution.md)
+  - [Abstract](executive-summary/pages/01_abstract.md)
+  - [The need for authentication and authorization](executive-summary/pages/02_need-authentication-authorization.md)
+  - [Proposed solution](executive-summary/pages/03-00_proposed-solution.md)
     - [E-Service consumption flow](executive-summary/pages/03-01_eservice-consumption-flow.md)
     - [Additional functionality provided by Knodes](executive-summary/pages/03-02_additional-functionality.md)
-  - Expected benefits and features
-    - [Expected benefits and features](executive-summary/pages/04_benefits-features.md)
+  - [Expected benefits and features](executive-summary/pages/04_benefits-features.md)
 
 ## Knodia prototype docs
   - User guide
