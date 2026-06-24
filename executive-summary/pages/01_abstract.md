@@ -1,6 +1,5 @@
 ---
-layout:
-  navigation:
+navigation:
     prev: false
 ---
 
