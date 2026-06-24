@@ -1,17 +1,17 @@
 # Knodia whitepaper
-  # Summary
+  ## Summary
     - [Abstract](whitepaper/pages/01_abstract.md)
     - [Regulatory context](whitepaper/pages/02_regulatory-context.md)
     - [Objective of the proposal](whitepaper/pages/03_objective-of-the-proposal.md)
 
-  # Knodia as an evolution of the Italian interoperability experience
+  ## Knodia as an evolution of the Italian interoperability experience
     - [Knodia as an evolution of the Italian interoperability experience](whitepaper/pages/04-00_italian-interop-intro.md)
     - [The Italian public cooperation system](whitepaper/pages/04-01_public-cooperation-system.md)
     - [The Italian interoperability model](whitepaper/pages/04-02_interoperability-model.md)
     - [Evolution from the public cooperation system to the interoperability model](whitepaper/pages/04-03_evolution.md)
     - [Comparing *Porte di Dominio* and *PDND*](whitepaper/pages/04-04_pdd-and-pdnd.md)
 
-  # Knodia: cross-border federated interoperability
+  ## Knodia: cross-border federated interoperability
     - [Knodia: cross-border federated interoperability](whitepaper/pages/05-00_crossborder-federated-interop.md)
     - [A federation of Knodes](whitepaper/pages/05-01-00_federation-interop-nodes.md)
       - [Cross-Border E-Service consumption flow](whitepaper/pages/05-01-01_flow.md)
@@ -54,17 +54,16 @@
       - [Distribution of knowledge between Knodes](whitepaper/pages/05-11-01_distribution-of-knowledge.md)
       - [Configuration of the federation of Knodes](whitepaper/pages/05-11-02_federation-configuration.md)
 
-  # Annex
+  ## Annex
     - [Glossary](whitepaper/pages/06-01_glossary.md)
     - [Reading service blueprints](whitepaper/pages/06-02_reading-service-blueprints.md)
 
 # Knodia executive summary
   - [Abstract](executive-summary/pages/01_abstract.md)
   - [The need for authentication and authorization](executive-summary/pages/02_need-authentication-authorization.md)
-  # Proposed solution
-    - [Proposed solution](executive-summary/pages/03-00_proposed-solution.md)
-    - [E-Service consumption flow](executive-summary/pages/03-01_eservice-consumption-flow.md)
-    - [Additional functionality provided by Knodes](executive-summary/pages/03-02_additional-functionality.md)
+  - [Proposed solution](executive-summary/pages/03-00_proposed-solution.md)
+  - [E-Service consumption flow](executive-summary/pages/03-01_eservice-consumption-flow.md)
+  - [Additional functionality provided by Knodes](executive-summary/pages/03-02_additional-functionality.md)
   - [Expected benefits and features](executive-summary/pages/04_benefits-features.md)
 
 # Knodia prototype User guide
