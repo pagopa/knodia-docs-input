@@ -1,6 +1,6 @@
 ---
-layout:
-  navigation:
+navigation:
+    prev: true
     next: false
 ---
 
