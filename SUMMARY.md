@@ -67,10 +67,10 @@
   - [Expected benefits and features](executive-summary/pages/04_benefits-features.md)
 
 ## Knodia prototype User guide
-  ## Getting started
+  ### Getting started
     - [Knodia prototype overview](prototype-user-guide/getting-started/pages/01_prototype-overview.md)
     - [Who is it for](prototype-user-guide/getting-started/pages/02_who-is-it-for.md)
     - [How it works: the operational flow](prototype-user-guide/getting-started/pages/03_how-it-works.md)
-  ## Technical references
+  ### Technical references
     - [Glossary](prototype-user-guide/technical-references/pages/01_glossary.md)
     - [Mockup exposed by Knode](prototype-user-guide/technical-references/pages/02_mockup.md)
