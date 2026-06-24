@@ -14,6 +14,17 @@ The proposed cross-border federation realized by Knodia ensures that:
 
 The following table summarizes the key features of Knodia as proposed.
 
+
+
+## Technological aspects
+
+| Characteristic | Knodia's adopted |
+|--|--|
+| Interaction technologies | <li>HTTP APIs</li> |
+| Authentication standards | <li>OAuth2</li><li>JWT</li><li>JWK</li> |
+
+
+
 <style>
     th, td {
   padding: 25px;
