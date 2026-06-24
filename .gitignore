@@ -1,2 +1,5 @@
 # local working directories
 **/working-directory/
+
+# local DS_Store
+**/.DS_Store
