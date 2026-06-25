@@ -26,4 +26,4 @@ The **Knodia prototype** enables the implementation of the "only once" principle
 
 ## Data Management
 
-The data for which **Knodia Producers** are responsible, the stakeholders who provide **Cross-Border E-Services**, **does not transit** and **is not stored** in Knodes.
+The data for which **Producers** are responsible, the stakeholders who provide **Cross-Border E-Services**, **does not transit** and **is not stored** in **Knodes**.

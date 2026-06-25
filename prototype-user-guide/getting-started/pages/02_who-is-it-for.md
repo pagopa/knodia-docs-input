@@ -8,4 +8,4 @@ The following categories of entities can join the trial, either as Knodia Produc
 * **Public and private organizations** interested in understanding the benefits of the proposed cross-border federated interoperability model.
 * **A group of public and private organizations** interested in verifying the applicability of the proposed cross-border federated interoperability model for their use cases.
 
-Interested parties can request access to the **Knodia prototype** using the tools made available by PagoPA in the **Knodia Portal**.
+Interested parties can request access to the **Knodia prototype** using the tools made available by PagoPA in the [**Knodia Portal**](https://knodia.org/).
