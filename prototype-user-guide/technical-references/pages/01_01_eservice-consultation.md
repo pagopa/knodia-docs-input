@@ -7,4 +7,3 @@ As a **Consumer**, you can:
 
 As a **Producer**, you can:
 - consult and manage defined **Cross-Border E-Services**, regardless of their status (e.g. suspend an active **Cross-Border E-Services**).
-

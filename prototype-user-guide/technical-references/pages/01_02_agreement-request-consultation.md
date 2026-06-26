@@ -4,7 +4,6 @@ As a **Consumer**, you can:
 - view the **Agreement Requests** you have made, regardless of their status;
 - suspend a previously created **Agreement Request**.
 
-
 As a **Producer**, you can:
 - view received **Agreement Requests**, regardless of their status;
 - suspend an active **Agreement Request**;
