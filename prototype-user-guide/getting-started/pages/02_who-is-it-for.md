@@ -1,4 +1,4 @@
-The **Knodia prototype** is designed to enable a wide range of public and private entities to test the applicability of the cross-border federated interoperability model defined in the **Knodia whitepaper**.
+The **Knodia prototype** is designed to enable a wide range of public and private entities to test the applicability of the cross-border federated interoperability model defined in the [**Knodia whitepaper**](../../../whitepaper/pages/01_abstract.md).
 
 ## Eligible Entities
 
