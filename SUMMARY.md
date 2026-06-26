@@ -70,8 +70,8 @@
     - [Who is it for](prototype-user-guide/getting-started/pages/02_who-is-it-for.md)
     - [How it works: the operational flow](prototype-user-guide/getting-started/pages/03_how-it-works.md)
   - Technical references
-    - [E-services](prototype-user-guide/technical-references/pages/01_eservice.md)
-      - [Operations and lifecycle]()
+    - [Cross-Border E-services](prototype-user-guide/technical-references/pages/01_00_eservice.md)
+      - [Operations and lifecycle](prototype-user-guide/technical-references/pages/01_01_operations-and-lifecycle.md)
       - [Exporting and importing]()
       - [Thresholds and approvals]()
       - [Keychains]()
