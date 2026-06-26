@@ -8,9 +8,9 @@ Operations represent the main actions that the **Producer** can perform to creat
 
 The lifecycle begins with the **creation of a draft**, during which the **Croos-Border E-Service** is not yet available to **Consumers**.
 
-Once completed, the draft can be **published** immediately or at a later time.
+Once completed, the **Croos-Border E-Service** must be **published** immediately.
 
-Upon publication, the **Croos-Border E-Service** moves to the **published** state, becomes available in the **Knodia Catalogues**, and can be consumed by **Consumers**.
+Upon publication, the **Croos-Border E-Service** moves to the **actived**, becomes available in the **Knodia Catalogues**, and can be used by **Consumers**.
 
 ### **Suspension and reactivation**
 
@@ -25,7 +25,6 @@ The following table summarizes the **states** in which an **Croos-Border E-Servi
 
 | State | Description| Visibility to Consumers | Allowed actions |
 | --- | --- | --- | --- |
-| **Draft** | Being created and not yet published. **Croos-Border E-Service** is not visible in the catalogues. | Not visible | <li>Edit</li><li> Delete</li> |
-| **Active** | **Croos-Border E-Service** is published and visible in the catalogues. New **Consumers** subscribe to this **Croos-Border E-Service**. | Visible | <li>Subscription</li><li>Suspension</li> |
-| **Suspended** | Use temporarily blocked by the **Producer**. | Not available | <li>Reactivation</li> |
+| **Active** | **Croos-Border E-Service** is published and visible in the catalogues. New **Consumers** subscribe to this **Croos-Border E-Service**. | Visible | <li>Used by **Consumers**</li><li>Suspended by **Producer**</li> |
+| **Suspended** | Use temporarily blocked by the **Producer**. | Not available | <li>Reactivated by **Producer**</li><li>Archived by **Producer**</li> |
 | **Archived** | **Croos-Border E-Service** is archived and not visible in the catalogues. | Not visible | <li>None</li> |
