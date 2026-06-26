@@ -29,4 +29,3 @@ The following table summarizes the **states** in which an **Croos-Border E-Servi
 | **Active** | **Croos-Border E-Service** is published and visible in the catalogues. New **Consumers** subscribe to this **Croos-Border E-Service**. | Visible | <li>Subscription</li><li>Suspension</li> |
 | **Suspended** | Use temporarily blocked by the **Producer**. | Not available | <li>Reactivation</li> |
 | **Archived** | **Croos-Border E-Service** is archived and not visible in the catalogues. | Not visible | <li>None</li> |
-
