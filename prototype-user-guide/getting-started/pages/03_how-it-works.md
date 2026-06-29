@@ -7,8 +7,12 @@ Cross-border interoperability is an ecosystem composed of components, protocols,
 1. **Onboarding**
 **One-time registration** on a **Knode**, hereinafter referred to as:
 
-    - **Consumer Knode**, when the subject wishes to consume a **Cross-Border E-Service**;
-    - **Producer Knode**, when the subject wishes to produce a **Cross-Border E-Service**.
+    - **Consumer**, when the subject wishes to consume a **Cross-Border E-Service**;
+    - **Producer**, when the subject wishes to produce a **Cross-Border E-Service**.
+
+    In the onboarding on the **Knode**, the parts are assigned the Attributes that characterize them.
+
+    In the **Knodia Prototype** the list of available **Attributes** are defined as an example, in real **Knodia** implementations the list of **Attributes** is defined in a shared way among the **Knodes** participating in the federation.
 
 2. **Check the catalogue**
 Log in to the **Knode** where the onboarding took place, and **check the Cross-Border E-Services already available** in the **Knode Catalogue** to consuming as a **Consumer**.
