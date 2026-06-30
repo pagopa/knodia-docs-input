@@ -1,4 +1,4 @@
-The definition of a **Cross-Border E-Service** is implemented by the **Producer**, an onboard party in the **Knode**.
+The definition of a **Cross-Border E-Service** is implemented by the **Producer**, on the **Knode** where it onboarded.
 
 The **Producer** identifies the parties, the **Consumers**, that can make an **Agreement Request** to their **Cross-Border E-Service** and indicates the **Attributes** they must have.
 
