@@ -1,4 +1,4 @@
-**Knodes** allow operators of an onboarded party, through the **Knode Catalogue**, to consult and manage **Agreement Request**.
+**Knodes** allow operators of an onboarded organization, through the **Knode Catalogue**, to consult and manage **Agreement Request**.
 
 As a **Consumer**, you can:
 - view the **Agreement Requests** you have made, regardless of their status;

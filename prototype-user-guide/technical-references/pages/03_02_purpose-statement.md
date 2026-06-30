@@ -7,4 +7,6 @@ The **Knodia Prototype** provides different behaviors for the two **Knodes**, sp
 - **Orion Knode**, the **Purpose Statement**only requires a declaration of purpose from Consumers;
 - **Lynx Knode**, the **Purpose Statement** requires Consumers to complete a risk analysis in addition to the declaration of purpose.
 
-The data relating to this action is stored on the Producer's **Knode**, which represents the authoritative source.
+The data relating to this action is stored on the Producer's **Knode**, which represents the authoritative source, ensured through **Knode-to-Knode** communication.
+
+At any time the **Producer** can consult the **Purpose Statement** and possibly suspend it.

@@ -1,4 +1,4 @@
-**Knodes** allow operators of an onboarded party, through the **Knode Catalogue**, to consult and manage **Purpose Statement**.
+**Knodes** allow operators of an onboarded organization, through the **Knode Catalogue**, to consult and manage **Purpose Statement**.
 
 As a **Consumer**, you can:
 - view the **Purpose Statement** for received **Agreement Request** you have made, regardless of their status;

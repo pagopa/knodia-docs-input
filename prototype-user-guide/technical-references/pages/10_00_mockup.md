@@ -1,6 +1,6 @@
 # WIP
 
-To facilitate the use of the **Knodia Prototype", some Cross-Border E-Service mockups have been published and made available to all participants.
+To facilitate the use of the **Knodia Prototype", some Cross-Border E-Service mockups have been published and made available to all participants in the experiment.
 
 ## Orion Cross-Border E-Service mockup
 

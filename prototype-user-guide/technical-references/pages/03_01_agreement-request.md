@@ -6,4 +6,6 @@ The **Knodia Prototype** provides different behaviors for the two **Knodes**, sp
 - **Orion Knodes**, the **Agreement Request** is automatically activated;
 - **Lynx Knodes**, the **Agreement Request** requires explicit confirmation from the **Consumer** into **Lynx Knode** (user authentication into the **Lynx Knode** is simulated).
 
-The data relating to this action is stored on the Producer's **Knode**, which represents the authoritative source.
+The data relating to this action is stored on the Producer's **Knode**, which represents the authoritative source, ensured through **Knode-to-Knode** communication.
+
+At any time the **Producer** can consult the **Agreement Request** and possibly suspend it.
