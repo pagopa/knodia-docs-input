@@ -43,8 +43,6 @@ sequenceDiagram
     C->>N: Searches e-service and submits service request
     N->>P: Notifies producer of service request
 
-    P->>N: Activates consumption
-
     C->>N: Creates purpose with load estimate
 
     C->>N: Asks a voucher
@@ -56,25 +54,25 @@ In the sequence diagram with **Knodia prototype** we mean the set of two Knodes 
 
 ## Producer Flow
 
-1. A party wishing to produce a **Cross-Border E-Service** can create and manage it through the **Knode** where the onboarding took place.
+- A party wishing to produce a **Cross-Border E-Service** can create and manage it through the **Knode** where the onboarding took place.
 
-2. Once published, the **Cross-Border E-Service** becomes available in the **Knode Catalogues** of all **Knodes**, where it can be viewed in use mode.
+- Once published, the **Cross-Border E-Service** becomes available in the **Knode Catalogues** of all **Knodes**, where it can be viewed in use mode.
 
-3. Interested **Consumers**, if they meet the producer's minimum requirements (attributes), can submit a agreement request.
+- Interested **Consumers**, if they meet the producer's minimum requirements (attributes), can submit a agreement request.
 
-4. The **Producer** can review and manage these agreement requests.
+- The **Producer** can review and manage these agreement requests.
 
-5. After approval, the **Consumer** must declare his/her purposes to start using the **Cross-Border E-Service**.
+- After approval, the **Consumer** must declare his/her purposes to start using the **Cross-Border E-Service**.
 
 ## Consumer Flow
 
-1. A party wishing to use a **Cross-Border E-Service** can consult the **Knode Catalogue**, through the **Knode** where the onboarding took place, to view the available ones.
+- A party wishing to use a **Cross-Border E-Service** can consult the **Knode Catalogue**, through the **Knode** where the onboarding took place, to view the available ones.
 
-2. If they meet the minimum requirements, they can submit a agreement request, which can be reviewed by the **Producer**.
+- If they meet the minimum requirements, they can submit a agreement request, which can be reviewed by the **Producer**.
 
-3. Once the agreement request is approved, the **Consumer** must define the purpose, specifying:
+- Once the agreement request is approved, the **Consumer** must define the purpose, specifying:
 
     - The legal basis for access and how the received data will be treated (legal compliance).
     - Load estimate, i.e., the expected number of daily API calls to the **Knodia Producer**.
 
-4. When purpose is active, the **Consumer** can finalize the technical integration** to **obtain a voucher** from **Knodia Producer's Knode** and access the API.
+- When purpose is active, the **Consumer** can finalize the technical integration** to **obtain a voucher** from **Knodia Producer's Knode** and access the API.
