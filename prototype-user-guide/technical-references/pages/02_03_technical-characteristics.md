@@ -1,4 +1,4 @@
-The definition of a **Cross-Border E-Service** is implemented by the **Producer**, an onboard party in the **Knode**.
+The definition of a **Cross-Border E-Service** is implemented by the **Producer**, on the **Knode** where it onboarded.
 
 The **Producer** must define the technical characteristics:
 - **Data mode**: for **Knodia prototype** only **Provide-data** (from the **Producer** to the **Consumer**), indicates the data flow between Producer and Consumer;;

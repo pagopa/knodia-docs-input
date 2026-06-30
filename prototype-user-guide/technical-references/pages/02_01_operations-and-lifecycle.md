@@ -1,5 +1,3 @@
-## **Operations**
-
 Operations represent the main actions that the **Producer** can perform to create, suspend, or archive an **Croos-Border E-Service**.
 
 > **Knodia Prototype** implements an entity lifecycle reduction defined in the [**Knodia whitepaper**](../../../whitepaper/pages/01_abstract.md).
