@@ -1,4 +1,4 @@
-**Knodes** allow operators of an onboarded party, through the **Knode Catalogue**, to consult and manage **Cross-Border E-Services**.
+**Knodes** allow operators of an onboarded organization, through the **Knode Catalogue**, to consult and manage **Cross-Border E-Services**.
 
 As a **Consumer**, you can:
 - search for **Cross-Border E-Services** published by **Producers** of other **Knodes**;
