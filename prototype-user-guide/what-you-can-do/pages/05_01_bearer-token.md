@@ -1,4 +1,4 @@
-Regarding the issuance of bearer access token bearer the **Knodes** implemented [rfc7521](https://datatracker.ietf.org/doc/html/rfc7521). The use of issued bearer access tokens by a **Consumer** for a **Producer**'s **Cross-Border E-service** is achieved by applying [rfc6750](https://datatracker.ietf.org/doc/html/rfc6750).
+Regarding the issuance of bearer access token bearer the **Knodes** implemented [rfc7521](https://datatracker.ietf.org/doc/html/rfc7521). The use of issued bearer access tokens by a **Consumer** for a **Producer**'s **Cross-Border E-service** or **KNodes**'s **Knodia API** is achieved by applying [rfc6750](https://datatracker.ietf.org/doc/html/rfc6750).
 
 It is assumed that the **Consumer** has:
 - created an e-service client;
