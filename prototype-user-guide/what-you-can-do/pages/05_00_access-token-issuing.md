@@ -27,9 +27,14 @@ The **Signed Client Assertion** created by the **Consumer** and the **Signed Acc
 
 The following table shows the parameters related to the authorization servers of the two **Knodes** implemented in the **Knodia Prototype**.
 
-| Knode | Auth Server | url | audience |
+| Knode | Service Name| url | audience |
 |---|---|---|---|
 | Lynx | ESERVICE AUTH SERVER | https://auth.lynx.test.knodia.com/token | auth.lynx.test.knodia.com/token |
 | Lynx | KNODE_API AUTH SERVER | https://auth.lynx.test.knodia.com/knodeApiToken | auth.lynx.test.knodia.com/knodeApiToken |
 | Orion | ESERVICE AUTH SERVER | https://auth.orion.test.knodia.com/token | auth.orion.test.knodia.com/token |
 | Orion | KNODE_API AUTH SERVER | https://auth.orion.test.knodia.com/knodeApiToken | auth.orion.test.knodia.com/knodeApiToken |
+
+The API docs for Auth Servers are:
+- for Lynx at https://auth.lynx.dev.knodia.com/docs
+- for Orion at  https://auth.orion.dev.knodia.com/docs
+
