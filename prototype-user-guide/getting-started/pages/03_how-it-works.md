@@ -21,7 +21,7 @@ Log in to the **Knode** where the onboarding took place, and **check the Cross-B
 Write an API to make data available to other parties as a **Producer**.
 
 4. **Validate Vouchers**
-Add a **verification mechanism** to your API to verify the **legitimacy and validity** of **vouchers** presented by data requesters. The voucher is valid only if **issued by the Knode**  where the onboarding took place, **currently valid**, and **linked to the API**.
+Add a **verification mechanism** to your API to verify the **legitimacy and validity** of **vouchers** presented by data requesters. The voucher is valid only if **issued by the Knode** where the onboarding took place, **currently valid**, and **linked to the API**.
 
 5. **Publishing a Cross-Border E-Service**
 Publish the API on the **Knode Catalogue** where the onboarding took place as a **Cross-Border E-Service**, including all the **contextual and supporting information** necessary for its use.

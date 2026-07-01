@@ -35,6 +35,6 @@ The following table shows the parameters related to the authorization servers of
 | Orion | KNODE_API AUTH SERVER | https://auth.orion.test.knodia.com/knodeApiToken | auth.orion.test.knodia.com/knodeApiToken |
 
 The API docs for Auth Servers are:
-- for Lynx at https://auth.lynx.dev.knodia.com/docs
-- for Orion at  https://auth.orion.dev.knodia.com/docs
+- for Lynx at [https://auth.lynx.dev.knodia.com/docs](https://auth.lynx.dev.knodia.com/docs)
+- for Orion at [https://auth.orion.dev.knodia.com/docs](https://auth.orion.dev.knodia.com/docs)
 

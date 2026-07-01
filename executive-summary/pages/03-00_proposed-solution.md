@@ -9,7 +9,7 @@ Knodia provides for the existence of the following actors:
 - The Interoperability Nodes (hereinafter, Knodes), which are the managers responsible for identifying and managing each one a distinct set of Confederate Organizations, offering them the functionality needed to enable interaction with Confederate Organizations of other Knodes.
 - The Confederate Organizations, which are the organizations that assume either or both roles of:
 
-    -  Producers, when they provide E-Services to other Confederate Organizations.
+    - Producers, when they provide E-Services to other Confederate Organizations.
     - Consumers, when they consume the E-Services of the Producers.
 
 Taken together, the Knodes, Producers, and Consumers constitute Knodia, which is based on trust established between the participating Knodes. Producers and Consumers are recognized as participants in Knodia and engage in cross-border interactions based on the information exchanged by the Knodes that have recognized them.
