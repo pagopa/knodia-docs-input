@@ -44,9 +44,8 @@ The HTTP request body must include the following parameters:
 If the authorization server's checks are successful, an bearer access token is issued in response. Specifically, the response is a JSON that follows the following JSON Schema:
 
 ```json
-{ 
-    "$schema": 
-        "http://json-schema.org/draft-04/schema#",
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
         "type": "object",
         "properties": {
             "access_token": {
@@ -54,18 +53,23 @@ If the authorization server's checks are successful, an bearer access token is i
             },
             "expires_in": {
                 "type": "integer"
+            },
+            "token_type": {
+                "type": "string"
             }
-        },
-        "required": [
-            "access_token",
-            "expires_in"
-        ]
+  },
+  "required": [
+    "access_token",
+    "expires_in",
+    "token_type"
+  ]
 }
 ```
 
 where:
 - access_token is the JWT Compact Form of the bearer access token issued
 - expires_in is the number of seconds the token is valid
+- token_type is always Bearer
 
 ## Request data from the Producer
 The **Consumer**'s client implements the OpenAPI indicated by the **Producer**'s **Cross-Border E-service** and uses the bearer access token issued in the http header Authorization indicating the bearer scheme (e.g. Authorization: Bearer <access_token>).
