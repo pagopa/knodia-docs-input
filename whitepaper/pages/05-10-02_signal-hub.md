@@ -20,7 +20,7 @@ In addition to signals related to entity lifecycle changes, the *Producer* must 
 
 # Signal deposit, retrieval, and processing flow
 
-A *Producer* that intends to make signals available for data changes for a *Cross-Border E-Service* must enable the *Signal Hub* for this *E-Service*. The *Producer* must also create an *Interop Keychain* to request *access tokens* to access the *Signal Hub* (see § [Interop Keychains for the Knode API](./05-08-01_interop-keychains.md)).
+A *Producer* that intends to make signals available for data changes for a *Cross-Border E-Service* must enable the *Signal Hub* for this *E-Service*. The *Producer* must also create an *Interop Keychain* to request *access tokens* to access the *Signal Hub* (see § [Knodia API Keychains for the Knode API](./05-08-01_interop-keychains.md)).
 
 The following service blueprint illustrates the steps to make signals available for a *Cross-Border E-Service* (exemplifying also a possible subdivision of roles for *Organization* *Operators*).
 
