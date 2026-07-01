@@ -31,13 +31,13 @@ See § [Lifecycle of Purpose Statements](./05-09-03_lifecycle-purpose.md) for mo
 ***Consumer Knodes* must ensure the following requirements are met:**
 
 - ***Confederate Organizations* can create or select (respectively, for *Provide-Data* or *Receive-Data* *Cross-Border E-Services*) the *Purpose Statements* for *Cross-Border E-Services* and receive notifications related to them.**
-- **The *Consumer Knode* must forward the request to create a *Purpose Statement* to the *Producer Knode* using the *Knodia API*.**
-- **The *Consumer Knode* must receive from the *Producer Knode*, using the *Knodia API*, evidence on the state of *Purpose Statements* it has created.**
+- **The *Consumer Knode* must forward the request to create a *Purpose Statement* to the *Producer Knode* using the * Knode-to-Knode API*.**
+- **The *Consumer Knode* must receive from the *Producer Knode*, using the * Knode-to-Knode API*, evidence on the state of *Purpose Statements* it has created.**
 
 ***Producer Knodes* must ensure the following requirements are met:**
 
-- **The *Producer Knode* must allow other *Knodes* to create *Purpose Statements* (for *Provide-Data* *Cross-Border E-Services*) or to retrieve existing *Purpose Statements* created by the *Producer* (for *Receive-Data* *Cross-Border E-Services*) using the *Knodia API*.**
-- **Changes in the state of *Purpose Statements* are made available to the *Consumer Knodes* that created them via the *Knodia API*.**
+- **The *Producer Knode* must allow other *Knodes* to create *Purpose Statements* (for *Provide-Data* *Cross-Border E-Services*) or to retrieve existing *Purpose Statements* created by the *Producer* (for *Receive-Data* *Cross-Border E-Services*) using the * Knode-to-Knode API*.**
+- **Changes in the state of *Purpose Statements* are made available to the *Consumer Knodes* that created them via the * Knode-to-Knode API*.**
 
 # Purpose Statements for Provide-Data E-Services
 
@@ -46,15 +46,15 @@ A *Consumer* *Operator* may, through the user interface of the *Consumer Knode*,
 The *Consumer Knode*:
 
 1. Requests to the *Consumer* *Operator* to fill in the required information according to the requirements defined in the § [Purpose Statement](./05-05-02_purpose.md) above.
-2. Retrieves from the *Producer Knode*, using the *Knodia API*, the form for any additional information requested by the national regulatory framework (see § [Actions requested by the national regulatory framework](./05-05-03_national-regulatory-framework.md) for details).
+2. Retrieves from the *Producer Knode*, using the * Knode-to-Knode API*, the form for any additional information requested by the national regulatory framework (see § [Actions requested by the national regulatory framework](./05-05-03_national-regulatory-framework.md) for details).
 3. Provides the form to the *Consumer* *Operator* to fill in.
-4. Forwards the filled-in data to the *Producer Knode* using the *Knodia API*.
+4. Forwards the filled-in data to the *Producer Knode* using the * Knode-to-Knode API*.
 
 The *Producer Knode* creates the *Purpose Statement* and returns its reference to the *Consumer Knode*.
 
 The *Consumer Knodes* must *Store* the references:
 
-- Of the *Purpose Statement*, as returned by the *Producer Knode*, to be able to retrieve its data later using the *Knodia API*.
+- Of the *Purpose Statement*, as returned by the *Producer Knode*, to be able to retrieve its data later using the * Knode-to-Knode API*.
 - Of the *Cross-Border E-Service* subject of the declaration.
 - Of the *Producer Knode*.
 
@@ -80,17 +80,17 @@ The following service blueprint outlines the activities performed by the subject
 
 ![](../resources/blueprint-purpose-creation-provide-data.svg)
 
-In any case, the *Consumer Knode* must monitor state change events for the *Purpose Statement* using the *Knodia API* and notify the corresponding *Consumer*. See § [Distribution of knowledge between Knodes](./05-11-01_distribution-of-knowledge.md) for more details.
+In any case, the *Consumer Knode* must monitor state change events for the *Purpose Statement* using the * Knode-to-Knode API* and notify the corresponding *Consumer*. See § [Distribution of knowledge between Knodes](./05-11-01_distribution-of-knowledge.md) for more details.
 
 ***Producer Knodes* must ensure the following requirements are met:**
 
 - ***Producers* can request explicit confirmation from potential *Consumers* before activating their *Purpose Statements*.**
-- **If a *Producer* requests explicit confirmation, the *Producer Knode* returns to interested *Consumer Knodes*, via the *Knodia API*, the information needed for *Operators* to fulfil this.**
-- **If any additional information is requested from the *Consumer* in relation to the regulation for protection of personal data of natural persons, the *Producer Knode* must provide interested *Consumer Knodes*, through the *Knodia API*, with the form to collect this information and the operations to receive it after it is completed.**
+- **If a *Producer* requests explicit confirmation, the *Producer Knode* returns to interested *Consumer Knodes*, via the * Knode-to-Knode API*, the information needed for *Operators* to fulfil this.**
+- **If any additional information is requested from the *Consumer* in relation to the regulation for protection of personal data of natural persons, the *Producer Knode* must provide interested *Consumer Knodes*, through the * Knode-to-Knode API*, with the form to collect this information and the operations to receive it after it is completed.**
 
 ***Consumer Knodes* must ensure the following requirements are met:**
 
-- ***Consumer Knodes* must monitor, using the *Knodia API* of the *Producer Knodes*, state changes of *Purpose Statements*, to react when the confirmation is given.**
+- ***Consumer Knodes* must monitor, using the * Knode-to-Knode API* of the *Producer Knodes*, state changes of *Purpose Statements*, to react when the confirmation is given.**
 - **If any additional information is requested from the *Consumer* in relation to the regulation for protection of personal data of natural persons, the *Consumer Knode* must retrieve the form to collect this information and forward it to the *Producer Knode*.**
 
 # Purpose Statements for Receive-Data E-Services
@@ -99,7 +99,7 @@ A *Cross-Border E-Service* in the *Receive-Data* mode allows its *Producer* to c
 
 The *Producer Knode* must provide functionality for *Producers* to enter the required information in accordance with the requirements defined in the § [Purpose Statement](./05-05-02_purpose.md) above.
 
-The *Consumer Knode*, when a *Consumer* has an active *Agreement Request* for a *Receive-Data* *Cross-Border E-Service*, must retrieve from the *Producer Knode*, using the *Knodia API*, the *Purpose Statements* and make them available to the *Consumer*.
+The *Consumer Knode*, when a *Consumer* has an active *Agreement Request* for a *Receive-Data* *Cross-Border E-Service*, must retrieve from the *Producer Knode*, using the * Knode-to-Knode API*, the *Purpose Statements* and make them available to the *Consumer*.
 
 The following service blueprint illustrates the flow of activities for purpose creation in the *Receive-Data* case:
 
@@ -107,8 +107,8 @@ The following service blueprint illustrates the flow of activities for purpose c
 
 ***Consumer Knodes* must ensure the following requirement is met:**
 
-- **They must retrieve the *Purpose Statement* issued by the *Producer*, using the *Knodia API*, and make it available to the *Consumer* on their user interface.**
+- **They must retrieve the *Purpose Statement* issued by the *Producer*, using the * Knode-to-Knode API*, and make it available to the *Consumer* on their user interface.**
 
 ***Producer Knodes* must ensure the following requirement is met:**
 
-- **They must make the *Purpose Statement* issued by the *Producer* available through the *Knodia API* to *Consumer Knodes*.**
+- **They must make the *Purpose Statement* issued by the *Producer* available through the * Knode-to-Knode API* to *Consumer Knodes*.**
