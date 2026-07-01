@@ -24,3 +24,12 @@ sequenceDiagram
 ```
 
 The **Signed Client Assertion** created by the **Consumer** and the **Signed Access Token** issued by the **Producer Knode** are JWT whose claims are determined by the nature of the access token (**Bearer** or **DPoP**) selected for the **Cross-Border E-service**.
+
+The following table shows the parameters related to the authorization servers of the two **Knodes** implemented in the **Knodia Prototype**.
+
+| Knode | Auth Server | url | audience |
+|---|---|---|---|
+| Lynx | ESERVICE AUTH SERVER | https://auth.lynx.test.knodia.com/token | auth.lynx.test.knodia.com/token |
+| Lynx | KNODE_API AUTH SERVER | https://auth.lynx.test.knodia.com/knodeApiToken | auth.lynx.test.knodia.com/knodeApiToken |
+| Orion | ESERVICE AUTH SERVER | https://auth.orion.test.knodia.com/token | auth.orion.test.knodia.com/token |
+| Orion | KNODE_API AUTH SERVER | https://auth.orion.test.knodia.com/knodeApiToken | auth.orion.test.knodia.com/knodeApiToken |
