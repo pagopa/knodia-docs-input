@@ -9,7 +9,7 @@ If the *Producer* has defined the *Cross-Border E-Service* as accepting Bearer a
 
 The *Producer Knode* follows these steps to issue the token:
 
-1. Retrieve the needed information using the *Knodia API* of the *Consumer Knode*:
+1. Retrieve the needed information using the * Knode-to-Knode API* of the *Consumer Knode*:
     - Data of the *Consumer Keychain*: public cryptographic material and associated *Purpose Statements*.
     - Data of the *Consumer* and its *Knodia Attributes*.
 2. Authenticate the *Consumer*, that is, verify the seal of the client assertion against the public cryptographic material in the keychain.
