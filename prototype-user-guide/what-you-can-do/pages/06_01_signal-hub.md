@@ -16,8 +16,8 @@ Below are the references to the services implemented on the **Knodes** to apply 
 | Orion | SIGNAL RETRIEVE | used by the **Consumer** to retrieve the signals of the variations or the new secret for pseudonymization of references | https://signalhub.orion.test.knodia.com/signals/{eserviceId} |
 
 The API docs for Signal Hub Service are:
-- for Lynx at https://signalhub.lynx.dev.knodia.com/docs
-- for Orion at https://signalhub.orion.dev.knodia.com/docs
+- for Lynx at [https://signalhub.lynx.dev.knodia.com/docs](https://signalhub.lynx.dev.knodia.com/docs)
+- for Orion at [https://signalhub.orion.dev.knodia.com/docs](https://signalhub.orion.dev.knodia.com/docs)
 
 
 
