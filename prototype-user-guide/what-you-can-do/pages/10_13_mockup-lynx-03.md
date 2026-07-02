@@ -1,19 +1,19 @@
-**Cross-Border E-Service** mockup is published on **Lynx Knode**, and simulates the retrieval the registered addresses of legal entities.
+This **Cross-Border E-Service** mockup is published on the **Lynx Knode** and simulates the retrieval of the registered addresses of legal entities.
 
-The following table summarizes the characteristics of the **Cross-Border E-Service** mockup.
+The following table summarizes the characteristics of this **Cross-Border E-Service** mockup.
 
-| Characteristic | Valorization |
+| Characteristic | Value / Configuration |
 |---|---|
 | **Name** | Mockup 06 Company Address (Integrity REST 02) - Lynx |
-| **Description** | Cross-Border E-Service that returns a legal entity address. |
+| **Description** | Cross-Border E-Service that returns a legal entity's address. |
 | **Knodia Category** | Company address |
 | **Producer** | Mockup Organization Confederate Lynx |
-| **Access token settings** | <li>Duration: 60 minutes</li><li>Audience: mock.lynx.dev.knodia.com</li><li>Type: Bearer</li> |
-| **Max API calls per day**| <li>Per Knode: 10,000</li><li>Per Consumer: 1,000</li> |
+| **Access token settings** | - Duration: 60 minutes<br>- Audience: `mock.lynx.dev.knodia.com`<br>- Type: Bearer |
+| **Max API calls per day** | - Per Knode: 10,000<br>- Per Consumer: 1,000 |
 | **Data transmission mode** | Provide data |
 | **Signal Hub** | DISABLED |
 
-**Cross-Border E-Service** mockup implements the following API.
+This **Cross-Border E-Service** mockup implements the following API.
 
 ```yaml
 openapi: 3.0.4

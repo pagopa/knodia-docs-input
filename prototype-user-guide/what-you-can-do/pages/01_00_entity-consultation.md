@@ -1,9 +1,9 @@
-**Knodes** provides onboarded organizations, through its operators, the functionality to consult the entities of their interest.
+**Knodes** provide onboarded organizations, through their operators, with the functionality to consult the entities of interest.
 
-**Knodes** guarantees the consultation and management of:
-- **Cross-Border E-Services**, defined as **Producer** and usable or used as **Consumer**;
-- **Agreement Request** and **Purpose Statement**, regardless of whether the organization is the **Producer** or **Consumer** of the same.
+**Knodes** guarantee the consultation and management of:
+- **Cross-Border E-Services**, defined as a **Producer** and usable or used as a **Consumer**.
+- **Agreement Requests** and **Purpose Statements**, regardless of whether the organization is the **Producer** or **Consumer** of the service.
 
-A **Knode** allows you to:
-- view and edit their information (identifier assigned by the **Knode**, contact information);
-- view the **Attributes** assigned by the **Knode**.
+A **Knode** allows organizations to:
+- View and edit their information (identifier assigned by the **Knode**, contact information).
+- View the **Attributes** assigned by the **Knode**.

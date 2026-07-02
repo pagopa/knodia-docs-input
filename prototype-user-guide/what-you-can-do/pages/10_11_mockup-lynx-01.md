@@ -1,19 +1,19 @@
-**Cross-Border E-Service** mockup is published on **Lynx Knode**, and simulates the sending of a company's digital domicile.
+This **Cross-Border E-Service** mockup is published on the **Lynx Knode** and simulates the sending of a company's digital domicile.
 
-The following table summarizes the characteristics of the **Cross-Border E-Service** mockup.
+The following table summarizes the characteristics of this **Cross-Border E-Service** mockup.
 
-| Characteristic | Valorization |
+| Characteristic | Value / Configuration |
 |---|---|
 | **Name** | Mockup 04 Company Digital Domicile (Receive data) - Lynx |
-| **Description** | Cross-Border Receive data E-Service for forwarding the digital domicile of a legal entity. Signature: ACK = sendDigitalContact(legal_entity, contact_point). Producer publishes pre-filled lawfulness forms the Consumer picks when creating a Purpose. |
+| **Description** | Cross-Border "Receive data" E-Service used to forward the digital domicile of a legal entity. Signature: `ACK = sendDigitalContact(legal_entity, contact_point)`. The Producer publishes pre-filled lawfulness forms that the Consumer selects when creating a Purpose. |
 | **Knodia Category** | Company digital domicile |
 | **Producer** | Mockup Organization Confederate Lynx |
-| **Access token settings** | <li>Duration: 60 minutes</li><li>Audience: mock.orion.lynx.knodia.com</li><li>Type: Bearer</li> |
-| **Max API calls per day**| <li>Per Knode: 10,000</li><li>Per Consumer: 1,000</li> |
+| **Access token settings** | - Duration: 60 minutes<br>- Audience: `mock.orion.lynx.knodia.com`<br>- Type: Bearer |
+| **Max API calls per day** | - Per Knode: 10,000<br>- Per Consumer: 1,000 |
 | **Data transmission mode** | Receive data |
 | **Signal Hub** | DISABLED |
 
-**Cross-Border E-Service** mockup implements the following API.
+This **Cross-Border E-Service** mockup implements the following API.
 
 ```yaml
 openapi: 3.0.4

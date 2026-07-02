@@ -1,12 +1,11 @@
-The **Purpose Statement** is created by the **Consumer**, on the **Knode** where it onboarded.
+The **Purpose Statement** is created by the **Consumer** on the **Knode** where it is onboarded.
 
 The **Consumer** creates the **Purpose Statement** in accordance with the regulatory framework of the **Producer**'s domain.
 
+The **Knodia Prototype** provides different behaviors for the two **Knodes**; specifically:
+- On the **Orion Knode**, the **Purpose Statement** only requires a declaration of purpose from **Consumers**.
+- On the **Lynx Knode**, the **Purpose Statement** requires **Consumers** to complete a risk analysis in addition to the declaration of purpose.
 
-The **Knodia Prototype** provides different behaviors for the two **Knodes**, specifically:
-- **Orion Knode**, the **Purpose Statement**only requires a declaration of purpose from Consumers;
-- **Lynx Knode**, the **Purpose Statement** requires Consumers to complete a risk analysis in addition to the declaration of purpose.
+The data relating to this action is stored on the Producer's **Knode**, which represents the authoritative source, and is synchronized through **Knode-to-Knode** communication.
 
-The data relating to this action is stored on the Producer's **Knode**, which represents the authoritative source, ensured through **Knode-to-Knode** communication.
-
-At any time the **Producer** can consult the **Purpose Statement** and possibly suspend it.
+At any time, the **Producer** can consult the **Purpose Statement** and, if necessary, suspend it.

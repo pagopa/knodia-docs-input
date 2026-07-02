@@ -1,19 +1,19 @@
-**Cross-Border E-Service** mockup is published on **Orion Knode**, and simulates the retrieval of a natural person's digital domicile.
+This **Cross-Border E-Service** mockup is published on the **Orion Knode** and simulates the retrieval of a natural person's digital domicile.
 
-The following table summarizes the characteristics of the **Cross-Border E-Service** mockup.
+The following table summarizes the characteristics of this **Cross-Border E-Service** mockup.
 
-| Characteristic | Valorization |
+| Characteristic | Value / Configuration |
 |---|---|
 | **Name** | Mockup 02 Digital Contact (DPoP) - Orion |
-| **Description** | Cross-Border E-Service that returns the digital contact of a natural person identified by Codice Fiscale, with DPoP-bound access token. |
+| **Description** | Cross-Border E-Service that returns the digital contact of a natural person identified by Codice Fiscale, with a DPoP-bound access token. |
 | **Knodia Category** | Citizen digital domicile |
 | **Producer** | Mockup Organization Confederate Orion |
-| **Access token settings** | <li>Duration: 60 minutes</li><li>Audience: mock.orion.dev.knodia.com</li><li>Type: DPoP</li> |
-| **Max API calls per day**| <li>Per Knode: 10,000</li><li>Per Consumer: 1,000</li> |
+| **Access token settings** | - Duration: 60 minutes<br>- Audience: `mock.orion.dev.knodia.com`<br>- Type: DPoP |
+| **Max API calls per day** | - Per Knode: 10,000<br>- Per Consumer: 1,000 |
 | **Data transmission mode** | Provide data |
 | **Signal Hub** | DISABLED |
 
-**Cross-Border E-Service** mockup implements the following API.
+This **Cross-Border E-Service** mockup implements the following API.
 
 ```yaml
 openapi: 3.0.4
