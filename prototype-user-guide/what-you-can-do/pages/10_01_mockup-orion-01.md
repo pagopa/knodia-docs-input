@@ -2,7 +2,6 @@
 
 The following table summarizes the characteristics of the **Cross-Border E-Service** mockup.
 
-
 | Characteristic | Valorization |
 |---|---|
 | **Name** | Mockup 01 Personal Information (Bearer) - Orion |
@@ -16,7 +15,6 @@ The following table summarizes the characteristics of the **Cross-Border E-Servi
 **Cross-Border E-Service** mockup implements the following API.
 
 ```yaml
-
 openapi: 3.0.4
 info:
   contact:
@@ -240,6 +238,4 @@ tags:
   - description: Personal information lookup by Codice Fiscale (Cross-Border
       E-service 01, Bearer-protected)
     name: personalInformation
-
-
 ```

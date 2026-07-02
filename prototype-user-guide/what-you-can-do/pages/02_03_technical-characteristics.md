@@ -3,7 +3,7 @@ The definition of a **Cross-Border E-Service** is implemented by the **Producer*
 The **Producer** must define the technical characteristics:
 - **Data mode**: for **Knodia prototype** only **Provide-data** (from the **Producer** to the **Consumer**), indicates the data flow between Producer and Consumer;;
 - **Duration**: the maximum validity time of the access token issued by the **Knode**, expressed in minutes and no more than 1440 minutes (24 hours);
-- **Audience**: the unique identifier of the **Cross-Border E-Service** in the **Producer**'s domain;
+- **Audience**: the unique identifier of the **Cross-Border E-Service** for the **Producer**;
 - **Type**: the type of access token issued by the **Knode**, between [Bearer](https://datatracker.ietf.org/doc/html/rfc7521 and https://datatracker.ietf.org/doc/html/rfc6750) and [DPoP](https://datatracker.ietf.org/doc/html/rfc9449);
 
 When a producer creates a **Cross-Border E-Service**, two **tolerance thresholds** are set for its infrastructure:
