@@ -5,7 +5,7 @@ To facilitate the use of the **Knodia Prototype**, several **Cross-Border E-Serv
 
 The following table summarizes the **Cross-Border E-Service** mockups made available across the **Knodes**.
 
-| Knode | **Cross-Border E-Service** mockup name | Details page |
+| Knode | Name | Details page |
 |---|---|---|
 | Orion | *Mockup 01 Personal Information (Bearer) - Orion* | [Mockup Orion 01](10_01_mockup-orion-01.md) |
 | Orion | *Mockup 02 Digital Contact (DPoP) - Orion* | [Mockup Orion 02](10_02_mockup-orion-02.md) |
