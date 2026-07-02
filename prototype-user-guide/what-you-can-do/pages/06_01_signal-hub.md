@@ -4,7 +4,7 @@ By enabling the **Signal Hub** feature, the **Producer** undertakes to use the s
 - report changes to **Cross-Border E-Services** data;
 - rotate the secret used to pseudonymization references to changed data.
 
-For more details on the Signal Hub feature, see [Distribution of data change signals (Signal Hub)](../../../whitepaper/pages/05-10-02_signal-hub.md).
+For more details on the **Signal Hub** additional feature, see [Distribution of data change signals (Signal Hub)](../../../whitepaper/pages/05-10-02_signal-hub.md).
 
 Below are the references to the services implemented on the **Knodes** to apply the **Signal Hub** feature.
 
@@ -15,7 +15,7 @@ Below are the references to the services implemented on the **Knodes** to apply 
 | Orion | SIGNAL DEPOSIT | used by the **Producer** to deposit a signals of the variations or the new secret for pseudonymization references | https://signalhub.orion.test.knodia.com/signals |
 | Orion | SIGNAL RETRIEVE | used by the **Consumer** to retrieve the signals of the variations or the new secret for pseudonymization of references | https://signalhub.orion.test.knodia.com/signals/{eserviceId} |
 
-The API docs for Signal Hub Service are:
+The API docs for **Signal Hub** Service are:
 - for Lynx at [https://signalhub.lynx.dev.knodia.com/docs](https://signalhub.lynx.dev.knodia.com/docs)
 - for Orion at [https://signalhub.orion.dev.knodia.com/docs](https://signalhub.orion.dev.knodia.com/docs)
 
