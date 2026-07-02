@@ -2,10 +2,10 @@ The **Knodia prototype** is designed to enable a wide range of public and privat
 
 ## Eligible Entities
 
-The following categories of entities can join the trial, either as Knodia Producers or Knodia Data Consumers:
+The following categories of entities can join the trial as either **Producers** or **Consumers**:
 
 * **Individuals** interested in cross-border interoperability solutions.
-* **Public and private organizations** interested in understanding the benefits of the proposed cross-border federated interoperability model.
-* **A group of public and private organizations** interested in verifying the applicability of the proposed cross-border federated interoperability model for their use cases.
+* **Public and private organizations** seeking to understand the benefits of the proposed cross-border federated interoperability model.
+* **Groups of public and private organizations** looking to verify the applicability of the proposed model to their specific use cases.
 
-Interested parties can request access to the **Knodia prototype** using the tools made available by PagoPA in the [**Knodia Portal**](https://knodia.org/).
+Interested parties can request access to the **Knodia prototype** through the tools made available by PagoPA on the [**Knodia Portal**](https://knodia.org/).

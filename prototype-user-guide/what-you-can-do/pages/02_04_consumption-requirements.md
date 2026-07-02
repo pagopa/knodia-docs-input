@@ -1,7 +1,7 @@
-The definition of a **Cross-Border E-Service** is implemented by the **Producer**, on the **Knode** where it onboarded.
+The definition of a **Cross-Border E-Service** is implemented by the **Producer** on the **Knode** where it is onboarded.
 
-The **Producer** identifies the organizations, the **Consumers**, that can make an **Agreement Request** to their **Cross-Border E-Service** and indicates the **Attributes** they must have.
+The **Producer** identifies the **Consumers** (organizations) that can submit an **Agreement Request** for their **Cross-Border E-Service** and specifies the **Attributes** they must possess.
 
-It is possible to define a group of **Attributes**, considering that a organization in a **Knode** other than the one where the **Cross-Border E-Service** is published, must haveat least one attribute within a group. 
+It is possible to define groups of **Attributes**. To gain access, an organization on a **Knode** other than the one where the **Cross-Border E-Service** is published must possess at least one attribute within a specified group.
 
-In the **Knodia Prototype** the list of available **Attributes** are defined as an example, in real **Knodia** implementations the list of **Attributes** is defined in a shared way among the **Knodes** participating in the federation.
+In the **Knodia Prototype**, the list of available **Attributes** is provided as an example; in real **Knodia** implementations, the list of **Attributes** is defined collaboratively among the **Knodes** participating in the federation.

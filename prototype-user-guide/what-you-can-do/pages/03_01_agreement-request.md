@@ -1,11 +1,11 @@
-The **Agreement Request** is initiated by the **Consumer**, on the **Knode** where it onboarded.
+The **Agreement Request** is initiated by the **Consumer** on the **Knode** where it is onboarded.
 
-The **Consumer** can initiate the **Agreement Request** only if they meet the **Attributes** indicated into the **Consumption Requirements** definiti dal **Producer**.
+The **Consumer** can initiate the **Agreement Request** only if they meet the **Attributes** specified in the **Consumption Requirements** defined by the **Producer**.
 
-The **Knodia Prototype** provides different behaviors for the two **Knodes**, specifically:
-- **Orion Knodes**, the **Agreement Request** is automatically activated;
-- **Lynx Knodes**, the **Agreement Request** requires explicit confirmation from the **Consumer** into **Lynx Knode** (user authentication into the **Lynx Knode** is simulated).
+The **Knodia Prototype** provides different behaviors for the two **Knodes**; specifically:
+- On the **Orion Knode**, the **Agreement Request** is automatically activated.
+- On the **Lynx Knode**, the **Agreement Request** requires explicit confirmation from the **Producer** within the **Lynx Knode** (user authentication into the **Lynx Knode** is simulated).
 
-The data relating to this action is stored on the Producer's **Knode**, which represents the authoritative source, ensured through **Knode-to-Knode** communication.
+The data relating to this action is stored on the Producer's **Knode**, which represents the authoritative source, and is synchronized through **Knode-to-Knode** communication.
 
-At any time the **Producer** can consult the **Agreement Request** and possibly suspend it.
+At any time, the **Producer** can consult the **Agreement Request** and, if necessary, suspend it.
