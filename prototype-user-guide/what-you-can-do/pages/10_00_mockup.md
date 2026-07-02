@@ -1,6 +1,3 @@
-## TODO
-Prepare content
-
 To facilitate the use of the **Knodia Prototype**, several **Cross-Border E-Service** mockups have been published and made available to all participants in the trial.
 
 The following table summarizes the **Cross-Border E-Service** mockups made available across the **Knodes**.
