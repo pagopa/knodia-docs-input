@@ -10,7 +10,8 @@ The following table summarizes the characteristics of the **Cross-Border E-Servi
 | **Producer** | Mockup Organization Confederate Orion |
 | **Access token settings** | <li>Duration: 60 minutes</li><li>Audience: mock.orion.dev.knodia.com</li><li>Type: DPoP</li> |
 | **Max API calls per day**| <li>Per Knode: 10,000</li><li>Per Consumer: 1,000</li> |
-| **Signal Hub** | DISABLE |
+| **Data transmission mode** | Provide data |
+| **Signal Hub** | DISABLED |
 
 **Cross-Border E-Service** mockup implements the following API.
 
