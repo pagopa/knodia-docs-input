@@ -8,9 +8,10 @@ The following table summarizes the characteristics of the **Cross-Border E-Servi
 | **Description** | Cross-Border Receive data E-Service for forwarding the digital domicile of a legal entity. Signature: ACK = sendDigitalContact(legal_entity, contact_point). Producer publishes pre-filled lawfulness forms the Consumer picks when creating a Purpose. |
 | **Knodia Category** | Company digital domicile |
 | **Producer** | Mockup Organization Confederate Lynx |
-| **Access token settings** | <li>Duration: 60 minutes</li><li>Audience: mock.orion.dev.knodia.com</li><li>Type: Bearer</li> |
+| **Access token settings** | <li>Duration: 60 minutes</li><li>Audience: mock.orion.lynx.knodia.com</li><li>Type: Bearer</li> |
 | **Max API calls per day**| <li>Per Knode: 10,000</li><li>Per Consumer: 1,000</li> |
-| **Signal Hub** | DISABLE |
+| **Data transmission mode** | Receive data |
+| **Signal Hub** | DISABLED |
 
 **Cross-Border E-Service** mockup implements the following API.
 
