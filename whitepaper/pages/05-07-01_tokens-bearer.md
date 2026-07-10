@@ -1,6 +1,6 @@
 If the *Producer* has defined the *Cross-Border E-Service* as accepting Bearer authentication, the *Consumer* requests an *access token* by making a request to the token endpoint of the *Producer Knode*, attaching a client assertion as defined in § [Consumer Keychains – Context of use](./05-06-01_keychains-context.md). The assertion must contain at least the following attributes:
 
-- *sub* and *iss*: identifiers of the *Consumer* Keychain containing the public cryptographic material corresponding to the seal applied to the client assertion.
+- *sub* and *iss*: identifiers of the *Consumer*Keychain containing the public cryptographic material corresponding to the seal applied to the client assertion.
 - *aud*: the audience defined when the *Cross-Border E-Services* was created.
 - *purposeId*: the identifier of a *Purpose Statement* associated with the *Cross-Border E-Service* and the *Consumer Keychain*.
 - *jti*: a random, unique identifier assigned by the *Consumer*.
@@ -9,7 +9,7 @@ If the *Producer* has defined the *Cross-Border E-Service* as accepting Bearer a
 
 The *Producer Knode* follows these steps to issue the token:
 
-1. Retrieve the needed information using the * Knode-to-Knode API* of the *Consumer Knode*:
+1. Retrieve the needed information using the *Knode-to-Knode API* of the *Consumer Knode*:
     - Data of the *Consumer Keychain*: public cryptographic material and associated *Purpose Statements*.
     - Data of the *Consumer* and its *Knodia Attributes*.
 2. Authenticate the *Consumer*, that is, verify the seal of the client assertion against the public cryptographic material in the keychain.

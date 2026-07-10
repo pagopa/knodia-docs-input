@@ -12,7 +12,7 @@ The *Consumer Keychain* can afterwards be used to request *access tokens* for th
 
 The following service blueprint illustrates the flow in an example case in which the *Consumer Knode* has defined two distinct roles for its *Operators*. See § [Management of Operators](./05-02-02_management-of-operators.md) for more details. This example considers two roles:
 
-- Admin, who can create *Consumer* Keychains and associate them with *Operators* with the Keychain *Operator* role.
+- Admin, who can create *Consumer*Keychains and associate them with *Operators* with the Keychain *Operator* role.
 - Keychain Operator, who can deposit public cryptographic material.
 
 ![](../resources/blueprint-keychain-creation.svg)
