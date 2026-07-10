@@ -9,31 +9,17 @@ The *SPCoop* launched the Italian experience in data sharing and service integra
 
 Italy re-evaluated the *SPCoop* after the consolidation of the European regulatory framework regarding interoperability, the opening of public data, and the protection of personal data of natural persons, primarily through:
 
-- **Communication from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of the Regions (COM/2017/0134 final) regarding the European Interoperability Framework – Implementation Strategy** [1[^1]].
-- **Directive (EU) 2019/1024 of the European Parliament and of the Council of 20 June 2019 on open data and the re-use of public sector information** [2[^2]].
-- **Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC** [3[^3]].
+- [**Communication from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of the Regions (COM/2017/0134 final) regarding the European Interoperability Framework – Implementation Strategy**](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM%3A2017%3A134%3AFIN).
+- [**Directive (EU) 2019/1024 of the European Parliament and of the Council of 20 June 2019 on open data and the re-use of public sector information**](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L1024).
+- [**Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC**](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679).
 
-The choice was ultimately reinforced by the **Regulation (EU) 2024/903 of the European Parliament and of the Council of 13 March 2024 laying down measures for a high level of public sector interoperability across the Union** [4[^4]].
-
-[^1]: [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM%3A2017%3A134%3AFIN](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM%3A2017%3A134%3AFIN)
-
-[^2]: [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L1024](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L1024)
-
-[^3]: [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679)
-
-[^4]: [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R0903](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R0903)
+The choice was ultimately reinforced by the [**Regulation (EU) 2024/903 of the European Parliament and of the Council of 13 March 2024 laying down measures for a high level of public sector interoperability across the Union**](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R0903).
 
 The technological evolution since the launch of the *SPCoop* has highlighted the opportunity to re-evaluate the technologies used to ensure data sharing and service integration among Italian administrations. In particular, the increased use of HTTP APIs, even in complex contexts, and the availability of tools for implementing and managing them. It is also worth noting that the evidence of increased use of HTTP APIs is supported by the interest shown by international organizations and initiatives, such as:
 
-- W3C [5[^5]].
-- Internet Engineering Task Force [6[^6]].
-- Linux Foundation [7[^7]].
-
-[^5]: [https://www.w3.org/](https://www.w3.org/)
-
-[^6]: [https://www.ietf.org/](https://www.ietf.org/)
-
-[^7]: [https://www.linuxfoundation.org/](https://www.linuxfoundation.org/)
+- [W3C](https://www.w3.org/).
+- [Internet Engineering Task Force](https://www.ietf.org/).
+- [Linux Foundation](https://www.linuxfoundation.org/).
 
 Over the years, these have increased *de iure* and *de facto* standardization actions. This led to an increase in the market offer of technological solutions and an increased availability of the professionals necessary for their maintenance. This circumstance can create the prerequisites for reducing costs in the management of public administration technological infrastructures.
 
