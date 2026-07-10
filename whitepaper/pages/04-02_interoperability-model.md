@@ -17,7 +17,7 @@ The *ModI* is based on the following principles:
     - REST APIs, classifiable at Level 1 of the Richardson Maturity Model, hereinafter HTTP APIs.
 - **Interoperability patterns and profiles:** These are progressively identified with the involvement of interested parties. These define solutions to secure data exchange needs, which *Producers* use to implement their *e-services*.
 - **Division of responsibilities:** *Producers* are responsible for the *e-services* they provide, while *Consumers* are responsible for managing the data they receive.
-- **Cooperation technologies:** *E-services* are provided and consumed through technologies and standards for remote invocation, standardized (*de iure* and *de facto*) at the international level (W3C [1[^1]], Internet Engineering Task Force [2[^2]], and Linux Foundation [3[^3]]). Specifically:
+- **Cooperation technologies:** *E-services* are provided and consumed through technologies and standards for remote invocation, standardized (*de iure* and *de facto*) at the international level ([W3C](https://www.w3.org/), [Internet Engineering Task Force](https://www.ietf.org/), and [Linux Foundation](https://www.linuxfoundation.org/)). Specifically:
     - *Regarding SOAP over HTTP e-service implementations:*
         - Simple Object Access Protocol (SOAP), as the application protocol for remote service invocation.
         - Web Service Description Language (WSDL), as the language for interface description.
@@ -29,12 +29,6 @@ The *ModI* is based on the following principles:
         - RFC7517, RFC7696, for public key management.
         - RFC3230, RFC3744, RFC5246, RFC5789, RFC7231, RFC7233, RFC7389, RFC7396, RFC7515, RFC7519, RFC8725, RFC9110, for the implementation of application interfaces (API).
         - OpenAPI Specification, as the language for interface description.
-
-[^1]: [https://www.w3.org/](https://www.w3.org/)
-
-[^2]: [https://www.ietf.org/](https://www.ietf.org/)
-
-[^3]: [https://www.linuxfoundation.org/](https://www.linuxfoundation.org/)
 
 The *ModI* preserves the adoption of the Service-Oriented Computing paradigm and the organization as a Service-Oriented Architecture of the *SPCoop*. It includes the *PDND* in its reference architecture as an infrastructural component that provides services to *Producers* and *Consumers* (generally referred to as *Organizations*) to enable their interaction. In particular:
 
