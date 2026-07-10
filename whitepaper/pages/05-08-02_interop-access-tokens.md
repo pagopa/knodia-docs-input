@@ -2,10 +2,10 @@ Using an *Interop Keychain*, a *Confederate Organization* can request an *intero
 
 - The audience must be one of those declared in the *Knode*’s API specification.
 - No *Purpose Statement* identifier is included.
-- It must include the identifier of the *Knode* of the requester *Confederate Organization*, on which the *Interop Keychain* is stored. This allows the target *Knode* to retrieve the *Keychain* data using the * Knode-to-Knode API* to verify the client assertion.
+- It must include the identifier of the *Knode* of the requester *Confederate Organization*, on which the *Interop Keychain* is stored. This allows the target *Knode* to retrieve the *Keychain* data using the *Knode-to-Knode API* to verify the client assertion.
 
 ***Knodes* must ensure the following requirements are met:**
 
-- **They must make the public cryptographic material deposited in *Knodia API Keychains* available to other *Knodes* through the * Knode-to-Knode API*.**
+- **They must make the public cryptographic material deposited in *Knodia API Keychains* available to other *Knodes* through the *Knode-to-Knode API*.**
 - **They must retrieve the public cryptographic material of *Knodia API Keychains* from other *Knodes* to verify *client assertions*.**
 - **They must issue *interop access tokens* that allow create, edit, or delete operations to *Confederate Organizations* of *Knodia* only if the declaration of responsibility was made by an *Operator* of the *Organization*; otherwise, only allow read operations.**
