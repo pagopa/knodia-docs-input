@@ -9,7 +9,7 @@ The following table summarizes the **Cross-Border E-Service** mockups made avail
 | Orion | *Mockup 03 Residence (Signal Hub Bearer) - Orion* | [Mockup Orion 03](10_03_mockup-orion-03.md) |
 | Lynx | *Mockup 04 Company Digital Domicile (Receive data) - Lynx* | [Mockup Lynx 01](10_11_mockup-lynx-01.md) |
 | Lynx | *Mockup 05 Company Addresses (Async Consumption) - Lynx* | [Mockup Lynx 03](10_12_mockup-lynx-02.md) |
-| Lynx | *Mockup 06 Company Address (Integrity REST 02) - Lynx* | [Mockup Lynx 03](10_13_mockup-lynx-03.md) |
+| Lynx | *Mockup 06 Company Address (Non-Repudiable Response) - Lynx* | [Mockup Lynx 03](10_13_mockup-lynx-03.md) |
 
 **Knodia Prototype** users can utilize these **Cross-Border E-Service** mockups. To do so, they must:
 - Complete the one-time [Request for access](03_00_request-for-access.md).
