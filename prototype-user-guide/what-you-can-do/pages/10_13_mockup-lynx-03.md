@@ -4,7 +4,7 @@ The following table summarizes the characteristics of this **Cross-Border E-Serv
 
 | Characteristic | Value / Configuration |
 |---|---|
-| **Name** | Mockup 06 Company Address (Integrity REST 02) - Lynx |
+| **Name** | Mockup 06 Company Address (Non-Repudiable Response) - Lynx |
 | **Description** | Cross-Border E-Service that returns a legal entity's address. |
 | **Knodia Category** | Company address |
 | **Producer** | Mockup Organization Confederate Lynx |
@@ -21,8 +21,8 @@ info:
   contact:
     url: https://github.com/pagopa/knodia/issues
   termsOfService: https://knodia.org/
-  description: Mock e-service for Integrity Rest 02 (legal-entity address lookup)
-  title: Knodia Mock E-service API (Integrity Rest 02)
+  description: Mock e-service for Non-Repudiable Response (legal-entity address lookup)
+  title: Knodia Mock E-service API (Non-Repudiable Response)
   version: 1.0.0
 components:
   securitySchemes:
