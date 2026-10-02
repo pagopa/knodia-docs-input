@@ -11,7 +11,7 @@ The states are:
 - **Suspended:** The *Purpose Statement* has been temporarily suspended, e.g., due to technical or administrative problems. The *Consumer* cannot request *access tokens* for the corresponding *E-Service*. The *Purpose Statement* can be suspended by the *Producer*, by the *Consumer*, or by both. It is again active only if all actors who had suspended it reactivate it.
 - **Archived:** The *Purpose Statement* has been archived and is no longer valid. The *Consumer* can manually archive a *Purpose Statement*. A *Purpose Statement* is also archived if the *Producer* refuses to activate it.
 
-![](../resources/lifecycle-purpose-provide.png)
+![](../resources/lifecycle-purpose-provide-used.png)
 
 The following diagram illustrates the lifecycle of a *Purpose Statement* created by a *Producer* for one of its *Receive-Data* *E-Services*.
 
@@ -21,4 +21,4 @@ The states are:
 - **Suspended:** The *Purpose Statement* was temporarily suspended, e.g., due to technical or administrative problems. *Consumers* cannot request *access tokens* for the corresponding *E-Service*.
 - **Archived:** The *Purpose Statement* has been archived and is no longer valid.
 
-![](../resources/lifecycle-purpose-receive.png)
+![](../resources/lifecycle-purpose-receive-used.png)

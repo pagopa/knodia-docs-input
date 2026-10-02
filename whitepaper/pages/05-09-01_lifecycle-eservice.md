@@ -15,4 +15,4 @@ Relevant states for *Cross-Border E-Service* versions are:
 - **Deprecated:** The *Producer* has marked the version as deprecated or has created a new version for the *Cross-Border E-Service*, noting that this version will be disabled in the future. New *Agreement Requests* for that version are not accepted. A deprecated version can still be used; therefore, it too can be temporarily suspended if needed.
 - **Archived:** The version is no longer operating and will not be reactivated. The *Producer* can manually archive a deprecated version (respecting advance notification to *Consumers* and other conditions the *Knode* can impose). Archiving also occurs automatically when the deprecated version is no longer consumed by any *Consumer*.
 
-![](../resources/lifecycle-eservice.png)
+![](../resources/lifecycle-eservice-used.png)
