@@ -8,4 +8,4 @@ The states are:
 - **Suspended:** The *Agreement Request* has been temporarily suspended, e.g., due to technical or administrative problems. The *Consumer* cannot request *access tokens* for the corresponding *E-Service*. The *Agreement Request* can be suspended by the *Producer*, by the *Consumer*, or automatically by the *Producer Knode* (for example, if the *Consumer* no longer has one of the *Knodia Attributes* in the *consumption requirements*). Multiple actors can suspend the *Agreement Request* contemporaneously. The *Agreement Request* is then reactivated only if all actors who had suspended it reactivate it.
 - **Archived:** The *Agreement Request* has been archived and is no longer valid. The *Consumer* can manually archive an *Agreement Request*. An *Agreement Request* is also archived if it is rejected or if intervening conditions prejudice its existence.
 
-![](../resources/lifecycle-agreement.svg)
+![](../resources/lifecycle-agreement.png)
