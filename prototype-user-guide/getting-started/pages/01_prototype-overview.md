@@ -2,7 +2,7 @@
 
 The **Knodia prototype** is the infrastructure used to test **secure and standardized data exchange** between two **Knodes**. Stakeholders can register, publish their electronic services, and access those of other parties through uniform authentication, authorization, and tracking processes.
 
-The **Knodia prototype** was created by **PagoPA**: 
+The **Knodia prototype** implemented and managed by **PagoPA** on behalf of **Department for Digital Transformation**: 
 - Demonstrate the applicability of the cross-border federated interoperability model defined in the [**Knodia whitepaper**](../../../whitepaper/pages/01_abstract.md).
 - Implement a significant portion of the functionalities envisioned in the defined model.
 
