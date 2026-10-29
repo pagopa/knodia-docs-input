@@ -6,3 +6,9 @@ The repo includes:
 - **Knodia Executive Summary**, a synopsis of the *cross-border authentication and authorization framework* proposed model;
 - **Knodia Prototype User Guide**, useful documentation for users of the Knodia Prototype.
 
+
+## Licensing
+
+This content is licensed under the terms of the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
+The full text of the license can be found in the [LICENSE](LICENSE) file.
+Please see the [AUTHORS](AUTHORS) file for the copyright notice.
